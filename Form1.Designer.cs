@@ -71,10 +71,6 @@
             this.BP2 = new System.Windows.Forms.TextBox();
             this.BP3 = new System.Windows.Forms.TextBox();
             this.BP4 = new System.Windows.Forms.TextBox();
-            this.moveType1 = new System.Windows.Forms.ListBox();
-            this.moveType2 = new System.Windows.Forms.ListBox();
-            this.moveType3 = new System.Windows.Forms.ListBox();
-            this.moveType4 = new System.Windows.Forms.ListBox();
             this.moveCategory1 = new System.Windows.Forms.ListBox();
             this.moveCategory2 = new System.Windows.Forms.ListBox();
             this.moveCategory3 = new System.Windows.Forms.ListBox();
@@ -131,6 +127,10 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ev6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev4)).BeginInit();
@@ -534,7 +534,7 @@
             // 
             this.move1.FormattingEnabled = true;
             this.move1.ItemHeight = 20;
-            this.move1.Location = new System.Drawing.Point(8, 397);
+            this.move1.Location = new System.Drawing.Point(6, 294);
             this.move1.Name = "move1";
             this.move1.Size = new System.Drawing.Size(142, 24);
             this.move1.TabIndex = 72;
@@ -543,7 +543,7 @@
             // 
             this.move2.FormattingEnabled = true;
             this.move2.ItemHeight = 20;
-            this.move2.Location = new System.Drawing.Point(8, 427);
+            this.move2.Location = new System.Drawing.Point(6, 324);
             this.move2.Name = "move2";
             this.move2.Size = new System.Drawing.Size(142, 24);
             this.move2.TabIndex = 73;
@@ -552,7 +552,7 @@
             // 
             this.move3.FormattingEnabled = true;
             this.move3.ItemHeight = 20;
-            this.move3.Location = new System.Drawing.Point(8, 457);
+            this.move3.Location = new System.Drawing.Point(6, 354);
             this.move3.Name = "move3";
             this.move3.Size = new System.Drawing.Size(142, 24);
             this.move3.TabIndex = 74;
@@ -561,7 +561,7 @@
             // 
             this.move4.FormattingEnabled = true;
             this.move4.ItemHeight = 20;
-            this.move4.Location = new System.Drawing.Point(8, 487);
+            this.move4.Location = new System.Drawing.Point(6, 384);
             this.move4.Name = "move4";
             this.move4.Size = new System.Drawing.Size(142, 24);
             this.move4.TabIndex = 75;
@@ -569,7 +569,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(5, 381);
+            this.label10.Location = new System.Drawing.Point(3, 278);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 20);
             this.label10.TabIndex = 76;
@@ -577,147 +577,31 @@
             // 
             // BP1
             // 
-            this.BP1.Location = new System.Drawing.Point(156, 397);
+            this.BP1.Location = new System.Drawing.Point(154, 294);
             this.BP1.Name = "BP1";
             this.BP1.Size = new System.Drawing.Size(56, 26);
             this.BP1.TabIndex = 77;
             // 
             // BP2
             // 
-            this.BP2.Location = new System.Drawing.Point(156, 427);
+            this.BP2.Location = new System.Drawing.Point(154, 324);
             this.BP2.Name = "BP2";
             this.BP2.Size = new System.Drawing.Size(56, 26);
             this.BP2.TabIndex = 78;
             // 
             // BP3
             // 
-            this.BP3.Location = new System.Drawing.Point(156, 457);
+            this.BP3.Location = new System.Drawing.Point(154, 354);
             this.BP3.Name = "BP3";
             this.BP3.Size = new System.Drawing.Size(56, 26);
             this.BP3.TabIndex = 79;
             // 
             // BP4
             // 
-            this.BP4.Location = new System.Drawing.Point(156, 487);
+            this.BP4.Location = new System.Drawing.Point(154, 384);
             this.BP4.Name = "BP4";
             this.BP4.Size = new System.Drawing.Size(56, 26);
             this.BP4.TabIndex = 80;
-            // 
-            // moveType1
-            // 
-            this.moveType1.FormattingEnabled = true;
-            this.moveType1.ItemHeight = 20;
-            this.moveType1.Items.AddRange(new object[] {
-            "---",
-            "Normal",
-            "Fire",
-            "Water",
-            "Electric",
-            "Grass",
-            "Ice",
-            "Fighting",
-            "Poison",
-            "Ground",
-            "Flying",
-            "Psychic",
-            "Bug",
-            "Rock",
-            "Ghost",
-            "Dragon",
-            "Dark",
-            "Steel",
-            "Fairy"});
-            this.moveType1.Location = new System.Drawing.Point(218, 397);
-            this.moveType1.Name = "moveType1";
-            this.moveType1.Size = new System.Drawing.Size(56, 24);
-            this.moveType1.TabIndex = 81;
-            // 
-            // moveType2
-            // 
-            this.moveType2.FormattingEnabled = true;
-            this.moveType2.ItemHeight = 20;
-            this.moveType2.Items.AddRange(new object[] {
-            "---",
-            "Normal",
-            "Fire",
-            "Water",
-            "Electric",
-            "Grass",
-            "Ice",
-            "Fighting",
-            "Poison",
-            "Ground",
-            "Flying",
-            "Psychic",
-            "Bug",
-            "Rock",
-            "Ghost",
-            "Dragon",
-            "Dark",
-            "Steel",
-            "Fairy"});
-            this.moveType2.Location = new System.Drawing.Point(218, 427);
-            this.moveType2.Name = "moveType2";
-            this.moveType2.Size = new System.Drawing.Size(56, 24);
-            this.moveType2.TabIndex = 82;
-            // 
-            // moveType3
-            // 
-            this.moveType3.FormattingEnabled = true;
-            this.moveType3.ItemHeight = 20;
-            this.moveType3.Items.AddRange(new object[] {
-            "---",
-            "Normal",
-            "Fire",
-            "Water",
-            "Electric",
-            "Grass",
-            "Ice",
-            "Fighting",
-            "Poison",
-            "Ground",
-            "Flying",
-            "Psychic",
-            "Bug",
-            "Rock",
-            "Ghost",
-            "Dragon",
-            "Dark",
-            "Steel",
-            "Fairy"});
-            this.moveType3.Location = new System.Drawing.Point(218, 457);
-            this.moveType3.Name = "moveType3";
-            this.moveType3.Size = new System.Drawing.Size(56, 24);
-            this.moveType3.TabIndex = 83;
-            // 
-            // moveType4
-            // 
-            this.moveType4.FormattingEnabled = true;
-            this.moveType4.ItemHeight = 20;
-            this.moveType4.Items.AddRange(new object[] {
-            "---",
-            "Normal",
-            "Fire",
-            "Water",
-            "Electric",
-            "Grass",
-            "Ice",
-            "Fighting",
-            "Poison",
-            "Ground",
-            "Flying",
-            "Psychic",
-            "Bug",
-            "Rock",
-            "Ghost",
-            "Dragon",
-            "Dark",
-            "Steel",
-            "Fairy"});
-            this.moveType4.Location = new System.Drawing.Point(218, 487);
-            this.moveType4.Name = "moveType4";
-            this.moveType4.Size = new System.Drawing.Size(56, 24);
-            this.moveType4.TabIndex = 84;
             // 
             // moveCategory1
             // 
@@ -727,7 +611,7 @@
             "Physical",
             "Special",
             "Status"});
-            this.moveCategory1.Location = new System.Drawing.Point(280, 397);
+            this.moveCategory1.Location = new System.Drawing.Point(322, 301);
             this.moveCategory1.Name = "moveCategory1";
             this.moveCategory1.Size = new System.Drawing.Size(83, 24);
             this.moveCategory1.TabIndex = 85;
@@ -740,7 +624,7 @@
             "Physical",
             "Special",
             "Status"});
-            this.moveCategory2.Location = new System.Drawing.Point(281, 427);
+            this.moveCategory2.Location = new System.Drawing.Point(323, 331);
             this.moveCategory2.Name = "moveCategory2";
             this.moveCategory2.Size = new System.Drawing.Size(83, 24);
             this.moveCategory2.TabIndex = 86;
@@ -753,7 +637,7 @@
             "Physical",
             "Special",
             "Status"});
-            this.moveCategory3.Location = new System.Drawing.Point(280, 457);
+            this.moveCategory3.Location = new System.Drawing.Point(322, 361);
             this.moveCategory3.Name = "moveCategory3";
             this.moveCategory3.Size = new System.Drawing.Size(83, 24);
             this.moveCategory3.TabIndex = 87;
@@ -766,7 +650,7 @@
             "Physical",
             "Special",
             "Status"});
-            this.moveCategory4.Location = new System.Drawing.Point(281, 487);
+            this.moveCategory4.Location = new System.Drawing.Point(323, 391);
             this.moveCategory4.Name = "moveCategory4";
             this.moveCategory4.Size = new System.Drawing.Size(83, 24);
             this.moveCategory4.TabIndex = 88;
@@ -774,6 +658,1079 @@
             // pokemonName
             // 
             this.pokemonName.FormattingEnabled = true;
+            this.pokemonName.Items.AddRange(new object[] {
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur",
+            "Mega Venusaur",
+            "Gigantamax Venusaur",
+            "Charmander",
+            "Charmeleon",
+            "Charizard",
+            "Mega Charizard X",
+            "Mega Charizard Y",
+            "Gigantamax Charizard",
+            "Squirtle",
+            "Wartortle",
+            "Blastoise",
+            "Mega Blastoise",
+            "Gigantamax Blasoise",
+            "Caterpie",
+            "Metapod",
+            "Butterfree",
+            "Gigantamax Butterfree",
+            "Weedle",
+            "Kakuna",
+            "Beedrill",
+            "Mega Beedrill",
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot",
+            "Mega Pidgeot",
+            "Rattata",
+            "Alolan Rattata",
+            "Raticate",
+            "Alolan Raticate",
+            "Spearow",
+            "Fearow",
+            "Ekans",
+            "Arbok",
+            "Pikachu",
+            "Gigantamax Pikachu",
+            "Raichu",
+            "Alolan Raichu",
+            "Sandshrew",
+            "Alolan Sandshrew",
+            "Sandslash",
+            "Alolan Sandslash",
+            "Nidoranâ™€",
+            "Nidorina",
+            "Nidoqueen",
+            "Nidoranâ™‚",
+            "Nidorino",
+            "Nidoking",
+            "Clefairy",
+            "Clefable",
+            "Vulpix",
+            "Alolan Vulpix",
+            "Ninetales",
+            "Alolan Ninetales",
+            "Jigglypuff",
+            "Wigglytuff",
+            "Zubat",
+            "Golbat",
+            "Oddish",
+            "Gloom",
+            "Vileplume",
+            "Paras",
+            "Parasect",
+            "Venonat",
+            "Venomoth",
+            "Diglett",
+            "Alolan Diglett",
+            "Dugtrio",
+            "Alolan Dugtrio",
+            "Meowth",
+            "Gigantamax Meowth",
+            "Alolan Meowth",
+            "Galarian Meowth",
+            "Persian",
+            "Alolan Persian",
+            "Psyduck",
+            "Golduck",
+            "Mankey",
+            "Primeape",
+            "Growlithe",
+            "Arcanine",
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath",
+            "Abra",
+            "Kadabra",
+            "Alakazam",
+            "Mega Alakazam",
+            "Machop",
+            "Machoke",
+            "Machamp",
+            "Gigantamax Machamp",
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel",
+            "Tentacool",
+            "Tentacruel",
+            "Geodude",
+            "Alolan Geodude",
+            "Graveler",
+            "Alolan Graveler",
+            "Golem",
+            "Alolan Golem",
+            "Ponyta",
+            "Galarian Ponyta",
+            "Rapidash",
+            "Galarian Rapidash",
+            "Slowpoke",
+            "Galarian Slowpoke",
+            "Slowbro",
+            "Galarian Slowbro",
+            "Mega Slowbro",
+            "Magnemite",
+            "Magneton",
+            "Farfetch\'d",
+            "Galarian Farfetched",
+            "Doduo",
+            "Dodrio",
+            "Seel",
+            "Dewgong",
+            "Grimer",
+            "Alolan Grimer",
+            "Muk",
+            "Alolan Muk",
+            "Shellder",
+            "Cloyster",
+            "Gastly",
+            "Haunter",
+            "Gengar",
+            "Mega Gengar",
+            "Gigantamax Gengar",
+            "Onix",
+            "Drowzee",
+            "Hypno",
+            "Krabby",
+            "Kingler",
+            "Gigantamax Kingler",
+            "Voltorb",
+            "Electrode",
+            "Exeggcute",
+            "Exeggutor",
+            "Alolan Exeggutor",
+            "Cubone",
+            "Marowak",
+            "Alolan Marowak",
+            "Hitmonlee",
+            "Hitmonchan",
+            "Lickitung",
+            "Koffing",
+            "Weezing",
+            "Galarian Weezing",
+            "Rhyhorn",
+            "Rhydon",
+            "Chansey",
+            "Tangela",
+            "Kangaskhan",
+            "Mega Kangaskhan",
+            "Horsea",
+            "Seadra",
+            "Goldeen",
+            "Seaking",
+            "Staryu",
+            "Starmie",
+            "Mr. Mime",
+            "Galarian Mr. Mime",
+            "Scyther",
+            "Jynx",
+            "Electabuzz",
+            "Magmar",
+            "Pinsir",
+            "Mega Pinsir",
+            "Tauros",
+            "Magikarp",
+            "Gyarados",
+            "Mega Gyarados",
+            "Lapras",
+            "Gigantamax Lapras",
+            "Ditto",
+            "Eevee",
+            "Gigantamax Eevee",
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Porygon",
+            "Omanyte",
+            "Omastar",
+            "Kabuto",
+            "Kabutops",
+            "Aerodactyl",
+            "Mega Aerodactyl",
+            "Snorlax",
+            "Gigantamax Snorlax",
+            "Articuno",
+            "Galarian Articuno",
+            "Zapdos",
+            "Galarian Zapdos",
+            "Moltres",
+            "Galarian Moltres",
+            "Dratini",
+            "Dragonair",
+            "Dragonite",
+            "Mewtwo",
+            "Mega Mewtwo X",
+            "Mega Mewtwo Y",
+            "Mew",
+            "Chikorita",
+            "Bayleef",
+            "Meganium",
+            "Cyndaquil",
+            "Quilava",
+            "Typhlosion",
+            "Totodile",
+            "Croconaw",
+            "Feraligatr",
+            "Sentret",
+            "Furret",
+            "Hoothoot",
+            "Noctowl",
+            "Ledyba",
+            "Ledian",
+            "Spinarak",
+            "Ariados",
+            "Crobat",
+            "Chinchou",
+            "Lanturn",
+            "Pichu",
+            "Cleffa",
+            "Igglybuff",
+            "Togepi",
+            "Togetic",
+            "Natu",
+            "Xatu",
+            "Mareep",
+            "Flaaffy",
+            "Ampharos",
+            "Mega Ampharos",
+            "Bellossom",
+            "Marill",
+            "Azumarill",
+            "Sudowoodo",
+            "Politoed",
+            "Hoppip",
+            "Skiploom",
+            "Jumpluff",
+            "Aipom",
+            "Sunkern",
+            "Sunflora",
+            "Yanma",
+            "Wooper",
+            "Quagsire",
+            "Espeon",
+            "Umbreon",
+            "Murkrow",
+            "Slowking",
+            "Galarian Slowking",
+            "Misdreavus",
+            "Unown",
+            "Wobbuffet",
+            "Girafarig",
+            "Pineco",
+            "Forretress",
+            "Dunsparce",
+            "Gligar",
+            "Steelix",
+            "Mega Steelix",
+            "Snubbull",
+            "Granbull",
+            "Qwilfish",
+            "Scizor",
+            "Mega Scizor",
+            "Shuckle",
+            "Heracross",
+            "Mega Heracross",
+            "Sneasel",
+            "Teddiursa",
+            "Ursaring",
+            "Slugma",
+            "Magcargo",
+            "Swinub",
+            "Piloswine",
+            "Corsola",
+            "Galarian Corsola",
+            "Remoraid",
+            "Octillery",
+            "Delibird",
+            "Mantine",
+            "Skarmory",
+            "Houndour",
+            "Houndoom",
+            "Mega Houndoom",
+            "Kingdra",
+            "Phanpy",
+            "Donphan",
+            "Porygon2",
+            "Stantler",
+            "Smeargle",
+            "Tyrogue",
+            "Hitmontop",
+            "Smoochum",
+            "Elekid",
+            "Magby",
+            "Miltank",
+            "Blissey",
+            "Raikou",
+            "Entei",
+            "Suicune",
+            "Larvitar",
+            "Pupitar",
+            "Tyranitar",
+            "Mega Tyranitar",
+            "Lugia",
+            "Ho-oh",
+            "Celebi",
+            "Treecko",
+            "Grovyle",
+            "Sceptile",
+            "Mega Sceptile",
+            "Torchic",
+            "Combusken",
+            "Blaziken",
+            "Mega Blaziken",
+            "Mudkip",
+            "Marshtomp",
+            "Swampert",
+            "Mega Swampert",
+            "Poochyena",
+            "Mightyena",
+            "Zigzagoon",
+            "Galarian Zigzagoon",
+            "Linoone",
+            "Galarian Linoone",
+            "Wurmple",
+            "Silcoon",
+            "Beautifly",
+            "Cascoon",
+            "Dustox",
+            "Lotad",
+            "Lombre",
+            "Ludicolo",
+            "Seedot",
+            "Nuzleaf",
+            "Shiftry",
+            "Taillow",
+            "Swellow",
+            "Wingull",
+            "Pelipper",
+            "Ralts",
+            "Kirlia",
+            "Gardevoir",
+            "Mega Gardevoir",
+            "Surskit",
+            "Masquerain",
+            "Shroomish",
+            "Breloom",
+            "Slakoth",
+            "Vigoroth",
+            "Slaking",
+            "Nincada",
+            "Ninjask",
+            "Shedinja",
+            "Whismur",
+            "Loudred",
+            "Exploud",
+            "Makuhita",
+            "Hariyama",
+            "Azurill",
+            "Nosepass",
+            "Skitty",
+            "Delcatty",
+            "Sableye",
+            "Mega Sableye",
+            "Mawile",
+            "Mega Mawile",
+            "Aron",
+            "Lairon",
+            "Aggron",
+            "Mega Aggron",
+            "Meditite",
+            "Medicham",
+            "Mega Medicham",
+            "Electrike",
+            "Manectric",
+            "Mega Manectric",
+            "Plusle",
+            "Minun",
+            "Volbeat",
+            "Illumise",
+            "Roselia",
+            "Gulpin",
+            "Swalot",
+            "Carvanha",
+            "Sharpedo",
+            "Mega Sharpedo",
+            "Wailmer",
+            "Wailord",
+            "Numel",
+            "Camerupt",
+            "Mega Camerupt",
+            "Torkoal",
+            "Spoink",
+            "Grumpig",
+            "Spinda",
+            "Trapinch",
+            "Vibrava",
+            "Flygon",
+            "Cacnea",
+            "Cacturne",
+            "Swablu",
+            "Altaria",
+            "Mega Altaria",
+            "Zangoose",
+            "Seviper",
+            "Lunatone",
+            "Solrock",
+            "Barboach",
+            "Whiscash",
+            "Corphish",
+            "Crawdaunt",
+            "Baltoy",
+            "Claydol",
+            "Lileep",
+            "Cradily",
+            "Anorith",
+            "Armaldo",
+            "Feebas",
+            "Milotic",
+            "Castform",
+            "Kecleon",
+            "Shuppet",
+            "Banette",
+            "Mega Banette",
+            "Duskull",
+            "Dusclops",
+            "Tropius",
+            "Chimecho",
+            "Absol",
+            "Mega Absol",
+            "Wynaut",
+            "Snorunt",
+            "Glalie",
+            "Mega Glalie",
+            "Spheal",
+            "Sealeo",
+            "Walrein",
+            "Clamperl",
+            "Huntail",
+            "Gorebyss",
+            "Relicanth",
+            "Luvdisc",
+            "Bagon",
+            "Shelgon",
+            "Salamence",
+            "Mega Salamence",
+            "Beldum",
+            "Metang",
+            "Metagross",
+            "Mega Metagross",
+            "Regirock",
+            "Regice",
+            "Registeel",
+            "Latias",
+            "Mega Latias",
+            "Latios",
+            "Mega Latios",
+            "Kyogre",
+            "Primal Kyogre",
+            "Groudon",
+            "Primal Groudon",
+            "Rayquaza",
+            "Mega Rayquaza",
+            "Jirachi",
+            "Deoxys Normal Forme",
+            "Deoxys Attack Forme",
+            "Deoxys Defense Forme",
+            "Deoxys Speed Forme",
+            "Turtwig",
+            "Grotle",
+            "Torterra",
+            "Chimchar",
+            "Monferno",
+            "Infernape",
+            "Piplup",
+            "Prinplup",
+            "Empoleon",
+            "Starly",
+            "Staravia",
+            "Staraptor",
+            "Bidoof",
+            "Bibarel",
+            "Kricketot",
+            "Kricketune",
+            "Shinx",
+            "Luxio",
+            "Luxray",
+            "Budew",
+            "Roserade",
+            "Cranidos",
+            "Rampardos",
+            "Shieldon",
+            "Bastiodon",
+            "Burmy",
+            "Wormadam Plant Cloak",
+            "Wormadam Sandy Cloak",
+            "Wormadam Trash Cloak",
+            "Mothim",
+            "Combee",
+            "Vespiquen",
+            "Pachirisu",
+            "Buizel",
+            "Floatzel",
+            "Cherubi",
+            "Cherrim",
+            "Shellos",
+            "Gastrodon",
+            "Ambipom",
+            "Drifloon",
+            "Drifblim",
+            "Buneary",
+            "Lopunny",
+            "Mega Lopunny",
+            "Mismagius",
+            "Honchkrow",
+            "Glameow",
+            "Purugly",
+            "Chingling",
+            "Stunky",
+            "Skuntank",
+            "Bronzor",
+            "Bronzong",
+            "Bonsly",
+            "Mime Jr.",
+            "Happiny",
+            "Chatot",
+            "Spiritomb",
+            "Gible",
+            "Gabite",
+            "Garchomp",
+            "Mega Garchomp",
+            "Munchlax",
+            "Riolu",
+            "Lucario",
+            "Mega Lucario",
+            "Hippopotas",
+            "Hippowdon",
+            "Skorupi",
+            "Drapion",
+            "Croagunk",
+            "Toxicroak",
+            "Carnivine",
+            "Finneon",
+            "Lumineon",
+            "Mantyke",
+            "Snover",
+            "Abomasnow",
+            "Mega Abomasnow",
+            "Weavile",
+            "Magnezone",
+            "Lickilicky",
+            "Rhyperior",
+            "Tangrowth",
+            "Electivire",
+            "Magmortar",
+            "Togekiss",
+            "Yanmega",
+            "Leafeon",
+            "Glaceon",
+            "Gliscor",
+            "Mamoswine",
+            "Porygon-Z",
+            "Gallade",
+            "Mega Gallade",
+            "Probopass",
+            "Dusknoir",
+            "Froslass",
+            "Rotom",
+            "Heat Rotom",
+            "Wash Rotom",
+            "Frost Rotom",
+            "Fan Rotom",
+            "Mow Rotom",
+            "Uxie",
+            "Mesprit",
+            "Azelf",
+            "Dialga",
+            "Palkia",
+            "Heatran",
+            "Regigigas",
+            "Giratina Altered Forme",
+            "Giratina Origin Forme",
+            "Cresselia",
+            "Phione",
+            "Manaphy",
+            "Darkrai",
+            "Shaymin Land Forme",
+            "Shaymin Sky Forme",
+            "Arceus",
+            "Victini",
+            "Snivy",
+            "Servine",
+            "Serperior",
+            "Tepig",
+            "Pignite",
+            "Emboar",
+            "Oshawott",
+            "Dewott",
+            "Samurott",
+            "Patrat",
+            "Watchog",
+            "Lillipup",
+            "Herdier",
+            "Stoutland",
+            "Purrloin",
+            "Liepard",
+            "Pansage",
+            "Simisage",
+            "Pansear",
+            "Simisear",
+            "Panpour",
+            "Simipour",
+            "Munna",
+            "Musharna",
+            "Pidove",
+            "Tranquill",
+            "Unfezant",
+            "Blitzle",
+            "Zebstrika",
+            "Roggenrola",
+            "Boldore",
+            "Gigalith",
+            "Woobat",
+            "Swoobat",
+            "Drilbur",
+            "Excadrill",
+            "Audino",
+            "Mega Audino",
+            "Timburr",
+            "Gurdurr",
+            "Conkeldurr",
+            "Tympole",
+            "Palpitoad",
+            "Seismitoad",
+            "Throh",
+            "Sawk",
+            "Sewaddle",
+            "Swadloon",
+            "Leavanny",
+            "Venipede",
+            "Whirlipede",
+            "Scolipede",
+            "Cottonee",
+            "Whimsicott",
+            "Petilil",
+            "Lilligant",
+            "Basculin",
+            "Sandile",
+            "Krokorok",
+            "Krookodile",
+            "Darumaka",
+            "Galarian Darumaka",
+            "Darmanitan Standard Mode",
+            "Galarian Darmanitan Standard Mode",
+            "Darmanitan Zen Mode",
+            "Galarian Darmanitan Zen Mode",
+            "Maractus",
+            "Dwebble",
+            "Crustle",
+            "Scraggy",
+            "Scrafty",
+            "Sigilyph",
+            "Yamask",
+            "Galarian Yamask",
+            "Cofagrigus",
+            "Tirtouga",
+            "Carracosta",
+            "Archen",
+            "Archeops",
+            "Trubbish",
+            "Garbodor",
+            "Gigantamax Garbodor",
+            "Zorua",
+            "Zoroark",
+            "Minccino",
+            "Cinccino",
+            "Gothita",
+            "Gothorita",
+            "Gothitelle",
+            "Solosis",
+            "Duosion",
+            "Reuniclus",
+            "Ducklett",
+            "Swanna",
+            "Vanillite",
+            "Vanillish",
+            "Vanilluxe",
+            "Deerling",
+            "Sawsbuck",
+            "Emolga",
+            "Karrablast",
+            "Escavalier",
+            "Foongus",
+            "Amoonguss",
+            "Frillish",
+            "Jellicent",
+            "Alomomola",
+            "Joltik",
+            "Galvantula",
+            "Ferroseed",
+            "Ferrothorn",
+            "Klink",
+            "Klang",
+            "Klinklang",
+            "Tynamo",
+            "Eelektrik",
+            "Eelektross",
+            "Elgyem",
+            "Beheeyem",
+            "Litwick",
+            "Lampent",
+            "Chandelure",
+            "Axew",
+            "Fraxure",
+            "Haxorus",
+            "Cubchoo",
+            "Beartic",
+            "Cryogonal",
+            "Shelmet",
+            "Accelgor",
+            "Stunfisk",
+            "Galarian Stunfisk",
+            "Mienfoo",
+            "Mienshao",
+            "Druddigon",
+            "Golett",
+            "Golurk",
+            "Pawniard",
+            "Bisharp",
+            "Bouffalant",
+            "Rufflet",
+            "Braviary",
+            "Vullaby",
+            "Mandibuzz",
+            "Heatmor",
+            "Durant",
+            "Deino",
+            "Zweilous",
+            "Hydreigon",
+            "Larvesta",
+            "Volcarona",
+            "Cobalion",
+            "Terrakion",
+            "Virizion",
+            "Tornadus Incarnate Forme",
+            "Tornadus Therian Forme",
+            "Thundurus Incarnate Forme",
+            "Thundurus Therian Forme",
+            "Reshiram",
+            "Zekrom",
+            "Landorus Incarnate Forme",
+            "Landorus Therian Forme",
+            "Kyurem",
+            "Black Kyurem",
+            "White Kyurem",
+            "Keldeo Ordinary Forme",
+            "Keldeo Resolute Forme",
+            "Meloetta Aria Forme",
+            "Meloetta Pirouette Forme",
+            "Genesect",
+            "Chespin",
+            "Quilladin",
+            "Chesnaught",
+            "Fennekin",
+            "Braixen",
+            "Delphox",
+            "Froakie",
+            "Frogadier",
+            "Greninja",
+            "Ash-Greninja",
+            "Bunnelby",
+            "Diggersby",
+            "Fletchling",
+            "Fletchinder",
+            "Talonflame",
+            "Scatterbug",
+            "Spewpa",
+            "Vivillon",
+            "Litleo",
+            "Pyroar",
+            "FlabÃ©bÃ©",
+            "Floette",
+            "Florges",
+            "Skiddo",
+            "Gogoat",
+            "Pancham",
+            "Pangoro",
+            "Furfrou",
+            "Espurr",
+            "Meowstic Male",
+            "Meowstic Female",
+            "Honedge",
+            "Doublade",
+            "Aegislash Blade Forme",
+            "Aegislash Shield Forme",
+            "Spritzee",
+            "Aromatisse",
+            "Swirlix",
+            "Slurpuff",
+            "Inkay",
+            "Malamar",
+            "Binacle",
+            "Barbaracle",
+            "Skrelp",
+            "Dragalge",
+            "Clauncher",
+            "Clawitzer",
+            "Helioptile",
+            "Heliolisk",
+            "Tyrunt",
+            "Tyrantrum",
+            "Amaura",
+            "Aurorus",
+            "Sylveon",
+            "Hawlucha",
+            "Dedenne",
+            "Carbink",
+            "Goomy",
+            "Sliggoo",
+            "Goodra",
+            "Klefki",
+            "Phantump",
+            "Trevenant",
+            "Pumpkaboo Average Size",
+            "Pumpkaboo Small Size",
+            "Pumpkaboo Large Size",
+            "Pumpkaboo Super Size",
+            "Gourgeist Average Size",
+            "Gourgeist Small Size",
+            "Gourgeist Large Size",
+            "Gourgeist Super Size",
+            "Bergmite",
+            "Avalugg",
+            "Noibat",
+            "Noivern",
+            "Xerneas",
+            "Yveltal",
+            "Zygarde 10% Forme",
+            "Zygarde 50% Forme",
+            "Zygarde Complete Forme",
+            "Diancie",
+            "Mega Diancie",
+            "Hoopa Confined",
+            "Hoopa Unbound",
+            "Volcanion",
+            "Rowlet",
+            "Dartrix",
+            "Decidueye",
+            "Litten",
+            "Torracat",
+            "Incineroar",
+            "Popplio",
+            "Brionne",
+            "Primarina",
+            "Pikipek",
+            "Trumbeak",
+            "Toucannon",
+            "Yungoos",
+            "Gumshoos",
+            "Grubbin",
+            "Charjabug",
+            "Vikavolt",
+            "Crabrawler",
+            "Crabominable",
+            "Oricorio Baile Style",
+            "Oricorio Pom-Pom Style",
+            "Oricorio P\'au Style",
+            "Oricorio Sensu Style",
+            "Cutiefly",
+            "Ribombee",
+            "Rockruff",
+            "Lycanroc Midday Forme",
+            "Lycanroc Midnight Forme",
+            "Lycanroc Dusk Forme",
+            "Wishiwashi Solo Forme",
+            "Wishiwashi School Forme",
+            "Mareanie",
+            "Toxapex",
+            "Mudbray",
+            "Mudsdale",
+            "Dewpider",
+            "Araquanid",
+            "Fomantis",
+            "Lurantis",
+            "Morelull",
+            "Shiinotic",
+            "Salandit",
+            "Salazzle",
+            "Stufful",
+            "Bewear",
+            "Bounsweet",
+            "Steenee",
+            "Tsareena",
+            "Comfey",
+            "Oranguru",
+            "Passimian",
+            "Wimpod",
+            "Golisopod",
+            "Sandygast",
+            "Palossand",
+            "Pyukumuku",
+            "Type: Null",
+            "Silvally",
+            "Minior Meteor Forme",
+            "Minior Core Forme",
+            "Komala",
+            "Turtonator",
+            "Togedemaru",
+            "Mimikyu",
+            "Bruxish",
+            "Drampa",
+            "Dhelmise",
+            "Jangmo-o",
+            "Hakamo-o",
+            "Kommo-o",
+            "Tapu Koko",
+            "Tapu Lele",
+            "Tapu Bulu",
+            "Tapu Fini",
+            "Cosmog",
+            "Cosmoem",
+            "Solgaleo",
+            "Lunala",
+            "Nihilego",
+            "Buzzwole",
+            "Pheromosa",
+            "Xurkitree",
+            "Celesteela",
+            "Kartana",
+            "Guzzlord",
+            "Necrozma",
+            "Dusk Mane Necrozma",
+            "Dawn Wings Necrozma",
+            "Ultra Necrozma",
+            "Magearna",
+            "Marshadow",
+            "Poipole",
+            "Naganadel",
+            "Stakataka",
+            "Blacephalon",
+            "Zeraora",
+            "Meltan",
+            "Melmetal",
+            "Gigantamax Melmetal",
+            "Grookey",
+            "Thwackey",
+            "Rillaboom",
+            "Gigantamax Rillaboom",
+            "Scorbunny",
+            "Raboot",
+            "Cinderace",
+            "Gigantamax Cinderace",
+            "Sobble",
+            "Drizzile",
+            "Inteleon",
+            "Gigantamax Inteleon",
+            "Skwovet",
+            "Greedent",
+            "Rookidee",
+            "Corvisquire",
+            "Corviknight",
+            "Gigantamax Corviknight",
+            "Blipbug",
+            "Dottler",
+            "Orbeetle",
+            "Gigantamax Orbeetle",
+            "Nickit",
+            "Thievul",
+            "Gossifleur",
+            "Eldegoss",
+            "Wooloo",
+            "Dubwool",
+            "Chewtle",
+            "Drednaw",
+            "Gigantamax Drednaw",
+            "Yamper",
+            "Boltund",
+            "Rolycoly",
+            "Carkol",
+            "Coalossal",
+            "Gigantamax Coalossal",
+            "Applin",
+            "Flapple",
+            "Gigantamax Flapple",
+            "Appletun",
+            "Gigantamax Appletun",
+            "Silicobra",
+            "Sandaconda",
+            "Gigantamax Sandaconda",
+            "Cramorant",
+            "Arrokuda",
+            "Barraskewda",
+            "Toxel",
+            "Toxtricity Amped Forme",
+            "Toxitricity Low Key Forme",
+            "Gigantamax Toxitricity",
+            "Sizzlipede",
+            "Centiskorch",
+            "Gigantamax Centiskorch",
+            "Clobbopus",
+            "Grapploct",
+            "Sinistea",
+            "Polteageist",
+            "Hatenna",
+            "Hattrem",
+            "Hatterene",
+            "Gigantamax Hatterene",
+            "Impidimp",
+            "Morgrem",
+            "Grimmsnarl",
+            "Gigantamax Grimmsnarl",
+            "Obstagoon",
+            "Perrserker",
+            "Cursola",
+            "Sirfetch\'d",
+            "Mr. Rime",
+            "Runerigus",
+            "Milcery",
+            "Alcremie",
+            "Gigantamax Alcremie",
+            "Falinks",
+            "Pincurchin",
+            "Snom",
+            "Frosmoth",
+            "Stonjourner",
+            "Eiscue Ice Face",
+            "Eiscue Noice Face",
+            "Indeedee Male",
+            "Indeedee Female",
+            "Morpeko Full Belly Mode",
+            "Morpeko Hangry Mode",
+            "Cufant",
+            "Copperajah",
+            "Gigantamax Copperajah",
+            "Dracozolt",
+            "Arctozolt",
+            "Dracovish",
+            "Arctovish",
+            "Duraludon",
+            "Gigantamax Duraludon",
+            "Dreepy",
+            "Drakloak",
+            "Dragapult",
+            "Zacian Hero of Many Battles",
+            "Zacian Crowned Sword Forme",
+            "Zamazenta Hero of Many Battles",
+            "Zamazenta Crowned Sheild Forme",
+            "Eternatus",
+            "Eternamax Eternatus",
+            "Kubfu",
+            "Urshifu Single Strike Style",
+            "Gigantamax Urshifu Single Strike Style",
+            "Urshifu Rapid Strike Style",
+            "Gigantamax Urshifu Rapid Strike Style",
+            "Zarude",
+            "Dada Zarude",
+            "Regieleki",
+            "Regidrago",
+            "Glastrier",
+            "Spectrier",
+            "Calyrex",
+            "Ice Rider Calyrex",
+            "Shadow Rider Calyrex"});
             this.pokemonName.Location = new System.Drawing.Point(6, 20);
             this.pokemonName.Name = "pokemonName";
             this.pokemonName.Size = new System.Drawing.Size(142, 28);
@@ -803,7 +1760,7 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.type1.Location = new System.Drawing.Point(6, 54);
+            this.type1.Location = new System.Drawing.Point(6, 44);
             this.type1.Name = "type1";
             this.type1.Size = new System.Drawing.Size(66, 28);
             this.type1.TabIndex = 90;
@@ -813,7 +1770,7 @@
             // 
             this.type2.FormattingEnabled = true;
             this.type2.Items.AddRange(new object[] {
-            "(none)",
+            "",
             "Normal",
             "Fire",
             "Water",
@@ -832,11 +1789,10 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.type2.Location = new System.Drawing.Point(82, 54);
+            this.type2.Location = new System.Drawing.Point(82, 44);
             this.type2.Name = "type2";
             this.type2.Size = new System.Drawing.Size(66, 28);
             this.type2.TabIndex = 91;
-            this.type2.Text = "(none)";
             // 
             // statBuff
             // 
@@ -1111,7 +2067,7 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox10.Location = new System.Drawing.Point(550, 57);
+            this.comboBox10.Location = new System.Drawing.Point(550, 44);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(66, 28);
             this.comboBox10.TabIndex = 134;
@@ -1139,7 +2095,7 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox11.Location = new System.Drawing.Point(474, 57);
+            this.comboBox11.Location = new System.Drawing.Point(474, 44);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(66, 28);
             this.comboBox11.TabIndex = 133;
@@ -1509,9 +2465,125 @@
             this.label20.Text = "HP";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // comboBox13
+            // 
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "Normal",
+            "Fire",
+            "Water",
+            "Electric",
+            "Grass",
+            "Ice",
+            "Fighting",
+            "Poison",
+            "Ground",
+            "Flying",
+            "Psychic",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Dragon",
+            "Dark",
+            "Steel",
+            "Fairy"});
+            this.comboBox13.Location = new System.Drawing.Point(207, 294);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(66, 28);
+            this.comboBox13.TabIndex = 141;
+            this.comboBox13.Text = "Psychic";
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Normal",
+            "Fire",
+            "Water",
+            "Electric",
+            "Grass",
+            "Ice",
+            "Fighting",
+            "Poison",
+            "Ground",
+            "Flying",
+            "Psychic",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Dragon",
+            "Dark",
+            "Steel",
+            "Fairy"});
+            this.comboBox14.Location = new System.Drawing.Point(207, 324);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(66, 28);
+            this.comboBox14.TabIndex = 142;
+            this.comboBox14.Text = "Psychic";
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Items.AddRange(new object[] {
+            "Normal",
+            "Fire",
+            "Water",
+            "Electric",
+            "Grass",
+            "Ice",
+            "Fighting",
+            "Poison",
+            "Ground",
+            "Flying",
+            "Psychic",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Dragon",
+            "Dark",
+            "Steel",
+            "Fairy"});
+            this.comboBox15.Location = new System.Drawing.Point(207, 352);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(66, 28);
+            this.comboBox15.TabIndex = 143;
+            this.comboBox15.Text = "Psychic";
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "Normal",
+            "Fire",
+            "Water",
+            "Electric",
+            "Grass",
+            "Ice",
+            "Fighting",
+            "Poison",
+            "Ground",
+            "Flying",
+            "Psychic",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Dragon",
+            "Dark",
+            "Steel",
+            "Fairy"});
+            this.comboBox16.Location = new System.Drawing.Point(207, 382);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(66, 28);
+            this.comboBox16.TabIndex = 144;
+            this.comboBox16.Text = "Psychic";
+            // 
             // damageCalculator
             // 
-            this.ClientSize = new System.Drawing.Size(374, 281);
+            this.ClientSize = new System.Drawing.Size(843, 427);
+            this.Controls.Add(this.comboBox16);
+            this.Controls.Add(this.comboBox15);
+            this.Controls.Add(this.comboBox14);
+            this.Controls.Add(this.comboBox13);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox6);
@@ -1568,10 +2640,6 @@
             this.Controls.Add(this.moveCategory3);
             this.Controls.Add(this.moveCategory2);
             this.Controls.Add(this.moveCategory1);
-            this.Controls.Add(this.moveType4);
-            this.Controls.Add(this.moveType3);
-            this.Controls.Add(this.moveType2);
-            this.Controls.Add(this.moveType1);
             this.Controls.Add(this.BP4);
             this.Controls.Add(this.BP3);
             this.Controls.Add(this.BP2);
@@ -1680,10 +2748,6 @@
         private System.Windows.Forms.TextBox BP2;
         private System.Windows.Forms.TextBox BP3;
         private System.Windows.Forms.TextBox BP4;
-        private System.Windows.Forms.ListBox moveType1;
-        private System.Windows.Forms.ListBox moveType2;
-        private System.Windows.Forms.ListBox moveType3;
-        private System.Windows.Forms.ListBox moveType4;
         private System.Windows.Forms.ListBox moveCategory1;
         private System.Windows.Forms.ListBox moveCategory2;
         private System.Windows.Forms.ListBox moveCategory3;
@@ -1740,6 +2804,10 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox16;
     }
 }
 
