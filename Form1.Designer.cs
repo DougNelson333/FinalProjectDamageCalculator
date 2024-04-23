@@ -62,19 +62,11 @@
             this.baseStat3 = new System.Windows.Forms.TextBox();
             this.baseStat2 = new System.Windows.Forms.TextBox();
             this.baseStat1 = new System.Windows.Forms.TextBox();
-            this.move1 = new System.Windows.Forms.ListBox();
-            this.move2 = new System.Windows.Forms.ListBox();
-            this.move3 = new System.Windows.Forms.ListBox();
-            this.move4 = new System.Windows.Forms.ListBox();
             this.label10 = new System.Windows.Forms.Label();
             this.BP1 = new System.Windows.Forms.TextBox();
             this.BP2 = new System.Windows.Forms.TextBox();
             this.BP3 = new System.Windows.Forms.TextBox();
             this.BP4 = new System.Windows.Forms.TextBox();
-            this.moveCategory1 = new System.Windows.Forms.ListBox();
-            this.moveCategory2 = new System.Windows.Forms.ListBox();
-            this.moveCategory3 = new System.Windows.Forms.ListBox();
-            this.moveCategory4 = new System.Windows.Forms.ListBox();
             this.pokemonName = new System.Windows.Forms.ComboBox();
             this.type1 = new System.Windows.Forms.ComboBox();
             this.type2 = new System.Windows.Forms.ComboBox();
@@ -84,40 +76,40 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.pokemonLv = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.VSpokemonLV = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.VSbaseStat6 = new System.Windows.Forms.TextBox();
-            this.VSbaseStat5 = new System.Windows.Forms.TextBox();
-            this.VSbaseStat4 = new System.Windows.Forms.TextBox();
-            this.VSbaseStat3 = new System.Windows.Forms.TextBox();
-            this.VSbaseStat2 = new System.Windows.Forms.TextBox();
-            this.VSbaseStat1 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.VStype2 = new System.Windows.Forms.ComboBox();
+            this.VStype1 = new System.Windows.Forms.ComboBox();
+            this.VSpokemonName = new System.Windows.Forms.ComboBox();
+            this.baseStat12 = new System.Windows.Forms.TextBox();
+            this.baseStat11 = new System.Windows.Forms.TextBox();
+            this.baseStat10 = new System.Windows.Forms.TextBox();
+            this.baseStat9 = new System.Windows.Forms.TextBox();
+            this.baseStat8 = new System.Windows.Forms.TextBox();
+            this.baseStat7 = new System.Windows.Forms.TextBox();
+            this.iv12 = new System.Windows.Forms.TextBox();
+            this.iv11 = new System.Windows.Forms.TextBox();
+            this.iv10 = new System.Windows.Forms.TextBox();
+            this.iv9 = new System.Windows.Forms.TextBox();
+            this.iv8 = new System.Windows.Forms.TextBox();
+            this.iv7 = new System.Windows.Forms.TextBox();
+            this.finalStatTotal12 = new System.Windows.Forms.TextBox();
+            this.finalStatTotal11 = new System.Windows.Forms.TextBox();
+            this.finalStatTotal10 = new System.Windows.Forms.TextBox();
+            this.finalStatTotal9 = new System.Windows.Forms.TextBox();
+            this.finalStatTotal8 = new System.Windows.Forms.TextBox();
+            this.finalStatTotal7 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.ev12 = new System.Windows.Forms.NumericUpDown();
+            this.ev11 = new System.Windows.Forms.NumericUpDown();
+            this.ev10 = new System.Windows.Forms.NumericUpDown();
+            this.ev9 = new System.Windows.Forms.NumericUpDown();
+            this.ev8 = new System.Windows.Forms.NumericUpDown();
+            this.ev7 = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -127,22 +119,32 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.moveType1 = new System.Windows.Forms.ComboBox();
+            this.moveType2 = new System.Windows.Forms.ComboBox();
+            this.moveType3 = new System.Windows.Forms.ComboBox();
+            this.moveType4 = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.moveCategory1 = new System.Windows.Forms.ComboBox();
+            this.moveCategory2 = new System.Windows.Forms.ComboBox();
+            this.moveCategory3 = new System.Windows.Forms.ComboBox();
+            this.moveCategory4 = new System.Windows.Forms.ComboBox();
+            this.move1 = new System.Windows.Forms.ComboBox();
+            this.move2 = new System.Windows.Forms.ComboBox();
+            this.move4 = new System.Windows.Forms.ComboBox();
+            this.move3 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ev6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev7)).BeginInit();
             this.SuspendLayout();
             // 
             // labelHP
@@ -530,42 +532,6 @@
             this.baseStat1.TextChanged += new System.EventHandler(this.statTextBox);
             this.baseStat1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.preventLetters);
             // 
-            // move1
-            // 
-            this.move1.FormattingEnabled = true;
-            this.move1.ItemHeight = 20;
-            this.move1.Location = new System.Drawing.Point(6, 294);
-            this.move1.Name = "move1";
-            this.move1.Size = new System.Drawing.Size(142, 24);
-            this.move1.TabIndex = 72;
-            // 
-            // move2
-            // 
-            this.move2.FormattingEnabled = true;
-            this.move2.ItemHeight = 20;
-            this.move2.Location = new System.Drawing.Point(6, 324);
-            this.move2.Name = "move2";
-            this.move2.Size = new System.Drawing.Size(142, 24);
-            this.move2.TabIndex = 73;
-            // 
-            // move3
-            // 
-            this.move3.FormattingEnabled = true;
-            this.move3.ItemHeight = 20;
-            this.move3.Location = new System.Drawing.Point(6, 354);
-            this.move3.Name = "move3";
-            this.move3.Size = new System.Drawing.Size(142, 24);
-            this.move3.TabIndex = 74;
-            // 
-            // move4
-            // 
-            this.move4.FormattingEnabled = true;
-            this.move4.ItemHeight = 20;
-            this.move4.Location = new System.Drawing.Point(6, 384);
-            this.move4.Name = "move4";
-            this.move4.Size = new System.Drawing.Size(142, 24);
-            this.move4.TabIndex = 75;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -602,58 +568,6 @@
             this.BP4.Name = "BP4";
             this.BP4.Size = new System.Drawing.Size(56, 26);
             this.BP4.TabIndex = 80;
-            // 
-            // moveCategory1
-            // 
-            this.moveCategory1.FormattingEnabled = true;
-            this.moveCategory1.ItemHeight = 20;
-            this.moveCategory1.Items.AddRange(new object[] {
-            "Physical",
-            "Special",
-            "Status"});
-            this.moveCategory1.Location = new System.Drawing.Point(322, 301);
-            this.moveCategory1.Name = "moveCategory1";
-            this.moveCategory1.Size = new System.Drawing.Size(83, 24);
-            this.moveCategory1.TabIndex = 85;
-            // 
-            // moveCategory2
-            // 
-            this.moveCategory2.FormattingEnabled = true;
-            this.moveCategory2.ItemHeight = 20;
-            this.moveCategory2.Items.AddRange(new object[] {
-            "Physical",
-            "Special",
-            "Status"});
-            this.moveCategory2.Location = new System.Drawing.Point(323, 331);
-            this.moveCategory2.Name = "moveCategory2";
-            this.moveCategory2.Size = new System.Drawing.Size(83, 24);
-            this.moveCategory2.TabIndex = 86;
-            // 
-            // moveCategory3
-            // 
-            this.moveCategory3.FormattingEnabled = true;
-            this.moveCategory3.ItemHeight = 20;
-            this.moveCategory3.Items.AddRange(new object[] {
-            "Physical",
-            "Special",
-            "Status"});
-            this.moveCategory3.Location = new System.Drawing.Point(322, 361);
-            this.moveCategory3.Name = "moveCategory3";
-            this.moveCategory3.Size = new System.Drawing.Size(83, 24);
-            this.moveCategory3.TabIndex = 87;
-            // 
-            // moveCategory4
-            // 
-            this.moveCategory4.FormattingEnabled = true;
-            this.moveCategory4.ItemHeight = 20;
-            this.moveCategory4.Items.AddRange(new object[] {
-            "Physical",
-            "Special",
-            "Status"});
-            this.moveCategory4.Location = new System.Drawing.Point(323, 391);
-            this.moveCategory4.Name = "moveCategory4";
-            this.moveCategory4.Size = new System.Drawing.Size(83, 24);
-            this.moveCategory4.TabIndex = 88;
             // 
             // pokemonName
             // 
@@ -1911,7 +1825,7 @@
             // 
             // pokemonLv
             // 
-            this.pokemonLv.Location = new System.Drawing.Point(163, 20);
+            this.pokemonLv.Location = new System.Drawing.Point(154, 20);
             this.pokemonLv.MaxLength = 4;
             this.pokemonLv.Name = "pokemonLv";
             this.pokemonLv.Size = new System.Drawing.Size(52, 26);
@@ -1920,14 +1834,15 @@
             this.pokemonLv.TextChanged += new System.EventHandler(this.statTextBox);
             this.pokemonLv.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.preventLetters);
             // 
-            // textBox1
+            // VSpokemonLV
             // 
-            this.textBox1.Location = new System.Drawing.Point(631, 23);
-            this.textBox1.MaxLength = 4;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(52, 26);
-            this.textBox1.TabIndex = 140;
-            this.textBox1.Text = "100";
+            this.VSpokemonLV.Location = new System.Drawing.Point(608, 23);
+            this.VSpokemonLV.MaxLength = 4;
+            this.VSpokemonLV.Name = "VSpokemonLV";
+            this.VSpokemonLV.Size = new System.Drawing.Size(52, 26);
+            this.VSpokemonLV.TabIndex = 140;
+            this.VSpokemonLV.Text = "100";
+            this.VSpokemonLV.TextChanged += new System.EventHandler(this.statTextBox);
             // 
             // comboBox5
             // 
@@ -1946,7 +1861,7 @@
             "-4",
             "-5",
             "-6"});
-            this.comboBox5.Location = new System.Drawing.Point(774, 240);
+            this.comboBox5.Location = new System.Drawing.Point(751, 240);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(56, 28);
             this.comboBox5.TabIndex = 139;
@@ -1969,7 +1884,7 @@
             "-4",
             "-5",
             "-6"});
-            this.comboBox6.Location = new System.Drawing.Point(774, 215);
+            this.comboBox6.Location = new System.Drawing.Point(751, 215);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(56, 28);
             this.comboBox6.TabIndex = 138;
@@ -1992,7 +1907,7 @@
             "-4",
             "-5",
             "-6"});
-            this.comboBox7.Location = new System.Drawing.Point(774, 188);
+            this.comboBox7.Location = new System.Drawing.Point(751, 188);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(56, 28);
             this.comboBox7.TabIndex = 137;
@@ -2015,7 +1930,7 @@
             "-4",
             "-5",
             "-6"});
-            this.comboBox8.Location = new System.Drawing.Point(774, 161);
+            this.comboBox8.Location = new System.Drawing.Point(751, 161);
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(56, 28);
             this.comboBox8.TabIndex = 136;
@@ -2038,16 +1953,16 @@
             "-4",
             "-5",
             "-6"});
-            this.comboBox9.Location = new System.Drawing.Point(774, 135);
+            this.comboBox9.Location = new System.Drawing.Point(751, 135);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(56, 28);
             this.comboBox9.TabIndex = 135;
             this.comboBox9.Text = "---";
             // 
-            // comboBox10
+            // VStype2
             // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
+            this.VStype2.FormattingEnabled = true;
+            this.VStype2.Items.AddRange(new object[] {
             "(none)",
             "Normal",
             "Fire",
@@ -2067,16 +1982,15 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox10.Location = new System.Drawing.Point(550, 44);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(66, 28);
-            this.comboBox10.TabIndex = 134;
-            this.comboBox10.Text = "(none)";
+            this.VStype2.Location = new System.Drawing.Point(527, 44);
+            this.VStype2.Name = "VStype2";
+            this.VStype2.Size = new System.Drawing.Size(66, 28);
+            this.VStype2.TabIndex = 134;
             // 
-            // comboBox11
+            // VStype1
             // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
+            this.VStype1.FormattingEnabled = true;
+            this.VStype1.Items.AddRange(new object[] {
             "Normal",
             "Fire",
             "Water",
@@ -2095,298 +2009,1390 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox11.Location = new System.Drawing.Point(474, 44);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(66, 28);
-            this.comboBox11.TabIndex = 133;
-            this.comboBox11.Text = "Psychic";
+            this.VStype1.Location = new System.Drawing.Point(451, 44);
+            this.VStype1.Name = "VStype1";
+            this.VStype1.Size = new System.Drawing.Size(66, 28);
+            this.VStype1.TabIndex = 133;
+            this.VStype1.Text = "Psychic";
             // 
-            // comboBox12
+            // VSpokemonName
             // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(474, 23);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(142, 28);
-            this.comboBox12.TabIndex = 132;
-            this.comboBox12.Text = "Mew";
+            this.VSpokemonName.FormattingEnabled = true;
+            this.VSpokemonName.Items.AddRange(new object[] {
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur",
+            "Mega Venusaur",
+            "Gigantamax Venusaur",
+            "Charmander",
+            "Charmeleon",
+            "Charizard",
+            "Mega Charizard X",
+            "Mega Charizard Y",
+            "Gigantamax Charizard",
+            "Squirtle",
+            "Wartortle",
+            "Blastoise",
+            "Mega Blastoise",
+            "Gigantamax Blasoise",
+            "Caterpie",
+            "Metapod",
+            "Butterfree",
+            "Gigantamax Butterfree",
+            "Weedle",
+            "Kakuna",
+            "Beedrill",
+            "Mega Beedrill",
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot",
+            "Mega Pidgeot",
+            "Rattata",
+            "Alolan Rattata",
+            "Raticate",
+            "Alolan Raticate",
+            "Spearow",
+            "Fearow",
+            "Ekans",
+            "Arbok",
+            "Pikachu",
+            "Gigantamax Pikachu",
+            "Raichu",
+            "Alolan Raichu",
+            "Sandshrew",
+            "Alolan Sandshrew",
+            "Sandslash",
+            "Alolan Sandslash",
+            "Nidoranâ™€",
+            "Nidorina",
+            "Nidoqueen",
+            "Nidoranâ™‚",
+            "Nidorino",
+            "Nidoking",
+            "Clefairy",
+            "Clefable",
+            "Vulpix",
+            "Alolan Vulpix",
+            "Ninetales",
+            "Alolan Ninetales",
+            "Jigglypuff",
+            "Wigglytuff",
+            "Zubat",
+            "Golbat",
+            "Oddish",
+            "Gloom",
+            "Vileplume",
+            "Paras",
+            "Parasect",
+            "Venonat",
+            "Venomoth",
+            "Diglett",
+            "Alolan Diglett",
+            "Dugtrio",
+            "Alolan Dugtrio",
+            "Meowth",
+            "Gigantamax Meowth",
+            "Alolan Meowth",
+            "Galarian Meowth",
+            "Persian",
+            "Alolan Persian",
+            "Psyduck",
+            "Golduck",
+            "Mankey",
+            "Primeape",
+            "Growlithe",
+            "Arcanine",
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath",
+            "Abra",
+            "Kadabra",
+            "Alakazam",
+            "Mega Alakazam",
+            "Machop",
+            "Machoke",
+            "Machamp",
+            "Gigantamax Machamp",
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel",
+            "Tentacool",
+            "Tentacruel",
+            "Geodude",
+            "Alolan Geodude",
+            "Graveler",
+            "Alolan Graveler",
+            "Golem",
+            "Alolan Golem",
+            "Ponyta",
+            "Galarian Ponyta",
+            "Rapidash",
+            "Galarian Rapidash",
+            "Slowpoke",
+            "Galarian Slowpoke",
+            "Slowbro",
+            "Galarian Slowbro",
+            "Mega Slowbro",
+            "Magnemite",
+            "Magneton",
+            "Farfetch\'d",
+            "Galarian Farfetched",
+            "Doduo",
+            "Dodrio",
+            "Seel",
+            "Dewgong",
+            "Grimer",
+            "Alolan Grimer",
+            "Muk",
+            "Alolan Muk",
+            "Shellder",
+            "Cloyster",
+            "Gastly",
+            "Haunter",
+            "Gengar",
+            "Mega Gengar",
+            "Gigantamax Gengar",
+            "Onix",
+            "Drowzee",
+            "Hypno",
+            "Krabby",
+            "Kingler",
+            "Gigantamax Kingler",
+            "Voltorb",
+            "Electrode",
+            "Exeggcute",
+            "Exeggutor",
+            "Alolan Exeggutor",
+            "Cubone",
+            "Marowak",
+            "Alolan Marowak",
+            "Hitmonlee",
+            "Hitmonchan",
+            "Lickitung",
+            "Koffing",
+            "Weezing",
+            "Galarian Weezing",
+            "Rhyhorn",
+            "Rhydon",
+            "Chansey",
+            "Tangela",
+            "Kangaskhan",
+            "Mega Kangaskhan",
+            "Horsea",
+            "Seadra",
+            "Goldeen",
+            "Seaking",
+            "Staryu",
+            "Starmie",
+            "Mr. Mime",
+            "Galarian Mr. Mime",
+            "Scyther",
+            "Jynx",
+            "Electabuzz",
+            "Magmar",
+            "Pinsir",
+            "Mega Pinsir",
+            "Tauros",
+            "Magikarp",
+            "Gyarados",
+            "Mega Gyarados",
+            "Lapras",
+            "Gigantamax Lapras",
+            "Ditto",
+            "Eevee",
+            "Gigantamax Eevee",
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Porygon",
+            "Omanyte",
+            "Omastar",
+            "Kabuto",
+            "Kabutops",
+            "Aerodactyl",
+            "Mega Aerodactyl",
+            "Snorlax",
+            "Gigantamax Snorlax",
+            "Articuno",
+            "Galarian Articuno",
+            "Zapdos",
+            "Galarian Zapdos",
+            "Moltres",
+            "Galarian Moltres",
+            "Dratini",
+            "Dragonair",
+            "Dragonite",
+            "Mewtwo",
+            "Mega Mewtwo X",
+            "Mega Mewtwo Y",
+            "Mew",
+            "Chikorita",
+            "Bayleef",
+            "Meganium",
+            "Cyndaquil",
+            "Quilava",
+            "Typhlosion",
+            "Totodile",
+            "Croconaw",
+            "Feraligatr",
+            "Sentret",
+            "Furret",
+            "Hoothoot",
+            "Noctowl",
+            "Ledyba",
+            "Ledian",
+            "Spinarak",
+            "Ariados",
+            "Crobat",
+            "Chinchou",
+            "Lanturn",
+            "Pichu",
+            "Cleffa",
+            "Igglybuff",
+            "Togepi",
+            "Togetic",
+            "Natu",
+            "Xatu",
+            "Mareep",
+            "Flaaffy",
+            "Ampharos",
+            "Mega Ampharos",
+            "Bellossom",
+            "Marill",
+            "Azumarill",
+            "Sudowoodo",
+            "Politoed",
+            "Hoppip",
+            "Skiploom",
+            "Jumpluff",
+            "Aipom",
+            "Sunkern",
+            "Sunflora",
+            "Yanma",
+            "Wooper",
+            "Quagsire",
+            "Espeon",
+            "Umbreon",
+            "Murkrow",
+            "Slowking",
+            "Galarian Slowking",
+            "Misdreavus",
+            "Unown",
+            "Wobbuffet",
+            "Girafarig",
+            "Pineco",
+            "Forretress",
+            "Dunsparce",
+            "Gligar",
+            "Steelix",
+            "Mega Steelix",
+            "Snubbull",
+            "Granbull",
+            "Qwilfish",
+            "Scizor",
+            "Mega Scizor",
+            "Shuckle",
+            "Heracross",
+            "Mega Heracross",
+            "Sneasel",
+            "Teddiursa",
+            "Ursaring",
+            "Slugma",
+            "Magcargo",
+            "Swinub",
+            "Piloswine",
+            "Corsola",
+            "Galarian Corsola",
+            "Remoraid",
+            "Octillery",
+            "Delibird",
+            "Mantine",
+            "Skarmory",
+            "Houndour",
+            "Houndoom",
+            "Mega Houndoom",
+            "Kingdra",
+            "Phanpy",
+            "Donphan",
+            "Porygon2",
+            "Stantler",
+            "Smeargle",
+            "Tyrogue",
+            "Hitmontop",
+            "Smoochum",
+            "Elekid",
+            "Magby",
+            "Miltank",
+            "Blissey",
+            "Raikou",
+            "Entei",
+            "Suicune",
+            "Larvitar",
+            "Pupitar",
+            "Tyranitar",
+            "Mega Tyranitar",
+            "Lugia",
+            "Ho-oh",
+            "Celebi",
+            "Treecko",
+            "Grovyle",
+            "Sceptile",
+            "Mega Sceptile",
+            "Torchic",
+            "Combusken",
+            "Blaziken",
+            "Mega Blaziken",
+            "Mudkip",
+            "Marshtomp",
+            "Swampert",
+            "Mega Swampert",
+            "Poochyena",
+            "Mightyena",
+            "Zigzagoon",
+            "Galarian Zigzagoon",
+            "Linoone",
+            "Galarian Linoone",
+            "Wurmple",
+            "Silcoon",
+            "Beautifly",
+            "Cascoon",
+            "Dustox",
+            "Lotad",
+            "Lombre",
+            "Ludicolo",
+            "Seedot",
+            "Nuzleaf",
+            "Shiftry",
+            "Taillow",
+            "Swellow",
+            "Wingull",
+            "Pelipper",
+            "Ralts",
+            "Kirlia",
+            "Gardevoir",
+            "Mega Gardevoir",
+            "Surskit",
+            "Masquerain",
+            "Shroomish",
+            "Breloom",
+            "Slakoth",
+            "Vigoroth",
+            "Slaking",
+            "Nincada",
+            "Ninjask",
+            "Shedinja",
+            "Whismur",
+            "Loudred",
+            "Exploud",
+            "Makuhita",
+            "Hariyama",
+            "Azurill",
+            "Nosepass",
+            "Skitty",
+            "Delcatty",
+            "Sableye",
+            "Mega Sableye",
+            "Mawile",
+            "Mega Mawile",
+            "Aron",
+            "Lairon",
+            "Aggron",
+            "Mega Aggron",
+            "Meditite",
+            "Medicham",
+            "Mega Medicham",
+            "Electrike",
+            "Manectric",
+            "Mega Manectric",
+            "Plusle",
+            "Minun",
+            "Volbeat",
+            "Illumise",
+            "Roselia",
+            "Gulpin",
+            "Swalot",
+            "Carvanha",
+            "Sharpedo",
+            "Mega Sharpedo",
+            "Wailmer",
+            "Wailord",
+            "Numel",
+            "Camerupt",
+            "Mega Camerupt",
+            "Torkoal",
+            "Spoink",
+            "Grumpig",
+            "Spinda",
+            "Trapinch",
+            "Vibrava",
+            "Flygon",
+            "Cacnea",
+            "Cacturne",
+            "Swablu",
+            "Altaria",
+            "Mega Altaria",
+            "Zangoose",
+            "Seviper",
+            "Lunatone",
+            "Solrock",
+            "Barboach",
+            "Whiscash",
+            "Corphish",
+            "Crawdaunt",
+            "Baltoy",
+            "Claydol",
+            "Lileep",
+            "Cradily",
+            "Anorith",
+            "Armaldo",
+            "Feebas",
+            "Milotic",
+            "Castform",
+            "Kecleon",
+            "Shuppet",
+            "Banette",
+            "Mega Banette",
+            "Duskull",
+            "Dusclops",
+            "Tropius",
+            "Chimecho",
+            "Absol",
+            "Mega Absol",
+            "Wynaut",
+            "Snorunt",
+            "Glalie",
+            "Mega Glalie",
+            "Spheal",
+            "Sealeo",
+            "Walrein",
+            "Clamperl",
+            "Huntail",
+            "Gorebyss",
+            "Relicanth",
+            "Luvdisc",
+            "Bagon",
+            "Shelgon",
+            "Salamence",
+            "Mega Salamence",
+            "Beldum",
+            "Metang",
+            "Metagross",
+            "Mega Metagross",
+            "Regirock",
+            "Regice",
+            "Registeel",
+            "Latias",
+            "Mega Latias",
+            "Latios",
+            "Mega Latios",
+            "Kyogre",
+            "Primal Kyogre",
+            "Groudon",
+            "Primal Groudon",
+            "Rayquaza",
+            "Mega Rayquaza",
+            "Jirachi",
+            "Deoxys Normal Forme",
+            "Deoxys Attack Forme",
+            "Deoxys Defense Forme",
+            "Deoxys Speed Forme",
+            "Turtwig",
+            "Grotle",
+            "Torterra",
+            "Chimchar",
+            "Monferno",
+            "Infernape",
+            "Piplup",
+            "Prinplup",
+            "Empoleon",
+            "Starly",
+            "Staravia",
+            "Staraptor",
+            "Bidoof",
+            "Bibarel",
+            "Kricketot",
+            "Kricketune",
+            "Shinx",
+            "Luxio",
+            "Luxray",
+            "Budew",
+            "Roserade",
+            "Cranidos",
+            "Rampardos",
+            "Shieldon",
+            "Bastiodon",
+            "Burmy",
+            "Wormadam Plant Cloak",
+            "Wormadam Sandy Cloak",
+            "Wormadam Trash Cloak",
+            "Mothim",
+            "Combee",
+            "Vespiquen",
+            "Pachirisu",
+            "Buizel",
+            "Floatzel",
+            "Cherubi",
+            "Cherrim",
+            "Shellos",
+            "Gastrodon",
+            "Ambipom",
+            "Drifloon",
+            "Drifblim",
+            "Buneary",
+            "Lopunny",
+            "Mega Lopunny",
+            "Mismagius",
+            "Honchkrow",
+            "Glameow",
+            "Purugly",
+            "Chingling",
+            "Stunky",
+            "Skuntank",
+            "Bronzor",
+            "Bronzong",
+            "Bonsly",
+            "Mime Jr.",
+            "Happiny",
+            "Chatot",
+            "Spiritomb",
+            "Gible",
+            "Gabite",
+            "Garchomp",
+            "Mega Garchomp",
+            "Munchlax",
+            "Riolu",
+            "Lucario",
+            "Mega Lucario",
+            "Hippopotas",
+            "Hippowdon",
+            "Skorupi",
+            "Drapion",
+            "Croagunk",
+            "Toxicroak",
+            "Carnivine",
+            "Finneon",
+            "Lumineon",
+            "Mantyke",
+            "Snover",
+            "Abomasnow",
+            "Mega Abomasnow",
+            "Weavile",
+            "Magnezone",
+            "Lickilicky",
+            "Rhyperior",
+            "Tangrowth",
+            "Electivire",
+            "Magmortar",
+            "Togekiss",
+            "Yanmega",
+            "Leafeon",
+            "Glaceon",
+            "Gliscor",
+            "Mamoswine",
+            "Porygon-Z",
+            "Gallade",
+            "Mega Gallade",
+            "Probopass",
+            "Dusknoir",
+            "Froslass",
+            "Rotom",
+            "Heat Rotom",
+            "Wash Rotom",
+            "Frost Rotom",
+            "Fan Rotom",
+            "Mow Rotom",
+            "Uxie",
+            "Mesprit",
+            "Azelf",
+            "Dialga",
+            "Palkia",
+            "Heatran",
+            "Regigigas",
+            "Giratina Altered Forme",
+            "Giratina Origin Forme",
+            "Cresselia",
+            "Phione",
+            "Manaphy",
+            "Darkrai",
+            "Shaymin Land Forme",
+            "Shaymin Sky Forme",
+            "Arceus",
+            "Victini",
+            "Snivy",
+            "Servine",
+            "Serperior",
+            "Tepig",
+            "Pignite",
+            "Emboar",
+            "Oshawott",
+            "Dewott",
+            "Samurott",
+            "Patrat",
+            "Watchog",
+            "Lillipup",
+            "Herdier",
+            "Stoutland",
+            "Purrloin",
+            "Liepard",
+            "Pansage",
+            "Simisage",
+            "Pansear",
+            "Simisear",
+            "Panpour",
+            "Simipour",
+            "Munna",
+            "Musharna",
+            "Pidove",
+            "Tranquill",
+            "Unfezant",
+            "Blitzle",
+            "Zebstrika",
+            "Roggenrola",
+            "Boldore",
+            "Gigalith",
+            "Woobat",
+            "Swoobat",
+            "Drilbur",
+            "Excadrill",
+            "Audino",
+            "Mega Audino",
+            "Timburr",
+            "Gurdurr",
+            "Conkeldurr",
+            "Tympole",
+            "Palpitoad",
+            "Seismitoad",
+            "Throh",
+            "Sawk",
+            "Sewaddle",
+            "Swadloon",
+            "Leavanny",
+            "Venipede",
+            "Whirlipede",
+            "Scolipede",
+            "Cottonee",
+            "Whimsicott",
+            "Petilil",
+            "Lilligant",
+            "Basculin",
+            "Sandile",
+            "Krokorok",
+            "Krookodile",
+            "Darumaka",
+            "Galarian Darumaka",
+            "Darmanitan Standard Mode",
+            "Galarian Darmanitan Standard Mode",
+            "Darmanitan Zen Mode",
+            "Galarian Darmanitan Zen Mode",
+            "Maractus",
+            "Dwebble",
+            "Crustle",
+            "Scraggy",
+            "Scrafty",
+            "Sigilyph",
+            "Yamask",
+            "Galarian Yamask",
+            "Cofagrigus",
+            "Tirtouga",
+            "Carracosta",
+            "Archen",
+            "Archeops",
+            "Trubbish",
+            "Garbodor",
+            "Gigantamax Garbodor",
+            "Zorua",
+            "Zoroark",
+            "Minccino",
+            "Cinccino",
+            "Gothita",
+            "Gothorita",
+            "Gothitelle",
+            "Solosis",
+            "Duosion",
+            "Reuniclus",
+            "Ducklett",
+            "Swanna",
+            "Vanillite",
+            "Vanillish",
+            "Vanilluxe",
+            "Deerling",
+            "Sawsbuck",
+            "Emolga",
+            "Karrablast",
+            "Escavalier",
+            "Foongus",
+            "Amoonguss",
+            "Frillish",
+            "Jellicent",
+            "Alomomola",
+            "Joltik",
+            "Galvantula",
+            "Ferroseed",
+            "Ferrothorn",
+            "Klink",
+            "Klang",
+            "Klinklang",
+            "Tynamo",
+            "Eelektrik",
+            "Eelektross",
+            "Elgyem",
+            "Beheeyem",
+            "Litwick",
+            "Lampent",
+            "Chandelure",
+            "Axew",
+            "Fraxure",
+            "Haxorus",
+            "Cubchoo",
+            "Beartic",
+            "Cryogonal",
+            "Shelmet",
+            "Accelgor",
+            "Stunfisk",
+            "Galarian Stunfisk",
+            "Mienfoo",
+            "Mienshao",
+            "Druddigon",
+            "Golett",
+            "Golurk",
+            "Pawniard",
+            "Bisharp",
+            "Bouffalant",
+            "Rufflet",
+            "Braviary",
+            "Vullaby",
+            "Mandibuzz",
+            "Heatmor",
+            "Durant",
+            "Deino",
+            "Zweilous",
+            "Hydreigon",
+            "Larvesta",
+            "Volcarona",
+            "Cobalion",
+            "Terrakion",
+            "Virizion",
+            "Tornadus Incarnate Forme",
+            "Tornadus Therian Forme",
+            "Thundurus Incarnate Forme",
+            "Thundurus Therian Forme",
+            "Reshiram",
+            "Zekrom",
+            "Landorus Incarnate Forme",
+            "Landorus Therian Forme",
+            "Kyurem",
+            "Black Kyurem",
+            "White Kyurem",
+            "Keldeo Ordinary Forme",
+            "Keldeo Resolute Forme",
+            "Meloetta Aria Forme",
+            "Meloetta Pirouette Forme",
+            "Genesect",
+            "Chespin",
+            "Quilladin",
+            "Chesnaught",
+            "Fennekin",
+            "Braixen",
+            "Delphox",
+            "Froakie",
+            "Frogadier",
+            "Greninja",
+            "Ash-Greninja",
+            "Bunnelby",
+            "Diggersby",
+            "Fletchling",
+            "Fletchinder",
+            "Talonflame",
+            "Scatterbug",
+            "Spewpa",
+            "Vivillon",
+            "Litleo",
+            "Pyroar",
+            "FlabÃ©bÃ©",
+            "Floette",
+            "Florges",
+            "Skiddo",
+            "Gogoat",
+            "Pancham",
+            "Pangoro",
+            "Furfrou",
+            "Espurr",
+            "Meowstic Male",
+            "Meowstic Female",
+            "Honedge",
+            "Doublade",
+            "Aegislash Blade Forme",
+            "Aegislash Shield Forme",
+            "Spritzee",
+            "Aromatisse",
+            "Swirlix",
+            "Slurpuff",
+            "Inkay",
+            "Malamar",
+            "Binacle",
+            "Barbaracle",
+            "Skrelp",
+            "Dragalge",
+            "Clauncher",
+            "Clawitzer",
+            "Helioptile",
+            "Heliolisk",
+            "Tyrunt",
+            "Tyrantrum",
+            "Amaura",
+            "Aurorus",
+            "Sylveon",
+            "Hawlucha",
+            "Dedenne",
+            "Carbink",
+            "Goomy",
+            "Sliggoo",
+            "Goodra",
+            "Klefki",
+            "Phantump",
+            "Trevenant",
+            "Pumpkaboo Average Size",
+            "Pumpkaboo Small Size",
+            "Pumpkaboo Large Size",
+            "Pumpkaboo Super Size",
+            "Gourgeist Average Size",
+            "Gourgeist Small Size",
+            "Gourgeist Large Size",
+            "Gourgeist Super Size",
+            "Bergmite",
+            "Avalugg",
+            "Noibat",
+            "Noivern",
+            "Xerneas",
+            "Yveltal",
+            "Zygarde 10% Forme",
+            "Zygarde 50% Forme",
+            "Zygarde Complete Forme",
+            "Diancie",
+            "Mega Diancie",
+            "Hoopa Confined",
+            "Hoopa Unbound",
+            "Volcanion",
+            "Rowlet",
+            "Dartrix",
+            "Decidueye",
+            "Litten",
+            "Torracat",
+            "Incineroar",
+            "Popplio",
+            "Brionne",
+            "Primarina",
+            "Pikipek",
+            "Trumbeak",
+            "Toucannon",
+            "Yungoos",
+            "Gumshoos",
+            "Grubbin",
+            "Charjabug",
+            "Vikavolt",
+            "Crabrawler",
+            "Crabominable",
+            "Oricorio Baile Style",
+            "Oricorio Pom-Pom Style",
+            "Oricorio P\'au Style",
+            "Oricorio Sensu Style",
+            "Cutiefly",
+            "Ribombee",
+            "Rockruff",
+            "Lycanroc Midday Forme",
+            "Lycanroc Midnight Forme",
+            "Lycanroc Dusk Forme",
+            "Wishiwashi Solo Forme",
+            "Wishiwashi School Forme",
+            "Mareanie",
+            "Toxapex",
+            "Mudbray",
+            "Mudsdale",
+            "Dewpider",
+            "Araquanid",
+            "Fomantis",
+            "Lurantis",
+            "Morelull",
+            "Shiinotic",
+            "Salandit",
+            "Salazzle",
+            "Stufful",
+            "Bewear",
+            "Bounsweet",
+            "Steenee",
+            "Tsareena",
+            "Comfey",
+            "Oranguru",
+            "Passimian",
+            "Wimpod",
+            "Golisopod",
+            "Sandygast",
+            "Palossand",
+            "Pyukumuku",
+            "Type: Null",
+            "Silvally",
+            "Minior Meteor Forme",
+            "Minior Core Forme",
+            "Komala",
+            "Turtonator",
+            "Togedemaru",
+            "Mimikyu",
+            "Bruxish",
+            "Drampa",
+            "Dhelmise",
+            "Jangmo-o",
+            "Hakamo-o",
+            "Kommo-o",
+            "Tapu Koko",
+            "Tapu Lele",
+            "Tapu Bulu",
+            "Tapu Fini",
+            "Cosmog",
+            "Cosmoem",
+            "Solgaleo",
+            "Lunala",
+            "Nihilego",
+            "Buzzwole",
+            "Pheromosa",
+            "Xurkitree",
+            "Celesteela",
+            "Kartana",
+            "Guzzlord",
+            "Necrozma",
+            "Dusk Mane Necrozma",
+            "Dawn Wings Necrozma",
+            "Ultra Necrozma",
+            "Magearna",
+            "Marshadow",
+            "Poipole",
+            "Naganadel",
+            "Stakataka",
+            "Blacephalon",
+            "Zeraora",
+            "Meltan",
+            "Melmetal",
+            "Gigantamax Melmetal",
+            "Grookey",
+            "Thwackey",
+            "Rillaboom",
+            "Gigantamax Rillaboom",
+            "Scorbunny",
+            "Raboot",
+            "Cinderace",
+            "Gigantamax Cinderace",
+            "Sobble",
+            "Drizzile",
+            "Inteleon",
+            "Gigantamax Inteleon",
+            "Skwovet",
+            "Greedent",
+            "Rookidee",
+            "Corvisquire",
+            "Corviknight",
+            "Gigantamax Corviknight",
+            "Blipbug",
+            "Dottler",
+            "Orbeetle",
+            "Gigantamax Orbeetle",
+            "Nickit",
+            "Thievul",
+            "Gossifleur",
+            "Eldegoss",
+            "Wooloo",
+            "Dubwool",
+            "Chewtle",
+            "Drednaw",
+            "Gigantamax Drednaw",
+            "Yamper",
+            "Boltund",
+            "Rolycoly",
+            "Carkol",
+            "Coalossal",
+            "Gigantamax Coalossal",
+            "Applin",
+            "Flapple",
+            "Gigantamax Flapple",
+            "Appletun",
+            "Gigantamax Appletun",
+            "Silicobra",
+            "Sandaconda",
+            "Gigantamax Sandaconda",
+            "Cramorant",
+            "Arrokuda",
+            "Barraskewda",
+            "Toxel",
+            "Toxtricity Amped Forme",
+            "Toxitricity Low Key Forme",
+            "Gigantamax Toxitricity",
+            "Sizzlipede",
+            "Centiskorch",
+            "Gigantamax Centiskorch",
+            "Clobbopus",
+            "Grapploct",
+            "Sinistea",
+            "Polteageist",
+            "Hatenna",
+            "Hattrem",
+            "Hatterene",
+            "Gigantamax Hatterene",
+            "Impidimp",
+            "Morgrem",
+            "Grimmsnarl",
+            "Gigantamax Grimmsnarl",
+            "Obstagoon",
+            "Perrserker",
+            "Cursola",
+            "Sirfetch\'d",
+            "Mr. Rime",
+            "Runerigus",
+            "Milcery",
+            "Alcremie",
+            "Gigantamax Alcremie",
+            "Falinks",
+            "Pincurchin",
+            "Snom",
+            "Frosmoth",
+            "Stonjourner",
+            "Eiscue Ice Face",
+            "Eiscue Noice Face",
+            "Indeedee Male",
+            "Indeedee Female",
+            "Morpeko Full Belly Mode",
+            "Morpeko Hangry Mode",
+            "Cufant",
+            "Copperajah",
+            "Gigantamax Copperajah",
+            "Dracozolt",
+            "Arctozolt",
+            "Dracovish",
+            "Arctovish",
+            "Duraludon",
+            "Gigantamax Duraludon",
+            "Dreepy",
+            "Drakloak",
+            "Dragapult",
+            "Zacian Hero of Many Battles",
+            "Zacian Crowned Sword Forme",
+            "Zamazenta Hero of Many Battles",
+            "Zamazenta Crowned Sheild Forme",
+            "Eternatus",
+            "Eternamax Eternatus",
+            "Kubfu",
+            "Urshifu Single Strike Style",
+            "Gigantamax Urshifu Single Strike Style",
+            "Urshifu Rapid Strike Style",
+            "Gigantamax Urshifu Rapid Strike Style",
+            "Zarude",
+            "Dada Zarude",
+            "Regieleki",
+            "Regidrago",
+            "Glastrier",
+            "Spectrier",
+            "Calyrex",
+            "Ice Rider Calyrex",
+            "Shadow Rider Calyrex"});
+            this.VSpokemonName.Location = new System.Drawing.Point(451, 23);
+            this.VSpokemonName.Name = "VSpokemonName";
+            this.VSpokemonName.Size = new System.Drawing.Size(142, 28);
+            this.VSpokemonName.TabIndex = 132;
+            this.VSpokemonName.Text = "Mew";
+            this.VSpokemonName.SelectedIndexChanged += new System.EventHandler(this.VSpokemon_SelectedIndexChanged);
             // 
-            // VSbaseStat6
+            // baseStat12
             // 
-            this.VSbaseStat6.Location = new System.Drawing.Point(526, 242);
-            this.VSbaseStat6.MaxLength = 4;
-            this.VSbaseStat6.Name = "VSbaseStat6";
-            this.VSbaseStat6.Size = new System.Drawing.Size(56, 26);
-            this.VSbaseStat6.TabIndex = 131;
-            this.VSbaseStat6.Text = "100";
+            this.baseStat12.Location = new System.Drawing.Point(503, 242);
+            this.baseStat12.MaxLength = 4;
+            this.baseStat12.Name = "baseStat12";
+            this.baseStat12.Size = new System.Drawing.Size(56, 26);
+            this.baseStat12.TabIndex = 131;
+            this.baseStat12.Text = "100";
+            this.baseStat12.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // VSbaseStat5
+            // baseStat11
             // 
-            this.VSbaseStat5.Location = new System.Drawing.Point(526, 217);
-            this.VSbaseStat5.MaxLength = 4;
-            this.VSbaseStat5.Name = "VSbaseStat5";
-            this.VSbaseStat5.Size = new System.Drawing.Size(56, 26);
-            this.VSbaseStat5.TabIndex = 130;
-            this.VSbaseStat5.Text = "100";
+            this.baseStat11.Location = new System.Drawing.Point(503, 217);
+            this.baseStat11.MaxLength = 4;
+            this.baseStat11.Name = "baseStat11";
+            this.baseStat11.Size = new System.Drawing.Size(56, 26);
+            this.baseStat11.TabIndex = 130;
+            this.baseStat11.Text = "100";
+            this.baseStat11.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // VSbaseStat4
+            // baseStat10
             // 
-            this.VSbaseStat4.Location = new System.Drawing.Point(526, 190);
-            this.VSbaseStat4.MaxLength = 4;
-            this.VSbaseStat4.Name = "VSbaseStat4";
-            this.VSbaseStat4.Size = new System.Drawing.Size(56, 26);
-            this.VSbaseStat4.TabIndex = 129;
-            this.VSbaseStat4.Text = "100";
+            this.baseStat10.Location = new System.Drawing.Point(503, 190);
+            this.baseStat10.MaxLength = 4;
+            this.baseStat10.Name = "baseStat10";
+            this.baseStat10.Size = new System.Drawing.Size(56, 26);
+            this.baseStat10.TabIndex = 129;
+            this.baseStat10.Text = "100";
+            this.baseStat10.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // VSbaseStat3
+            // baseStat9
             // 
-            this.VSbaseStat3.Location = new System.Drawing.Point(526, 163);
-            this.VSbaseStat3.MaxLength = 4;
-            this.VSbaseStat3.Name = "VSbaseStat3";
-            this.VSbaseStat3.Size = new System.Drawing.Size(56, 26);
-            this.VSbaseStat3.TabIndex = 128;
-            this.VSbaseStat3.Text = "100";
+            this.baseStat9.Location = new System.Drawing.Point(503, 163);
+            this.baseStat9.MaxLength = 4;
+            this.baseStat9.Name = "baseStat9";
+            this.baseStat9.Size = new System.Drawing.Size(56, 26);
+            this.baseStat9.TabIndex = 128;
+            this.baseStat9.Text = "100";
+            this.baseStat9.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // VSbaseStat2
+            // baseStat8
             // 
-            this.VSbaseStat2.Location = new System.Drawing.Point(526, 137);
-            this.VSbaseStat2.MaxLength = 4;
-            this.VSbaseStat2.Name = "VSbaseStat2";
-            this.VSbaseStat2.Size = new System.Drawing.Size(56, 26);
-            this.VSbaseStat2.TabIndex = 127;
-            this.VSbaseStat2.Text = "100";
+            this.baseStat8.Location = new System.Drawing.Point(503, 137);
+            this.baseStat8.MaxLength = 4;
+            this.baseStat8.Name = "baseStat8";
+            this.baseStat8.Size = new System.Drawing.Size(56, 26);
+            this.baseStat8.TabIndex = 127;
+            this.baseStat8.Text = "100";
+            this.baseStat8.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // VSbaseStat1
+            // baseStat7
             // 
-            this.VSbaseStat1.Location = new System.Drawing.Point(526, 111);
-            this.VSbaseStat1.MaxLength = 4;
-            this.VSbaseStat1.Name = "VSbaseStat1";
-            this.VSbaseStat1.Size = new System.Drawing.Size(56, 26);
-            this.VSbaseStat1.TabIndex = 126;
-            this.VSbaseStat1.Text = "100";
+            this.baseStat7.Location = new System.Drawing.Point(503, 111);
+            this.baseStat7.MaxLength = 4;
+            this.baseStat7.Name = "baseStat7";
+            this.baseStat7.Size = new System.Drawing.Size(56, 26);
+            this.baseStat7.TabIndex = 126;
+            this.baseStat7.Text = "100";
+            this.baseStat7.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox8
+            // iv12
             // 
-            this.textBox8.Location = new System.Drawing.Point(588, 242);
-            this.textBox8.MaxLength = 3;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(56, 26);
-            this.textBox8.TabIndex = 125;
-            this.textBox8.Text = "31";
+            this.iv12.Location = new System.Drawing.Point(565, 242);
+            this.iv12.MaxLength = 3;
+            this.iv12.Name = "iv12";
+            this.iv12.Size = new System.Drawing.Size(56, 26);
+            this.iv12.TabIndex = 125;
+            this.iv12.Text = "31";
+            this.iv12.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox9
+            // iv11
             // 
-            this.textBox9.Location = new System.Drawing.Point(588, 217);
-            this.textBox9.MaxLength = 3;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(56, 26);
-            this.textBox9.TabIndex = 124;
-            this.textBox9.Text = "31";
+            this.iv11.Location = new System.Drawing.Point(565, 217);
+            this.iv11.MaxLength = 3;
+            this.iv11.Name = "iv11";
+            this.iv11.Size = new System.Drawing.Size(56, 26);
+            this.iv11.TabIndex = 124;
+            this.iv11.Text = "31";
+            this.iv11.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox10
+            // iv10
             // 
-            this.textBox10.Location = new System.Drawing.Point(588, 190);
-            this.textBox10.MaxLength = 3;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(56, 26);
-            this.textBox10.TabIndex = 123;
-            this.textBox10.Text = "31";
+            this.iv10.Location = new System.Drawing.Point(565, 190);
+            this.iv10.MaxLength = 3;
+            this.iv10.Name = "iv10";
+            this.iv10.Size = new System.Drawing.Size(56, 26);
+            this.iv10.TabIndex = 123;
+            this.iv10.Text = "31";
+            this.iv10.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox11
+            // iv9
             // 
-            this.textBox11.Location = new System.Drawing.Point(588, 163);
-            this.textBox11.MaxLength = 3;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(56, 26);
-            this.textBox11.TabIndex = 122;
-            this.textBox11.Text = "31";
+            this.iv9.Location = new System.Drawing.Point(565, 163);
+            this.iv9.MaxLength = 3;
+            this.iv9.Name = "iv9";
+            this.iv9.Size = new System.Drawing.Size(56, 26);
+            this.iv9.TabIndex = 122;
+            this.iv9.Text = "31";
+            this.iv9.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox12
+            // iv8
             // 
-            this.textBox12.Location = new System.Drawing.Point(588, 137);
-            this.textBox12.MaxLength = 3;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(56, 26);
-            this.textBox12.TabIndex = 121;
-            this.textBox12.Text = "31";
+            this.iv8.Location = new System.Drawing.Point(565, 137);
+            this.iv8.MaxLength = 3;
+            this.iv8.Name = "iv8";
+            this.iv8.Size = new System.Drawing.Size(56, 26);
+            this.iv8.TabIndex = 121;
+            this.iv8.Text = "31";
+            this.iv8.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox13
+            // iv7
             // 
-            this.textBox13.Location = new System.Drawing.Point(588, 111);
-            this.textBox13.MaxLength = 3;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(56, 26);
-            this.textBox13.TabIndex = 120;
-            this.textBox13.Text = "31";
+            this.iv7.Location = new System.Drawing.Point(565, 111);
+            this.iv7.MaxLength = 3;
+            this.iv7.Name = "iv7";
+            this.iv7.Size = new System.Drawing.Size(56, 26);
+            this.iv7.TabIndex = 120;
+            this.iv7.Text = "31";
+            this.iv7.TextChanged += new System.EventHandler(this.statTextBox);
             // 
-            // textBox14
+            // finalStatTotal12
             // 
-            this.textBox14.Location = new System.Drawing.Point(712, 241);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(56, 26);
-            this.textBox14.TabIndex = 119;
-            this.textBox14.Text = "0";
+            this.finalStatTotal12.Location = new System.Drawing.Point(689, 241);
+            this.finalStatTotal12.Name = "finalStatTotal12";
+            this.finalStatTotal12.ReadOnly = true;
+            this.finalStatTotal12.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal12.TabIndex = 119;
+            this.finalStatTotal12.Text = "0";
             // 
-            // textBox15
+            // finalStatTotal11
             // 
-            this.textBox15.Location = new System.Drawing.Point(712, 216);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(56, 26);
-            this.textBox15.TabIndex = 118;
-            this.textBox15.Text = "0";
+            this.finalStatTotal11.Location = new System.Drawing.Point(689, 216);
+            this.finalStatTotal11.Name = "finalStatTotal11";
+            this.finalStatTotal11.ReadOnly = true;
+            this.finalStatTotal11.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal11.TabIndex = 118;
+            this.finalStatTotal11.Text = "0";
             // 
-            // textBox16
+            // finalStatTotal10
             // 
-            this.textBox16.Location = new System.Drawing.Point(712, 189);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(56, 26);
-            this.textBox16.TabIndex = 117;
-            this.textBox16.Text = "0";
+            this.finalStatTotal10.Location = new System.Drawing.Point(689, 189);
+            this.finalStatTotal10.Name = "finalStatTotal10";
+            this.finalStatTotal10.ReadOnly = true;
+            this.finalStatTotal10.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal10.TabIndex = 117;
+            this.finalStatTotal10.Text = "0";
             // 
-            // textBox17
+            // finalStatTotal9
             // 
-            this.textBox17.Location = new System.Drawing.Point(712, 162);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.ReadOnly = true;
-            this.textBox17.Size = new System.Drawing.Size(56, 26);
-            this.textBox17.TabIndex = 116;
-            this.textBox17.Text = "0";
+            this.finalStatTotal9.Location = new System.Drawing.Point(689, 162);
+            this.finalStatTotal9.Name = "finalStatTotal9";
+            this.finalStatTotal9.ReadOnly = true;
+            this.finalStatTotal9.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal9.TabIndex = 116;
+            this.finalStatTotal9.Text = "0";
             // 
-            // textBox18
+            // finalStatTotal8
             // 
-            this.textBox18.Location = new System.Drawing.Point(712, 136);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(56, 26);
-            this.textBox18.TabIndex = 115;
-            this.textBox18.Text = "0";
+            this.finalStatTotal8.Location = new System.Drawing.Point(689, 136);
+            this.finalStatTotal8.Name = "finalStatTotal8";
+            this.finalStatTotal8.ReadOnly = true;
+            this.finalStatTotal8.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal8.TabIndex = 115;
+            this.finalStatTotal8.Text = "0";
             // 
-            // textBox19
+            // finalStatTotal7
             // 
-            this.textBox19.Location = new System.Drawing.Point(712, 110);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(56, 26);
-            this.textBox19.TabIndex = 114;
-            this.textBox19.Text = "0";
+            this.finalStatTotal7.Location = new System.Drawing.Point(689, 110);
+            this.finalStatTotal7.Name = "finalStatTotal7";
+            this.finalStatTotal7.ReadOnly = true;
+            this.finalStatTotal7.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal7.TabIndex = 114;
+            this.finalStatTotal7.Text = "0";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(475, 11);
+            this.label11.Location = new System.Drawing.Point(452, 11);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(80, 20);
             this.label11.TabIndex = 113;
             this.label11.Text = "Pokemon:";
             // 
-            // numericUpDown1
+            // ev12
             // 
-            this.numericUpDown1.Increment = new decimal(new int[] {
+            this.ev12.Increment = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown1.Location = new System.Drawing.Point(650, 241);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.ev12.Location = new System.Drawing.Point(627, 241);
+            this.ev12.Maximum = new decimal(new int[] {
             252,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(56, 26);
-            this.numericUpDown1.TabIndex = 112;
+            this.ev12.Name = "ev12";
+            this.ev12.Size = new System.Drawing.Size(56, 26);
+            this.ev12.TabIndex = 112;
+            this.ev12.ValueChanged += new System.EventHandler(this.evChange);
             // 
-            // numericUpDown2
+            // ev11
             // 
-            this.numericUpDown2.Increment = new decimal(new int[] {
+            this.ev11.Increment = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown2.Location = new System.Drawing.Point(650, 216);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
+            this.ev11.Location = new System.Drawing.Point(627, 216);
+            this.ev11.Maximum = new decimal(new int[] {
             252,
             0,
             0,
             0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(56, 26);
-            this.numericUpDown2.TabIndex = 111;
+            this.ev11.Name = "ev11";
+            this.ev11.Size = new System.Drawing.Size(56, 26);
+            this.ev11.TabIndex = 111;
+            this.ev11.ValueChanged += new System.EventHandler(this.evChange);
             // 
-            // numericUpDown3
+            // ev10
             // 
-            this.numericUpDown3.Increment = new decimal(new int[] {
+            this.ev10.Increment = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown3.Location = new System.Drawing.Point(650, 189);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
+            this.ev10.Location = new System.Drawing.Point(627, 189);
+            this.ev10.Maximum = new decimal(new int[] {
             252,
             0,
             0,
             0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(56, 26);
-            this.numericUpDown3.TabIndex = 110;
+            this.ev10.Name = "ev10";
+            this.ev10.Size = new System.Drawing.Size(56, 26);
+            this.ev10.TabIndex = 110;
+            this.ev10.ValueChanged += new System.EventHandler(this.evChange);
             // 
-            // numericUpDown4
+            // ev9
             // 
-            this.numericUpDown4.Increment = new decimal(new int[] {
+            this.ev9.Increment = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown4.Location = new System.Drawing.Point(650, 162);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
+            this.ev9.Location = new System.Drawing.Point(627, 162);
+            this.ev9.Maximum = new decimal(new int[] {
             252,
             0,
             0,
             0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(56, 26);
-            this.numericUpDown4.TabIndex = 109;
+            this.ev9.Name = "ev9";
+            this.ev9.Size = new System.Drawing.Size(56, 26);
+            this.ev9.TabIndex = 109;
+            this.ev9.ValueChanged += new System.EventHandler(this.evChange);
             // 
-            // numericUpDown5
+            // ev8
             // 
-            this.numericUpDown5.Increment = new decimal(new int[] {
+            this.ev8.Increment = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown5.Location = new System.Drawing.Point(650, 136);
-            this.numericUpDown5.Maximum = new decimal(new int[] {
+            this.ev8.Location = new System.Drawing.Point(627, 136);
+            this.ev8.Maximum = new decimal(new int[] {
             252,
             0,
             0,
             0});
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(56, 26);
-            this.numericUpDown5.TabIndex = 108;
+            this.ev8.Name = "ev8";
+            this.ev8.Size = new System.Drawing.Size(56, 26);
+            this.ev8.TabIndex = 108;
+            this.ev8.ValueChanged += new System.EventHandler(this.evChange);
             // 
-            // numericUpDown6
+            // ev7
             // 
-            this.numericUpDown6.Increment = new decimal(new int[] {
+            this.ev7.Increment = new decimal(new int[] {
             4,
             0,
             0,
             0});
-            this.numericUpDown6.Location = new System.Drawing.Point(650, 111);
-            this.numericUpDown6.Maximum = new decimal(new int[] {
+            this.ev7.Location = new System.Drawing.Point(627, 111);
+            this.ev7.Maximum = new decimal(new int[] {
             252,
             0,
             0,
             0});
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(56, 26);
-            this.numericUpDown6.TabIndex = 107;
+            this.ev7.Name = "ev7";
+            this.ev7.Size = new System.Drawing.Size(56, 26);
+            this.ev7.TabIndex = 107;
+            this.ev7.ValueChanged += new System.EventHandler(this.evChange);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(609, 95);
+            this.label12.Location = new System.Drawing.Point(586, 95);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(33, 20);
             this.label12.TabIndex = 106;
@@ -2395,7 +3401,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(666, 95);
+            this.label13.Location = new System.Drawing.Point(643, 95);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(39, 20);
             this.label13.TabIndex = 105;
@@ -2404,7 +3410,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(538, 95);
+            this.label14.Location = new System.Drawing.Point(515, 95);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(46, 20);
             this.label14.TabIndex = 104;
@@ -2413,7 +3419,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(482, 245);
+            this.label15.Location = new System.Drawing.Point(459, 245);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(56, 20);
             this.label15.TabIndex = 103;
@@ -2422,7 +3428,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(477, 220);
+            this.label16.Location = new System.Drawing.Point(454, 220);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(63, 20);
             this.label16.TabIndex = 102;
@@ -2431,7 +3437,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(478, 193);
+            this.label17.Location = new System.Drawing.Point(455, 193);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(61, 20);
             this.label17.TabIndex = 101;
@@ -2440,7 +3446,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(473, 166);
+            this.label18.Location = new System.Drawing.Point(450, 166);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(70, 20);
             this.label18.TabIndex = 100;
@@ -2449,7 +3455,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(482, 139);
+            this.label19.Location = new System.Drawing.Point(459, 139);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(55, 20);
             this.label19.TabIndex = 99;
@@ -2458,17 +3464,17 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(498, 114);
+            this.label20.Location = new System.Drawing.Point(475, 114);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(31, 20);
             this.label20.TabIndex = 98;
             this.label20.Text = "HP";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox13
+            // moveType1
             // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
+            this.moveType1.FormattingEnabled = true;
+            this.moveType1.Items.AddRange(new object[] {
             "Normal",
             "Fire",
             "Water",
@@ -2487,16 +3493,16 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox13.Location = new System.Drawing.Point(207, 294);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(66, 28);
-            this.comboBox13.TabIndex = 141;
-            this.comboBox13.Text = "Psychic";
+            this.moveType1.Location = new System.Drawing.Point(216, 292);
+            this.moveType1.Name = "moveType1";
+            this.moveType1.Size = new System.Drawing.Size(66, 28);
+            this.moveType1.TabIndex = 141;
+            this.moveType1.Text = "---";
             // 
-            // comboBox14
+            // moveType2
             // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
+            this.moveType2.FormattingEnabled = true;
+            this.moveType2.Items.AddRange(new object[] {
             "Normal",
             "Fire",
             "Water",
@@ -2515,16 +3521,16 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox14.Location = new System.Drawing.Point(207, 324);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(66, 28);
-            this.comboBox14.TabIndex = 142;
-            this.comboBox14.Text = "Psychic";
+            this.moveType2.Location = new System.Drawing.Point(216, 322);
+            this.moveType2.Name = "moveType2";
+            this.moveType2.Size = new System.Drawing.Size(66, 28);
+            this.moveType2.TabIndex = 142;
+            this.moveType2.Text = "---";
             // 
-            // comboBox15
+            // moveType3
             // 
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Items.AddRange(new object[] {
+            this.moveType3.FormattingEnabled = true;
+            this.moveType3.Items.AddRange(new object[] {
             "Normal",
             "Fire",
             "Water",
@@ -2543,16 +3549,16 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox15.Location = new System.Drawing.Point(207, 352);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(66, 28);
-            this.comboBox15.TabIndex = 143;
-            this.comboBox15.Text = "Psychic";
+            this.moveType3.Location = new System.Drawing.Point(216, 352);
+            this.moveType3.Name = "moveType3";
+            this.moveType3.Size = new System.Drawing.Size(66, 28);
+            this.moveType3.TabIndex = 143;
+            this.moveType3.Text = "---";
             // 
-            // comboBox16
+            // moveType4
             // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
+            this.moveType4.FormattingEnabled = true;
+            this.moveType4.Items.AddRange(new object[] {
             "Normal",
             "Fire",
             "Water",
@@ -2571,53 +3577,3771 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.comboBox16.Location = new System.Drawing.Point(207, 382);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(66, 28);
-            this.comboBox16.TabIndex = 144;
-            this.comboBox16.Text = "Psychic";
+            this.moveType4.Location = new System.Drawing.Point(216, 382);
+            this.moveType4.Name = "moveType4";
+            this.moveType4.Size = new System.Drawing.Size(66, 28);
+            this.moveType4.TabIndex = 144;
+            this.moveType4.Text = "---";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(154, 8);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(50, 20);
+            this.label21.TabIndex = 145;
+            this.label21.Text = "Level:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(604, 11);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(50, 20);
+            this.label22.TabIndex = 146;
+            this.label22.Text = "Level:";
+            // 
+            // moveCategory1
+            // 
+            this.moveCategory1.FormattingEnabled = true;
+            this.moveCategory1.Items.AddRange(new object[] {
+            "Physical",
+            "Special",
+            "Status"});
+            this.moveCategory1.Location = new System.Drawing.Point(288, 290);
+            this.moveCategory1.Name = "moveCategory1";
+            this.moveCategory1.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory1.TabIndex = 147;
+            // 
+            // moveCategory2
+            // 
+            this.moveCategory2.FormattingEnabled = true;
+            this.moveCategory2.Items.AddRange(new object[] {
+            "Physical",
+            "Special",
+            "Status"});
+            this.moveCategory2.Location = new System.Drawing.Point(288, 320);
+            this.moveCategory2.Name = "moveCategory2";
+            this.moveCategory2.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory2.TabIndex = 148;
+            // 
+            // moveCategory3
+            // 
+            this.moveCategory3.FormattingEnabled = true;
+            this.moveCategory3.Items.AddRange(new object[] {
+            "Physical",
+            "Special",
+            "Status"});
+            this.moveCategory3.Location = new System.Drawing.Point(288, 350);
+            this.moveCategory3.Name = "moveCategory3";
+            this.moveCategory3.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory3.TabIndex = 149;
+            // 
+            // moveCategory4
+            // 
+            this.moveCategory4.FormattingEnabled = true;
+            this.moveCategory4.Items.AddRange(new object[] {
+            "Physical",
+            "Special",
+            "Status"});
+            this.moveCategory4.Location = new System.Drawing.Point(288, 380);
+            this.moveCategory4.Name = "moveCategory4";
+            this.moveCategory4.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory4.TabIndex = 150;
+            // 
+            // move1
+            // 
+            this.move1.FormattingEnabled = true;
+            this.move1.Items.AddRange(new object[] {
+            "Pound",
+            "Karate Chop",
+            "Double Slap",
+            "Comet Punch",
+            "Mega Punch",
+            "Pay Day",
+            "Fire Punch",
+            "Ice Punch",
+            "Thunder Punch",
+            "Scratch",
+            "Vise Grip",
+            "Guillotine",
+            "Razor Wind",
+            "Swords Dance",
+            "Cut",
+            "Gust",
+            "Wing Attack",
+            "Whirlwind",
+            "Fly",
+            "Bind",
+            "Slam",
+            "Vine Whip",
+            "Stomp",
+            "Double Kick",
+            "Mega Kick",
+            "Jump Kick",
+            "Rolling Kick",
+            "Sand Attack",
+            "Headbutt",
+            "Horn Attack",
+            "Fury Attack",
+            "Horn Drill",
+            "Tackle",
+            "Body Slam",
+            "Wrap",
+            "Take Down",
+            "Thrash",
+            "Double-Edge",
+            "Tail Whip",
+            "Poison Sting",
+            "Twineedle",
+            "Pin Missile",
+            "Leer",
+            "Bite",
+            "Growl",
+            "Roar",
+            "Sing",
+            "Supersonic",
+            "Sonic Boom",
+            "Disable",
+            "Acid",
+            "Ember",
+            "Flamethrower",
+            "Mist",
+            "Water Gun",
+            "Hydro Pump",
+            "Surf",
+            "Ice Beam",
+            "Blizzard",
+            "Psybeam",
+            "Bubble Beam",
+            "Aurora Beam",
+            "Hyper Beam",
+            "Peck",
+            "Drill Peck",
+            "Submission",
+            "Low Kick",
+            "Counter",
+            "Seismic Toss",
+            "Strength",
+            "Absorb",
+            "Mega Drain",
+            "Leech Seed",
+            "Growth",
+            "Razor Leaf",
+            "Solar Beam",
+            "Poison Powder",
+            "Stun Spore",
+            "Sleep Powder",
+            "Petal Dance",
+            "String Shot",
+            "Dragon Rage",
+            "Fire Spin",
+            "Thunder Shock",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Thunder",
+            "Rock Throw",
+            "Earthquake",
+            "Fissure",
+            "Dig",
+            "Toxic",
+            "Confusion",
+            "Psychic",
+            "Hypnosis",
+            "Meditate",
+            "Agility",
+            "Quick Attack",
+            "Rage",
+            "Teleport",
+            "Night Shade",
+            "Mimic",
+            "Screech",
+            "Double Team",
+            "Recover",
+            "Harden",
+            "Minimize",
+            "Smokescreen",
+            "Confuse Ray",
+            "Withdraw",
+            "Defense Curl",
+            "Barrier",
+            "Light Screen",
+            "Haze",
+            "Reflect",
+            "Focus Energy",
+            "Bide",
+            "Metronome",
+            "Mirror Move",
+            "Self-Destruct",
+            "Egg Bomb",
+            "Lick",
+            "Smog",
+            "Sludge",
+            "Bone Club",
+            "Fire Blast",
+            "Waterfall",
+            "Clamp",
+            "Swift",
+            "Skull Bash",
+            "Spike Cannon",
+            "Constrict",
+            "Amnesia",
+            "Kinesis",
+            "Soft-Boiled",
+            "High Jump Kick",
+            "Glare",
+            "Dream Eater",
+            "Poison Gas",
+            "Barrage",
+            "Leech Life",
+            "Lovely Kiss",
+            "Sky Attack",
+            "Transform",
+            "Bubble",
+            "Dizzy Punch",
+            "Spore",
+            "Flash",
+            "Psywave",
+            "Splash",
+            "Acid Armor",
+            "Crabhammer",
+            "Explosion",
+            "Fury Swipes",
+            "Bonemerang",
+            "Rest",
+            "Rock Slide",
+            "Hyper Fang",
+            "Sharpen",
+            "Conversion",
+            "Tri Attack",
+            "Super Fang",
+            "Slash",
+            "Substitute",
+            "Struggle",
+            "Sketch",
+            "Triple Kick",
+            "Thief",
+            "Spider Web",
+            "Mind Reader",
+            "Nightmare",
+            "Flame Wheel",
+            "Snore",
+            "Curse",
+            "Flail",
+            "Conversion 2",
+            "Aeroblast",
+            "Cotton Spore",
+            "Reversal",
+            "Spite",
+            "Powder Snow",
+            "Protect",
+            "Mach Punch",
+            "Scary Face",
+            "Feint Attack",
+            "Sweet Kiss",
+            "Belly Drum",
+            "Sludge Bomb",
+            "Mud-Slap",
+            "Octazooka",
+            "Spikes",
+            "Zap Cannon",
+            "Foresight",
+            "Destiny Bond",
+            "Perish Song",
+            "Icy Wind",
+            "Detect",
+            "Bone Rush",
+            "Lock-On",
+            "Outrage",
+            "Sandstorm",
+            "Giga Drain",
+            "Endure",
+            "Charm",
+            "Rollout",
+            "False Swipe",
+            "Swagger",
+            "Milk Drink",
+            "Spark",
+            "Fury Cutter",
+            "Steel Wing",
+            "Mean Look",
+            "Attract",
+            "Sleep Talk",
+            "Heal Bell",
+            "Return",
+            "Present",
+            "Frustration",
+            "Safeguard",
+            "Pain Split",
+            "Sacred Fire",
+            "Magnitude",
+            "Dynamic Punch",
+            "Megahorn",
+            "Dragon Breath",
+            "Baton Pass",
+            "Encore",
+            "Pursuit",
+            "Rapid Spin",
+            "Sweet Scent",
+            "Iron Tail",
+            "Metal Claw",
+            "Vital Throw",
+            "Morning Sun",
+            "Synthesis",
+            "Moonlight",
+            "Hidden Power",
+            "Cross Chop",
+            "Twister",
+            "Rain Dance",
+            "Sunny Day",
+            "Crunch",
+            "Mirror Coat",
+            "Psych Up",
+            "Extreme Speed",
+            "Ancient Power",
+            "Shadow Ball",
+            "Future Sight",
+            "Rock Smash",
+            "Whirlpool",
+            "Beat Up",
+            "Fake Out",
+            "Uproar",
+            "Stockpile",
+            "Spit Up",
+            "Swallow",
+            "Heat Wave",
+            "Hail",
+            "Torment",
+            "Flatter",
+            "Will-O-Wisp",
+            "Memento",
+            "Facade",
+            "Focus Punch",
+            "Smelling Salts",
+            "Follow Me",
+            "Nature Power",
+            "Charge",
+            "Taunt",
+            "Helping Hand",
+            "Trick",
+            "Role Play",
+            "Wish",
+            "Assist",
+            "Ingrain",
+            "Superpower",
+            "Magic Coat",
+            "Recycle",
+            "Revenge",
+            "Brick Break",
+            "Yawn",
+            "Knock Off",
+            "Endeavor",
+            "Eruption",
+            "Skill Swap",
+            "Imprison",
+            "Refresh",
+            "Grudge",
+            "Snatch",
+            "Secret Power",
+            "Dive",
+            "Arm Thrust",
+            "Camouflage",
+            "Tail Glow",
+            "Luster Purge",
+            "Mist Ball",
+            "Feather Dance",
+            "Teeter Dance",
+            "Blaze Kick",
+            "Mud Sport",
+            "Ice Ball",
+            "Needle Arm",
+            "Slack Off",
+            "Hyper Voice",
+            "Poison Fang",
+            "Crush Claw",
+            "Blast Burn",
+            "Hydro Cannon",
+            "Meteor Mash",
+            "Astonish",
+            "Weather Ball",
+            "Aromatherapy",
+            "Fake Tears",
+            "Air Cutter",
+            "Overheat",
+            "Odor Sleuth",
+            "Rock Tomb",
+            "Silver Wind",
+            "Metal Sound",
+            "Grass Whistle",
+            "Tickle",
+            "Cosmic Power",
+            "Water Spout",
+            "Signal Beam",
+            "Shadow Punch",
+            "Extrasensory",
+            "Sky Uppercut",
+            "Sand Tomb",
+            "Sheer Cold",
+            "Muddy Water",
+            "Bullet Seed",
+            "Aerial Ace",
+            "Icicle Spear",
+            "Iron Defense",
+            "Block",
+            "Howl",
+            "Dragon Claw",
+            "Frenzy Plant",
+            "Bulk Up",
+            "Bounce",
+            "Mud Shot",
+            "Poison Tail",
+            "Covet",
+            "Volt Tackle",
+            "Magical Leaf",
+            "Water Sport",
+            "Calm Mind",
+            "Leaf Blade",
+            "Dragon Dance",
+            "Rock Blast",
+            "Shock Wave",
+            "Water Pulse",
+            "Doom Desire",
+            "Psycho Boost",
+            "Roost",
+            "Gravity",
+            "Miracle Eye",
+            "Wake-Up Slap",
+            "Hammer Arm",
+            "Gyro Ball",
+            "Healing Wish",
+            "Brine",
+            "Natural Gift",
+            "Feint",
+            "Pluck",
+            "Tailwind",
+            "Acupressure",
+            "Metal Burst",
+            "U-turn",
+            "Close Combat",
+            "Payback",
+            "Assurance",
+            "Embargo",
+            "Fling",
+            "Psycho Shift",
+            "Trump Card",
+            "Heal Block",
+            "Wring Out",
+            "Power Trick",
+            "Gastro Acid",
+            "Lucky Chant",
+            "Me First",
+            "Copycat",
+            "Power Swap",
+            "Guard Swap",
+            "Punishment",
+            "Last Resort",
+            "Worry Seed",
+            "Sucker Punch",
+            "Toxic Spikes",
+            "Heart Swap",
+            "Aqua Ring",
+            "Magnet Rise",
+            "Flare Blitz",
+            "Force Palm",
+            "Aura Sphere",
+            "Rock Polish",
+            "Poison Jab",
+            "Dark Pulse",
+            "Night Slash",
+            "Aqua Tail",
+            "Seed Bomb",
+            "Air Slash",
+            "X-Scissor",
+            "Bug Buzz",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Power Gem",
+            "Drain Punch",
+            "Vacuum Wave",
+            "Focus Blast",
+            "Energy Ball",
+            "Brave Bird",
+            "Earth Power",
+            "Switcheroo",
+            "Giga Impact",
+            "Nasty Plot",
+            "Bullet Punch",
+            "Avalanche",
+            "Ice Shard",
+            "Shadow Claw",
+            "Thunder Fang",
+            "Ice Fang",
+            "Fire Fang",
+            "Shadow Sneak",
+            "Mud Bomb",
+            "Psycho Cut",
+            "Zen Headbutt",
+            "Mirror Shot",
+            "Flash Cannon",
+            "Rock Climb",
+            "Defog",
+            "Trick Room",
+            "Draco Meteor",
+            "Discharge",
+            "Lava Plume",
+            "Leaf Storm",
+            "Power Whip",
+            "Rock Wrecker",
+            "Cross Poison",
+            "Gunk Shot",
+            "Iron Head",
+            "Magnet Bomb",
+            "Stone Edge",
+            "Captivate",
+            "Stealth Rock",
+            "Grass Knot",
+            "Chatter",
+            "Judgment",
+            "Bug Bite",
+            "Charge Beam",
+            "Wood Hammer",
+            "Aqua Jet",
+            "Attack Order",
+            "Defend Order",
+            "Heal Order",
+            "Head Smash",
+            "Double Hit",
+            "Roar of Time",
+            "Spacial Rend",
+            "Lunar Dance",
+            "Crush Grip",
+            "Magma Storm",
+            "Dark Void",
+            "Seed Flare",
+            "Ominous Wind",
+            "Shadow Force",
+            "Hone Claws",
+            "Wide Guard",
+            "Guard Split",
+            "Power Split",
+            "Wonder Room",
+            "Psyshock",
+            "Venoshock",
+            "Autotomize",
+            "Rage Powder",
+            "Telekinesis",
+            "Magic Room",
+            "Smack Down",
+            "Storm Throw",
+            "Flame Burst",
+            "Sludge Wave",
+            "Quiver Dance",
+            "Heavy Slam",
+            "Synchronoise",
+            "Electro Ball",
+            "Soak",
+            "Flame Charge",
+            "Coil",
+            "Low Sweep",
+            "Acid Spray",
+            "Foul Play",
+            "Simple Beam",
+            "Entrainment",
+            "After You",
+            "Round",
+            "Echoed Voice",
+            "Chip Away",
+            "Clear Smog",
+            "Stored Power",
+            "Quick Guard",
+            "Ally Switch",
+            "Scald",
+            "Shell Smash",
+            "Heal Pulse",
+            "Hex",
+            "Sky Drop",
+            "Shift Gear",
+            "Circle Throw",
+            "Incinerate",
+            "Quash",
+            "Acrobatics",
+            "Reflect Type",
+            "Retaliate",
+            "Final Gambit",
+            "Bestow",
+            "Inferno",
+            "Water Pledge",
+            "Fire Pledge",
+            "Grass Pledge",
+            "Volt Switch",
+            "Struggle Bug",
+            "Bulldoze",
+            "Frost Breath",
+            "Dragon Tail",
+            "Work Up",
+            "Electroweb",
+            "Wild Charge",
+            "Drill Run",
+            "Dual Chop",
+            "Heart Stamp",
+            "Horn Leech",
+            "Sacred Sword",
+            "Razor Shell",
+            "Heat Crash",
+            "Leaf Tornado",
+            "Steamroller",
+            "Cotton Guard",
+            "Night Daze",
+            "Psystrike",
+            "Tail Slap",
+            "Hurricane",
+            "Head Charge",
+            "Gear Grind",
+            "Searing Shot",
+            "Techno Blast",
+            "Relic Song",
+            "Secret Sword",
+            "Glaciate",
+            "Bolt Strike",
+            "Blue Flare",
+            "Fiery Dance",
+            "Freeze Shock",
+            "Ice Burn",
+            "Snarl",
+            "Icicle Crash",
+            "V-create",
+            "Fusion Flare",
+            "Fusion Bolt",
+            "Flying Press",
+            "Mat Block",
+            "Belch",
+            "Rototiller",
+            "Sticky Web",
+            "Fell Stinger",
+            "Phantom Force",
+            "Trick-or-Treat",
+            "Noble Roar",
+            "Ion Deluge",
+            "Parabolic Charge",
+            "Forest\'s Curse",
+            "Petal Blizzard",
+            "Freeze-Dry",
+            "Disarming Voice",
+            "Parting Shot",
+            "Topsy-Turvy",
+            "Draining Kiss",
+            "Crafty Shield",
+            "Flower Shield",
+            "Grassy Terrain",
+            "Misty Terrain",
+            "Electrify",
+            "Play Rough",
+            "Fairy Wind",
+            "Moonblast",
+            "Boomburst",
+            "Fairy Lock",
+            "King\'s Shield",
+            "Play Nice",
+            "Confide",
+            "Diamond Storm",
+            "Steam Eruption",
+            "Hyperspace Hole",
+            "Water Shuriken",
+            "Mystical Fire",
+            "Spiky Shield",
+            "Aromatic Mist",
+            "Eerie Impulse",
+            "Venom Drench",
+            "Powder",
+            "Geomancy",
+            "Magnetic Flux",
+            "Happy Hour",
+            "Electric Terrain",
+            "Dazzling Gleam",
+            "Celebrate",
+            "Hold Hands",
+            "Baby-Doll Eyes",
+            "Nuzzle",
+            "Hold Back",
+            "Infestation",
+            "Power-Up Punch",
+            "Oblivion Wing",
+            "Thousand Arrows",
+            "Thousand Waves",
+            "Land\'s Wrath",
+            "Light of Ruin",
+            "Origin Pulse",
+            "Precipice Blades",
+            "Dragon Ascent",
+            "Hyperspace Fury",
+            "Breakneck Blitz",
+            "All-Out Pummeling",
+            "Supersonic Skystrike",
+            "Acid Downpour",
+            "Tectonic Rage",
+            "Continental Crush",
+            "Savage Spin-Out",
+            "Never-Ending Nightmare",
+            "Corkscrew Crash",
+            "Inferno Overdrive",
+            "Hydro Vortex",
+            "Bloom Doom",
+            "Gigavolt Havoc",
+            "Shattered Psyche",
+            "Subzero Slammer",
+            "Devastating Drake",
+            "Black Hole Eclipse",
+            "Twinkle Tackle",
+            "Catastropika",
+            "Shore Up",
+            "First Impression",
+            "Baneful Bunker",
+            "Spirit Shackle",
+            "Darkest Lariat",
+            "Sparkling Aria",
+            "Ice Hammer",
+            "Floral Healing",
+            "High Horsepower",
+            "Strength Sap",
+            "Solar Blade",
+            "Leafage",
+            "Spotlight",
+            "Toxic Thread",
+            "Laser Focus",
+            "Gear Up",
+            "Throat Chop",
+            "Pollen Puff",
+            "Anchor Shot",
+            "Psychic Terrain",
+            "Lunge",
+            "Fire Lash",
+            "Power Trip",
+            "Burn Up",
+            "Speed Swap",
+            "Smart Strike",
+            "Purify",
+            "Revelation Dance",
+            "Core Enforcer",
+            "Trop Kick",
+            "Instruct",
+            "Beak Blast",
+            "Clanging Scales",
+            "Dragon Hammer",
+            "Brutal Swing",
+            "Aurora Veil",
+            "Sinister Arrow Raid",
+            "Malicious Moonsault",
+            "Oceanic Operetta",
+            "Guardian of Alola",
+            "Soul-Stealing 7-Star Strike",
+            "Stoked Sparksurfer",
+            "Pulverizing Pancake",
+            "Extreme Evoboost",
+            "Genesis Supernova",
+            "Shell Trap",
+            "Fleur Cannon",
+            "Psychic Fangs",
+            "Stomping Tantrum",
+            "Shadow Bone",
+            "Accelerock",
+            "Liquidation",
+            "Prismatic Laser",
+            "Spectral Thief",
+            "Sunsteel Strike",
+            "Moongeist Beam",
+            "Tearful Look",
+            "Zing Zap",
+            "Nature\'s Madness",
+            "Multi-Attack",
+            "10,000,000 Volt Thunderbolt",
+            "Mind Blown",
+            "Plasma Fists",
+            "Photon Geyser",
+            "Light That Burns the Sky",
+            "Searing Sunraze Smash",
+            "Menacing Moonraze Maelstrom",
+            "Let\'s Snuggle Forever",
+            "Splintered Stormshards",
+            "Clangorous Soulblaze",
+            "Zippy Zap",
+            "Splishy Splash",
+            "Floaty Fall",
+            "Pika Papow",
+            "Bouncy Bubble",
+            "Buzzy Buzz",
+            "Sizzly Slide",
+            "Glitzy Glow",
+            "Baddy Bad",
+            "Sappy Seed",
+            "Freezy Frost",
+            "Sparkly Swirl",
+            "Veevee Volley",
+            "Double Iron Bash",
+            "Max Guard",
+            "Dynamax Cannon",
+            "Snipe Shot",
+            "Jaw Lock",
+            "Stuff Cheeks",
+            "No Retreat",
+            "Tar Shot",
+            "Magic Powder",
+            "Dragon Darts",
+            "Teatime",
+            "Octolock",
+            "Bolt Beak",
+            "Fishious Rend",
+            "Court Change",
+            "Max Flare",
+            "Max Flutterby",
+            "Max Lightning",
+            "Max Strike",
+            "Max Knuckle",
+            "Max Phantasm",
+            "Max Hailstorm",
+            "Max Ooze",
+            "Max Geyser",
+            "Max Airstream",
+            "Max Starfall",
+            "Max Wyrmwind",
+            "Max Mindstorm",
+            "Max Rockfall",
+            "Max Quake",
+            "Max Darkness",
+            "Max Overgrowth",
+            "Max Steelspike",
+            "Clangorous Soul",
+            "Body Press",
+            "Decorate",
+            "Drum Beating",
+            "Snap Trap",
+            "Pyro Ball",
+            "Behemoth Blade",
+            "Behemoth Bash",
+            "Aura Wheel",
+            "Breaking Swipe",
+            "Branch Poke",
+            "Overdrive",
+            "Apple Acid",
+            "Grav Apple",
+            "Spirit Break",
+            "Strange Steam",
+            "Life Dew",
+            "Obstruct",
+            "False Surrender",
+            "Meteor Assault",
+            "Eternabeam",
+            "Steel Beam",
+            "Expanding Force",
+            "Steel Roller",
+            "Scale Shot",
+            "Meteor Beam",
+            "Shell Side Arm",
+            "Misty Explosion",
+            "Grassy Glide",
+            "Rising Voltage",
+            "Terrain Pulse",
+            "Skitter Smack",
+            "Burning Jealousy",
+            "Lash Out",
+            "Poltergeist",
+            "Corrosive Gas",
+            "Coaching",
+            "Flip Turn",
+            "Triple Axel",
+            "Dual Wingbeat",
+            "Scorching Sands",
+            "Jungle Healing",
+            "Wicked Blow",
+            "Surging Strikes",
+            "Thunder Cage",
+            "Dragon Energy",
+            "Freezing Glare",
+            "Fiery Wrath",
+            "Thunderous Kick",
+            "Glacial Lance",
+            "Astral Barrage",
+            "Eerie Spell",
+            "Dire Claw",
+            "Psyshield Bash",
+            "Power Shift",
+            "Stone Axe",
+            "Springtide Storm",
+            "Mystical Power",
+            "Raging Fury",
+            "Wave Crash",
+            "Chloroblast",
+            "Mountain Gale",
+            "Victory Dance",
+            "Headlong Rush",
+            "Barb Barrage",
+            "Esper Wing",
+            "Bitter Malice",
+            "Shelter",
+            "Triple Arrows",
+            "Infernal Parade",
+            "Ceaseless Edge",
+            "Bleakwind Storm",
+            "Wildbolt Storm",
+            "Sandsear Storm",
+            "Lunar Blessing",
+            "Take Heart",
+            "Tera Blast",
+            "Silk Trap",
+            "Axe Kick",
+            "Last Respects",
+            "Lumina Crash",
+            "Order Up",
+            "Jet Punch",
+            "Spicy Extract",
+            "Spin Out",
+            "Population Bomb",
+            "Ice Spinner",
+            "Glaive Rush",
+            "Revival Blessing",
+            "Salt Cure",
+            "Triple Dive",
+            "Mortal Spin",
+            "Doodle",
+            "Fillet Away",
+            "Kowtow Cleave",
+            "Flower Trick",
+            "Torch Song",
+            "Aqua Step",
+            "Raging Bull",
+            "Make It Rain",
+            "Psyblade",
+            "Hydro Steam",
+            "Ruination",
+            "Collision Course",
+            "Electro Drift",
+            "Shed Tail",
+            "Chilly Reception",
+            "Tidy Up",
+            "Snowscape",
+            "Pounce",
+            "Trailblaze",
+            "Chilling Water",
+            "Hyper Drill",
+            "Twin Beam",
+            "Rage Fist",
+            "Armor Cannon",
+            "Bitter Blade",
+            "Double Shock",
+            "Gigaton Hammer",
+            "Comeuppance",
+            "Aqua Cutter",
+            "Blazing Torque",
+            "Wicked Torque",
+            "Noxious Torque",
+            "Combat Torque",
+            "Magical Torque",
+            "Blood Moon",
+            "Matcha Gotcha",
+            "Syrup Bomb",
+            "Ivy Cudgel",
+            "Electro Shot",
+            "Tera Starstorm",
+            "Fickle Beam",
+            "Burning Bulwark",
+            "Thunderclap",
+            "Mighty Cleave",
+            "Tachyon Cutter",
+            "Hard Press",
+            "Dragon Cheer",
+            "Alluring Voice",
+            "Temper Flare",
+            "Supercell Slam",
+            "Psychic Noise",
+            "Upper Hand",
+            "Malignant Chain"});
+            this.move1.Location = new System.Drawing.Point(6, 294);
+            this.move1.Name = "move1";
+            this.move1.Size = new System.Drawing.Size(142, 28);
+            this.move1.TabIndex = 151;
+            this.move1.SelectedIndexChanged += new System.EventHandler(this.moveChange);
+            // 
+            // move2
+            // 
+            this.move2.FormattingEnabled = true;
+            this.move2.Items.AddRange(new object[] {
+            "Pound",
+            "Karate Chop",
+            "Double Slap",
+            "Comet Punch",
+            "Mega Punch",
+            "Pay Day",
+            "Fire Punch",
+            "Ice Punch",
+            "Thunder Punch",
+            "Scratch",
+            "Vise Grip",
+            "Guillotine",
+            "Razor Wind",
+            "Swords Dance",
+            "Cut",
+            "Gust",
+            "Wing Attack",
+            "Whirlwind",
+            "Fly",
+            "Bind",
+            "Slam",
+            "Vine Whip",
+            "Stomp",
+            "Double Kick",
+            "Mega Kick",
+            "Jump Kick",
+            "Rolling Kick",
+            "Sand Attack",
+            "Headbutt",
+            "Horn Attack",
+            "Fury Attack",
+            "Horn Drill",
+            "Tackle",
+            "Body Slam",
+            "Wrap",
+            "Take Down",
+            "Thrash",
+            "Double-Edge",
+            "Tail Whip",
+            "Poison Sting",
+            "Twineedle",
+            "Pin Missile",
+            "Leer",
+            "Bite",
+            "Growl",
+            "Roar",
+            "Sing",
+            "Supersonic",
+            "Sonic Boom",
+            "Disable",
+            "Acid",
+            "Ember",
+            "Flamethrower",
+            "Mist",
+            "Water Gun",
+            "Hydro Pump",
+            "Surf",
+            "Ice Beam",
+            "Blizzard",
+            "Psybeam",
+            "Bubble Beam",
+            "Aurora Beam",
+            "Hyper Beam",
+            "Peck",
+            "Drill Peck",
+            "Submission",
+            "Low Kick",
+            "Counter",
+            "Seismic Toss",
+            "Strength",
+            "Absorb",
+            "Mega Drain",
+            "Leech Seed",
+            "Growth",
+            "Razor Leaf",
+            "Solar Beam",
+            "Poison Powder",
+            "Stun Spore",
+            "Sleep Powder",
+            "Petal Dance",
+            "String Shot",
+            "Dragon Rage",
+            "Fire Spin",
+            "Thunder Shock",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Thunder",
+            "Rock Throw",
+            "Earthquake",
+            "Fissure",
+            "Dig",
+            "Toxic",
+            "Confusion",
+            "Psychic",
+            "Hypnosis",
+            "Meditate",
+            "Agility",
+            "Quick Attack",
+            "Rage",
+            "Teleport",
+            "Night Shade",
+            "Mimic",
+            "Screech",
+            "Double Team",
+            "Recover",
+            "Harden",
+            "Minimize",
+            "Smokescreen",
+            "Confuse Ray",
+            "Withdraw",
+            "Defense Curl",
+            "Barrier",
+            "Light Screen",
+            "Haze",
+            "Reflect",
+            "Focus Energy",
+            "Bide",
+            "Metronome",
+            "Mirror Move",
+            "Self-Destruct",
+            "Egg Bomb",
+            "Lick",
+            "Smog",
+            "Sludge",
+            "Bone Club",
+            "Fire Blast",
+            "Waterfall",
+            "Clamp",
+            "Swift",
+            "Skull Bash",
+            "Spike Cannon",
+            "Constrict",
+            "Amnesia",
+            "Kinesis",
+            "Soft-Boiled",
+            "High Jump Kick",
+            "Glare",
+            "Dream Eater",
+            "Poison Gas",
+            "Barrage",
+            "Leech Life",
+            "Lovely Kiss",
+            "Sky Attack",
+            "Transform",
+            "Bubble",
+            "Dizzy Punch",
+            "Spore",
+            "Flash",
+            "Psywave",
+            "Splash",
+            "Acid Armor",
+            "Crabhammer",
+            "Explosion",
+            "Fury Swipes",
+            "Bonemerang",
+            "Rest",
+            "Rock Slide",
+            "Hyper Fang",
+            "Sharpen",
+            "Conversion",
+            "Tri Attack",
+            "Super Fang",
+            "Slash",
+            "Substitute",
+            "Struggle",
+            "Sketch",
+            "Triple Kick",
+            "Thief",
+            "Spider Web",
+            "Mind Reader",
+            "Nightmare",
+            "Flame Wheel",
+            "Snore",
+            "Curse",
+            "Flail",
+            "Conversion 2",
+            "Aeroblast",
+            "Cotton Spore",
+            "Reversal",
+            "Spite",
+            "Powder Snow",
+            "Protect",
+            "Mach Punch",
+            "Scary Face",
+            "Feint Attack",
+            "Sweet Kiss",
+            "Belly Drum",
+            "Sludge Bomb",
+            "Mud-Slap",
+            "Octazooka",
+            "Spikes",
+            "Zap Cannon",
+            "Foresight",
+            "Destiny Bond",
+            "Perish Song",
+            "Icy Wind",
+            "Detect",
+            "Bone Rush",
+            "Lock-On",
+            "Outrage",
+            "Sandstorm",
+            "Giga Drain",
+            "Endure",
+            "Charm",
+            "Rollout",
+            "False Swipe",
+            "Swagger",
+            "Milk Drink",
+            "Spark",
+            "Fury Cutter",
+            "Steel Wing",
+            "Mean Look",
+            "Attract",
+            "Sleep Talk",
+            "Heal Bell",
+            "Return",
+            "Present",
+            "Frustration",
+            "Safeguard",
+            "Pain Split",
+            "Sacred Fire",
+            "Magnitude",
+            "Dynamic Punch",
+            "Megahorn",
+            "Dragon Breath",
+            "Baton Pass",
+            "Encore",
+            "Pursuit",
+            "Rapid Spin",
+            "Sweet Scent",
+            "Iron Tail",
+            "Metal Claw",
+            "Vital Throw",
+            "Morning Sun",
+            "Synthesis",
+            "Moonlight",
+            "Hidden Power",
+            "Cross Chop",
+            "Twister",
+            "Rain Dance",
+            "Sunny Day",
+            "Crunch",
+            "Mirror Coat",
+            "Psych Up",
+            "Extreme Speed",
+            "Ancient Power",
+            "Shadow Ball",
+            "Future Sight",
+            "Rock Smash",
+            "Whirlpool",
+            "Beat Up",
+            "Fake Out",
+            "Uproar",
+            "Stockpile",
+            "Spit Up",
+            "Swallow",
+            "Heat Wave",
+            "Hail",
+            "Torment",
+            "Flatter",
+            "Will-O-Wisp",
+            "Memento",
+            "Facade",
+            "Focus Punch",
+            "Smelling Salts",
+            "Follow Me",
+            "Nature Power",
+            "Charge",
+            "Taunt",
+            "Helping Hand",
+            "Trick",
+            "Role Play",
+            "Wish",
+            "Assist",
+            "Ingrain",
+            "Superpower",
+            "Magic Coat",
+            "Recycle",
+            "Revenge",
+            "Brick Break",
+            "Yawn",
+            "Knock Off",
+            "Endeavor",
+            "Eruption",
+            "Skill Swap",
+            "Imprison",
+            "Refresh",
+            "Grudge",
+            "Snatch",
+            "Secret Power",
+            "Dive",
+            "Arm Thrust",
+            "Camouflage",
+            "Tail Glow",
+            "Luster Purge",
+            "Mist Ball",
+            "Feather Dance",
+            "Teeter Dance",
+            "Blaze Kick",
+            "Mud Sport",
+            "Ice Ball",
+            "Needle Arm",
+            "Slack Off",
+            "Hyper Voice",
+            "Poison Fang",
+            "Crush Claw",
+            "Blast Burn",
+            "Hydro Cannon",
+            "Meteor Mash",
+            "Astonish",
+            "Weather Ball",
+            "Aromatherapy",
+            "Fake Tears",
+            "Air Cutter",
+            "Overheat",
+            "Odor Sleuth",
+            "Rock Tomb",
+            "Silver Wind",
+            "Metal Sound",
+            "Grass Whistle",
+            "Tickle",
+            "Cosmic Power",
+            "Water Spout",
+            "Signal Beam",
+            "Shadow Punch",
+            "Extrasensory",
+            "Sky Uppercut",
+            "Sand Tomb",
+            "Sheer Cold",
+            "Muddy Water",
+            "Bullet Seed",
+            "Aerial Ace",
+            "Icicle Spear",
+            "Iron Defense",
+            "Block",
+            "Howl",
+            "Dragon Claw",
+            "Frenzy Plant",
+            "Bulk Up",
+            "Bounce",
+            "Mud Shot",
+            "Poison Tail",
+            "Covet",
+            "Volt Tackle",
+            "Magical Leaf",
+            "Water Sport",
+            "Calm Mind",
+            "Leaf Blade",
+            "Dragon Dance",
+            "Rock Blast",
+            "Shock Wave",
+            "Water Pulse",
+            "Doom Desire",
+            "Psycho Boost",
+            "Roost",
+            "Gravity",
+            "Miracle Eye",
+            "Wake-Up Slap",
+            "Hammer Arm",
+            "Gyro Ball",
+            "Healing Wish",
+            "Brine",
+            "Natural Gift",
+            "Feint",
+            "Pluck",
+            "Tailwind",
+            "Acupressure",
+            "Metal Burst",
+            "U-turn",
+            "Close Combat",
+            "Payback",
+            "Assurance",
+            "Embargo",
+            "Fling",
+            "Psycho Shift",
+            "Trump Card",
+            "Heal Block",
+            "Wring Out",
+            "Power Trick",
+            "Gastro Acid",
+            "Lucky Chant",
+            "Me First",
+            "Copycat",
+            "Power Swap",
+            "Guard Swap",
+            "Punishment",
+            "Last Resort",
+            "Worry Seed",
+            "Sucker Punch",
+            "Toxic Spikes",
+            "Heart Swap",
+            "Aqua Ring",
+            "Magnet Rise",
+            "Flare Blitz",
+            "Force Palm",
+            "Aura Sphere",
+            "Rock Polish",
+            "Poison Jab",
+            "Dark Pulse",
+            "Night Slash",
+            "Aqua Tail",
+            "Seed Bomb",
+            "Air Slash",
+            "X-Scissor",
+            "Bug Buzz",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Power Gem",
+            "Drain Punch",
+            "Vacuum Wave",
+            "Focus Blast",
+            "Energy Ball",
+            "Brave Bird",
+            "Earth Power",
+            "Switcheroo",
+            "Giga Impact",
+            "Nasty Plot",
+            "Bullet Punch",
+            "Avalanche",
+            "Ice Shard",
+            "Shadow Claw",
+            "Thunder Fang",
+            "Ice Fang",
+            "Fire Fang",
+            "Shadow Sneak",
+            "Mud Bomb",
+            "Psycho Cut",
+            "Zen Headbutt",
+            "Mirror Shot",
+            "Flash Cannon",
+            "Rock Climb",
+            "Defog",
+            "Trick Room",
+            "Draco Meteor",
+            "Discharge",
+            "Lava Plume",
+            "Leaf Storm",
+            "Power Whip",
+            "Rock Wrecker",
+            "Cross Poison",
+            "Gunk Shot",
+            "Iron Head",
+            "Magnet Bomb",
+            "Stone Edge",
+            "Captivate",
+            "Stealth Rock",
+            "Grass Knot",
+            "Chatter",
+            "Judgment",
+            "Bug Bite",
+            "Charge Beam",
+            "Wood Hammer",
+            "Aqua Jet",
+            "Attack Order",
+            "Defend Order",
+            "Heal Order",
+            "Head Smash",
+            "Double Hit",
+            "Roar of Time",
+            "Spacial Rend",
+            "Lunar Dance",
+            "Crush Grip",
+            "Magma Storm",
+            "Dark Void",
+            "Seed Flare",
+            "Ominous Wind",
+            "Shadow Force",
+            "Hone Claws",
+            "Wide Guard",
+            "Guard Split",
+            "Power Split",
+            "Wonder Room",
+            "Psyshock",
+            "Venoshock",
+            "Autotomize",
+            "Rage Powder",
+            "Telekinesis",
+            "Magic Room",
+            "Smack Down",
+            "Storm Throw",
+            "Flame Burst",
+            "Sludge Wave",
+            "Quiver Dance",
+            "Heavy Slam",
+            "Synchronoise",
+            "Electro Ball",
+            "Soak",
+            "Flame Charge",
+            "Coil",
+            "Low Sweep",
+            "Acid Spray",
+            "Foul Play",
+            "Simple Beam",
+            "Entrainment",
+            "After You",
+            "Round",
+            "Echoed Voice",
+            "Chip Away",
+            "Clear Smog",
+            "Stored Power",
+            "Quick Guard",
+            "Ally Switch",
+            "Scald",
+            "Shell Smash",
+            "Heal Pulse",
+            "Hex",
+            "Sky Drop",
+            "Shift Gear",
+            "Circle Throw",
+            "Incinerate",
+            "Quash",
+            "Acrobatics",
+            "Reflect Type",
+            "Retaliate",
+            "Final Gambit",
+            "Bestow",
+            "Inferno",
+            "Water Pledge",
+            "Fire Pledge",
+            "Grass Pledge",
+            "Volt Switch",
+            "Struggle Bug",
+            "Bulldoze",
+            "Frost Breath",
+            "Dragon Tail",
+            "Work Up",
+            "Electroweb",
+            "Wild Charge",
+            "Drill Run",
+            "Dual Chop",
+            "Heart Stamp",
+            "Horn Leech",
+            "Sacred Sword",
+            "Razor Shell",
+            "Heat Crash",
+            "Leaf Tornado",
+            "Steamroller",
+            "Cotton Guard",
+            "Night Daze",
+            "Psystrike",
+            "Tail Slap",
+            "Hurricane",
+            "Head Charge",
+            "Gear Grind",
+            "Searing Shot",
+            "Techno Blast",
+            "Relic Song",
+            "Secret Sword",
+            "Glaciate",
+            "Bolt Strike",
+            "Blue Flare",
+            "Fiery Dance",
+            "Freeze Shock",
+            "Ice Burn",
+            "Snarl",
+            "Icicle Crash",
+            "V-create",
+            "Fusion Flare",
+            "Fusion Bolt",
+            "Flying Press",
+            "Mat Block",
+            "Belch",
+            "Rototiller",
+            "Sticky Web",
+            "Fell Stinger",
+            "Phantom Force",
+            "Trick-or-Treat",
+            "Noble Roar",
+            "Ion Deluge",
+            "Parabolic Charge",
+            "Forest\'s Curse",
+            "Petal Blizzard",
+            "Freeze-Dry",
+            "Disarming Voice",
+            "Parting Shot",
+            "Topsy-Turvy",
+            "Draining Kiss",
+            "Crafty Shield",
+            "Flower Shield",
+            "Grassy Terrain",
+            "Misty Terrain",
+            "Electrify",
+            "Play Rough",
+            "Fairy Wind",
+            "Moonblast",
+            "Boomburst",
+            "Fairy Lock",
+            "King\'s Shield",
+            "Play Nice",
+            "Confide",
+            "Diamond Storm",
+            "Steam Eruption",
+            "Hyperspace Hole",
+            "Water Shuriken",
+            "Mystical Fire",
+            "Spiky Shield",
+            "Aromatic Mist",
+            "Eerie Impulse",
+            "Venom Drench",
+            "Powder",
+            "Geomancy",
+            "Magnetic Flux",
+            "Happy Hour",
+            "Electric Terrain",
+            "Dazzling Gleam",
+            "Celebrate",
+            "Hold Hands",
+            "Baby-Doll Eyes",
+            "Nuzzle",
+            "Hold Back",
+            "Infestation",
+            "Power-Up Punch",
+            "Oblivion Wing",
+            "Thousand Arrows",
+            "Thousand Waves",
+            "Land\'s Wrath",
+            "Light of Ruin",
+            "Origin Pulse",
+            "Precipice Blades",
+            "Dragon Ascent",
+            "Hyperspace Fury",
+            "Breakneck Blitz",
+            "All-Out Pummeling",
+            "Supersonic Skystrike",
+            "Acid Downpour",
+            "Tectonic Rage",
+            "Continental Crush",
+            "Savage Spin-Out",
+            "Never-Ending Nightmare",
+            "Corkscrew Crash",
+            "Inferno Overdrive",
+            "Hydro Vortex",
+            "Bloom Doom",
+            "Gigavolt Havoc",
+            "Shattered Psyche",
+            "Subzero Slammer",
+            "Devastating Drake",
+            "Black Hole Eclipse",
+            "Twinkle Tackle",
+            "Catastropika",
+            "Shore Up",
+            "First Impression",
+            "Baneful Bunker",
+            "Spirit Shackle",
+            "Darkest Lariat",
+            "Sparkling Aria",
+            "Ice Hammer",
+            "Floral Healing",
+            "High Horsepower",
+            "Strength Sap",
+            "Solar Blade",
+            "Leafage",
+            "Spotlight",
+            "Toxic Thread",
+            "Laser Focus",
+            "Gear Up",
+            "Throat Chop",
+            "Pollen Puff",
+            "Anchor Shot",
+            "Psychic Terrain",
+            "Lunge",
+            "Fire Lash",
+            "Power Trip",
+            "Burn Up",
+            "Speed Swap",
+            "Smart Strike",
+            "Purify",
+            "Revelation Dance",
+            "Core Enforcer",
+            "Trop Kick",
+            "Instruct",
+            "Beak Blast",
+            "Clanging Scales",
+            "Dragon Hammer",
+            "Brutal Swing",
+            "Aurora Veil",
+            "Sinister Arrow Raid",
+            "Malicious Moonsault",
+            "Oceanic Operetta",
+            "Guardian of Alola",
+            "Soul-Stealing 7-Star Strike",
+            "Stoked Sparksurfer",
+            "Pulverizing Pancake",
+            "Extreme Evoboost",
+            "Genesis Supernova",
+            "Shell Trap",
+            "Fleur Cannon",
+            "Psychic Fangs",
+            "Stomping Tantrum",
+            "Shadow Bone",
+            "Accelerock",
+            "Liquidation",
+            "Prismatic Laser",
+            "Spectral Thief",
+            "Sunsteel Strike",
+            "Moongeist Beam",
+            "Tearful Look",
+            "Zing Zap",
+            "Nature\'s Madness",
+            "Multi-Attack",
+            "10,000,000 Volt Thunderbolt",
+            "Mind Blown",
+            "Plasma Fists",
+            "Photon Geyser",
+            "Light That Burns the Sky",
+            "Searing Sunraze Smash",
+            "Menacing Moonraze Maelstrom",
+            "Let\'s Snuggle Forever",
+            "Splintered Stormshards",
+            "Clangorous Soulblaze",
+            "Zippy Zap",
+            "Splishy Splash",
+            "Floaty Fall",
+            "Pika Papow",
+            "Bouncy Bubble",
+            "Buzzy Buzz",
+            "Sizzly Slide",
+            "Glitzy Glow",
+            "Baddy Bad",
+            "Sappy Seed",
+            "Freezy Frost",
+            "Sparkly Swirl",
+            "Veevee Volley",
+            "Double Iron Bash",
+            "Max Guard",
+            "Dynamax Cannon",
+            "Snipe Shot",
+            "Jaw Lock",
+            "Stuff Cheeks",
+            "No Retreat",
+            "Tar Shot",
+            "Magic Powder",
+            "Dragon Darts",
+            "Teatime",
+            "Octolock",
+            "Bolt Beak",
+            "Fishious Rend",
+            "Court Change",
+            "Max Flare",
+            "Max Flutterby",
+            "Max Lightning",
+            "Max Strike",
+            "Max Knuckle",
+            "Max Phantasm",
+            "Max Hailstorm",
+            "Max Ooze",
+            "Max Geyser",
+            "Max Airstream",
+            "Max Starfall",
+            "Max Wyrmwind",
+            "Max Mindstorm",
+            "Max Rockfall",
+            "Max Quake",
+            "Max Darkness",
+            "Max Overgrowth",
+            "Max Steelspike",
+            "Clangorous Soul",
+            "Body Press",
+            "Decorate",
+            "Drum Beating",
+            "Snap Trap",
+            "Pyro Ball",
+            "Behemoth Blade",
+            "Behemoth Bash",
+            "Aura Wheel",
+            "Breaking Swipe",
+            "Branch Poke",
+            "Overdrive",
+            "Apple Acid",
+            "Grav Apple",
+            "Spirit Break",
+            "Strange Steam",
+            "Life Dew",
+            "Obstruct",
+            "False Surrender",
+            "Meteor Assault",
+            "Eternabeam",
+            "Steel Beam",
+            "Expanding Force",
+            "Steel Roller",
+            "Scale Shot",
+            "Meteor Beam",
+            "Shell Side Arm",
+            "Misty Explosion",
+            "Grassy Glide",
+            "Rising Voltage",
+            "Terrain Pulse",
+            "Skitter Smack",
+            "Burning Jealousy",
+            "Lash Out",
+            "Poltergeist",
+            "Corrosive Gas",
+            "Coaching",
+            "Flip Turn",
+            "Triple Axel",
+            "Dual Wingbeat",
+            "Scorching Sands",
+            "Jungle Healing",
+            "Wicked Blow",
+            "Surging Strikes",
+            "Thunder Cage",
+            "Dragon Energy",
+            "Freezing Glare",
+            "Fiery Wrath",
+            "Thunderous Kick",
+            "Glacial Lance",
+            "Astral Barrage",
+            "Eerie Spell",
+            "Dire Claw",
+            "Psyshield Bash",
+            "Power Shift",
+            "Stone Axe",
+            "Springtide Storm",
+            "Mystical Power",
+            "Raging Fury",
+            "Wave Crash",
+            "Chloroblast",
+            "Mountain Gale",
+            "Victory Dance",
+            "Headlong Rush",
+            "Barb Barrage",
+            "Esper Wing",
+            "Bitter Malice",
+            "Shelter",
+            "Triple Arrows",
+            "Infernal Parade",
+            "Ceaseless Edge",
+            "Bleakwind Storm",
+            "Wildbolt Storm",
+            "Sandsear Storm",
+            "Lunar Blessing",
+            "Take Heart",
+            "Tera Blast",
+            "Silk Trap",
+            "Axe Kick",
+            "Last Respects",
+            "Lumina Crash",
+            "Order Up",
+            "Jet Punch",
+            "Spicy Extract",
+            "Spin Out",
+            "Population Bomb",
+            "Ice Spinner",
+            "Glaive Rush",
+            "Revival Blessing",
+            "Salt Cure",
+            "Triple Dive",
+            "Mortal Spin",
+            "Doodle",
+            "Fillet Away",
+            "Kowtow Cleave",
+            "Flower Trick",
+            "Torch Song",
+            "Aqua Step",
+            "Raging Bull",
+            "Make It Rain",
+            "Psyblade",
+            "Hydro Steam",
+            "Ruination",
+            "Collision Course",
+            "Electro Drift",
+            "Shed Tail",
+            "Chilly Reception",
+            "Tidy Up",
+            "Snowscape",
+            "Pounce",
+            "Trailblaze",
+            "Chilling Water",
+            "Hyper Drill",
+            "Twin Beam",
+            "Rage Fist",
+            "Armor Cannon",
+            "Bitter Blade",
+            "Double Shock",
+            "Gigaton Hammer",
+            "Comeuppance",
+            "Aqua Cutter",
+            "Blazing Torque",
+            "Wicked Torque",
+            "Noxious Torque",
+            "Combat Torque",
+            "Magical Torque",
+            "Blood Moon",
+            "Matcha Gotcha",
+            "Syrup Bomb",
+            "Ivy Cudgel",
+            "Electro Shot",
+            "Tera Starstorm",
+            "Fickle Beam",
+            "Burning Bulwark",
+            "Thunderclap",
+            "Mighty Cleave",
+            "Tachyon Cutter",
+            "Hard Press",
+            "Dragon Cheer",
+            "Alluring Voice",
+            "Temper Flare",
+            "Supercell Slam",
+            "Psychic Noise",
+            "Upper Hand",
+            "Malignant Chain"});
+            this.move2.Location = new System.Drawing.Point(6, 324);
+            this.move2.Name = "move2";
+            this.move2.Size = new System.Drawing.Size(142, 28);
+            this.move2.TabIndex = 152;
+            this.move2.SelectedIndexChanged += new System.EventHandler(this.moveChange);
+            // 
+            // move4
+            // 
+            this.move4.FormattingEnabled = true;
+            this.move4.Items.AddRange(new object[] {
+            "Pound",
+            "Karate Chop",
+            "Double Slap",
+            "Comet Punch",
+            "Mega Punch",
+            "Pay Day",
+            "Fire Punch",
+            "Ice Punch",
+            "Thunder Punch",
+            "Scratch",
+            "Vise Grip",
+            "Guillotine",
+            "Razor Wind",
+            "Swords Dance",
+            "Cut",
+            "Gust",
+            "Wing Attack",
+            "Whirlwind",
+            "Fly",
+            "Bind",
+            "Slam",
+            "Vine Whip",
+            "Stomp",
+            "Double Kick",
+            "Mega Kick",
+            "Jump Kick",
+            "Rolling Kick",
+            "Sand Attack",
+            "Headbutt",
+            "Horn Attack",
+            "Fury Attack",
+            "Horn Drill",
+            "Tackle",
+            "Body Slam",
+            "Wrap",
+            "Take Down",
+            "Thrash",
+            "Double-Edge",
+            "Tail Whip",
+            "Poison Sting",
+            "Twineedle",
+            "Pin Missile",
+            "Leer",
+            "Bite",
+            "Growl",
+            "Roar",
+            "Sing",
+            "Supersonic",
+            "Sonic Boom",
+            "Disable",
+            "Acid",
+            "Ember",
+            "Flamethrower",
+            "Mist",
+            "Water Gun",
+            "Hydro Pump",
+            "Surf",
+            "Ice Beam",
+            "Blizzard",
+            "Psybeam",
+            "Bubble Beam",
+            "Aurora Beam",
+            "Hyper Beam",
+            "Peck",
+            "Drill Peck",
+            "Submission",
+            "Low Kick",
+            "Counter",
+            "Seismic Toss",
+            "Strength",
+            "Absorb",
+            "Mega Drain",
+            "Leech Seed",
+            "Growth",
+            "Razor Leaf",
+            "Solar Beam",
+            "Poison Powder",
+            "Stun Spore",
+            "Sleep Powder",
+            "Petal Dance",
+            "String Shot",
+            "Dragon Rage",
+            "Fire Spin",
+            "Thunder Shock",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Thunder",
+            "Rock Throw",
+            "Earthquake",
+            "Fissure",
+            "Dig",
+            "Toxic",
+            "Confusion",
+            "Psychic",
+            "Hypnosis",
+            "Meditate",
+            "Agility",
+            "Quick Attack",
+            "Rage",
+            "Teleport",
+            "Night Shade",
+            "Mimic",
+            "Screech",
+            "Double Team",
+            "Recover",
+            "Harden",
+            "Minimize",
+            "Smokescreen",
+            "Confuse Ray",
+            "Withdraw",
+            "Defense Curl",
+            "Barrier",
+            "Light Screen",
+            "Haze",
+            "Reflect",
+            "Focus Energy",
+            "Bide",
+            "Metronome",
+            "Mirror Move",
+            "Self-Destruct",
+            "Egg Bomb",
+            "Lick",
+            "Smog",
+            "Sludge",
+            "Bone Club",
+            "Fire Blast",
+            "Waterfall",
+            "Clamp",
+            "Swift",
+            "Skull Bash",
+            "Spike Cannon",
+            "Constrict",
+            "Amnesia",
+            "Kinesis",
+            "Soft-Boiled",
+            "High Jump Kick",
+            "Glare",
+            "Dream Eater",
+            "Poison Gas",
+            "Barrage",
+            "Leech Life",
+            "Lovely Kiss",
+            "Sky Attack",
+            "Transform",
+            "Bubble",
+            "Dizzy Punch",
+            "Spore",
+            "Flash",
+            "Psywave",
+            "Splash",
+            "Acid Armor",
+            "Crabhammer",
+            "Explosion",
+            "Fury Swipes",
+            "Bonemerang",
+            "Rest",
+            "Rock Slide",
+            "Hyper Fang",
+            "Sharpen",
+            "Conversion",
+            "Tri Attack",
+            "Super Fang",
+            "Slash",
+            "Substitute",
+            "Struggle",
+            "Sketch",
+            "Triple Kick",
+            "Thief",
+            "Spider Web",
+            "Mind Reader",
+            "Nightmare",
+            "Flame Wheel",
+            "Snore",
+            "Curse",
+            "Flail",
+            "Conversion 2",
+            "Aeroblast",
+            "Cotton Spore",
+            "Reversal",
+            "Spite",
+            "Powder Snow",
+            "Protect",
+            "Mach Punch",
+            "Scary Face",
+            "Feint Attack",
+            "Sweet Kiss",
+            "Belly Drum",
+            "Sludge Bomb",
+            "Mud-Slap",
+            "Octazooka",
+            "Spikes",
+            "Zap Cannon",
+            "Foresight",
+            "Destiny Bond",
+            "Perish Song",
+            "Icy Wind",
+            "Detect",
+            "Bone Rush",
+            "Lock-On",
+            "Outrage",
+            "Sandstorm",
+            "Giga Drain",
+            "Endure",
+            "Charm",
+            "Rollout",
+            "False Swipe",
+            "Swagger",
+            "Milk Drink",
+            "Spark",
+            "Fury Cutter",
+            "Steel Wing",
+            "Mean Look",
+            "Attract",
+            "Sleep Talk",
+            "Heal Bell",
+            "Return",
+            "Present",
+            "Frustration",
+            "Safeguard",
+            "Pain Split",
+            "Sacred Fire",
+            "Magnitude",
+            "Dynamic Punch",
+            "Megahorn",
+            "Dragon Breath",
+            "Baton Pass",
+            "Encore",
+            "Pursuit",
+            "Rapid Spin",
+            "Sweet Scent",
+            "Iron Tail",
+            "Metal Claw",
+            "Vital Throw",
+            "Morning Sun",
+            "Synthesis",
+            "Moonlight",
+            "Hidden Power",
+            "Cross Chop",
+            "Twister",
+            "Rain Dance",
+            "Sunny Day",
+            "Crunch",
+            "Mirror Coat",
+            "Psych Up",
+            "Extreme Speed",
+            "Ancient Power",
+            "Shadow Ball",
+            "Future Sight",
+            "Rock Smash",
+            "Whirlpool",
+            "Beat Up",
+            "Fake Out",
+            "Uproar",
+            "Stockpile",
+            "Spit Up",
+            "Swallow",
+            "Heat Wave",
+            "Hail",
+            "Torment",
+            "Flatter",
+            "Will-O-Wisp",
+            "Memento",
+            "Facade",
+            "Focus Punch",
+            "Smelling Salts",
+            "Follow Me",
+            "Nature Power",
+            "Charge",
+            "Taunt",
+            "Helping Hand",
+            "Trick",
+            "Role Play",
+            "Wish",
+            "Assist",
+            "Ingrain",
+            "Superpower",
+            "Magic Coat",
+            "Recycle",
+            "Revenge",
+            "Brick Break",
+            "Yawn",
+            "Knock Off",
+            "Endeavor",
+            "Eruption",
+            "Skill Swap",
+            "Imprison",
+            "Refresh",
+            "Grudge",
+            "Snatch",
+            "Secret Power",
+            "Dive",
+            "Arm Thrust",
+            "Camouflage",
+            "Tail Glow",
+            "Luster Purge",
+            "Mist Ball",
+            "Feather Dance",
+            "Teeter Dance",
+            "Blaze Kick",
+            "Mud Sport",
+            "Ice Ball",
+            "Needle Arm",
+            "Slack Off",
+            "Hyper Voice",
+            "Poison Fang",
+            "Crush Claw",
+            "Blast Burn",
+            "Hydro Cannon",
+            "Meteor Mash",
+            "Astonish",
+            "Weather Ball",
+            "Aromatherapy",
+            "Fake Tears",
+            "Air Cutter",
+            "Overheat",
+            "Odor Sleuth",
+            "Rock Tomb",
+            "Silver Wind",
+            "Metal Sound",
+            "Grass Whistle",
+            "Tickle",
+            "Cosmic Power",
+            "Water Spout",
+            "Signal Beam",
+            "Shadow Punch",
+            "Extrasensory",
+            "Sky Uppercut",
+            "Sand Tomb",
+            "Sheer Cold",
+            "Muddy Water",
+            "Bullet Seed",
+            "Aerial Ace",
+            "Icicle Spear",
+            "Iron Defense",
+            "Block",
+            "Howl",
+            "Dragon Claw",
+            "Frenzy Plant",
+            "Bulk Up",
+            "Bounce",
+            "Mud Shot",
+            "Poison Tail",
+            "Covet",
+            "Volt Tackle",
+            "Magical Leaf",
+            "Water Sport",
+            "Calm Mind",
+            "Leaf Blade",
+            "Dragon Dance",
+            "Rock Blast",
+            "Shock Wave",
+            "Water Pulse",
+            "Doom Desire",
+            "Psycho Boost",
+            "Roost",
+            "Gravity",
+            "Miracle Eye",
+            "Wake-Up Slap",
+            "Hammer Arm",
+            "Gyro Ball",
+            "Healing Wish",
+            "Brine",
+            "Natural Gift",
+            "Feint",
+            "Pluck",
+            "Tailwind",
+            "Acupressure",
+            "Metal Burst",
+            "U-turn",
+            "Close Combat",
+            "Payback",
+            "Assurance",
+            "Embargo",
+            "Fling",
+            "Psycho Shift",
+            "Trump Card",
+            "Heal Block",
+            "Wring Out",
+            "Power Trick",
+            "Gastro Acid",
+            "Lucky Chant",
+            "Me First",
+            "Copycat",
+            "Power Swap",
+            "Guard Swap",
+            "Punishment",
+            "Last Resort",
+            "Worry Seed",
+            "Sucker Punch",
+            "Toxic Spikes",
+            "Heart Swap",
+            "Aqua Ring",
+            "Magnet Rise",
+            "Flare Blitz",
+            "Force Palm",
+            "Aura Sphere",
+            "Rock Polish",
+            "Poison Jab",
+            "Dark Pulse",
+            "Night Slash",
+            "Aqua Tail",
+            "Seed Bomb",
+            "Air Slash",
+            "X-Scissor",
+            "Bug Buzz",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Power Gem",
+            "Drain Punch",
+            "Vacuum Wave",
+            "Focus Blast",
+            "Energy Ball",
+            "Brave Bird",
+            "Earth Power",
+            "Switcheroo",
+            "Giga Impact",
+            "Nasty Plot",
+            "Bullet Punch",
+            "Avalanche",
+            "Ice Shard",
+            "Shadow Claw",
+            "Thunder Fang",
+            "Ice Fang",
+            "Fire Fang",
+            "Shadow Sneak",
+            "Mud Bomb",
+            "Psycho Cut",
+            "Zen Headbutt",
+            "Mirror Shot",
+            "Flash Cannon",
+            "Rock Climb",
+            "Defog",
+            "Trick Room",
+            "Draco Meteor",
+            "Discharge",
+            "Lava Plume",
+            "Leaf Storm",
+            "Power Whip",
+            "Rock Wrecker",
+            "Cross Poison",
+            "Gunk Shot",
+            "Iron Head",
+            "Magnet Bomb",
+            "Stone Edge",
+            "Captivate",
+            "Stealth Rock",
+            "Grass Knot",
+            "Chatter",
+            "Judgment",
+            "Bug Bite",
+            "Charge Beam",
+            "Wood Hammer",
+            "Aqua Jet",
+            "Attack Order",
+            "Defend Order",
+            "Heal Order",
+            "Head Smash",
+            "Double Hit",
+            "Roar of Time",
+            "Spacial Rend",
+            "Lunar Dance",
+            "Crush Grip",
+            "Magma Storm",
+            "Dark Void",
+            "Seed Flare",
+            "Ominous Wind",
+            "Shadow Force",
+            "Hone Claws",
+            "Wide Guard",
+            "Guard Split",
+            "Power Split",
+            "Wonder Room",
+            "Psyshock",
+            "Venoshock",
+            "Autotomize",
+            "Rage Powder",
+            "Telekinesis",
+            "Magic Room",
+            "Smack Down",
+            "Storm Throw",
+            "Flame Burst",
+            "Sludge Wave",
+            "Quiver Dance",
+            "Heavy Slam",
+            "Synchronoise",
+            "Electro Ball",
+            "Soak",
+            "Flame Charge",
+            "Coil",
+            "Low Sweep",
+            "Acid Spray",
+            "Foul Play",
+            "Simple Beam",
+            "Entrainment",
+            "After You",
+            "Round",
+            "Echoed Voice",
+            "Chip Away",
+            "Clear Smog",
+            "Stored Power",
+            "Quick Guard",
+            "Ally Switch",
+            "Scald",
+            "Shell Smash",
+            "Heal Pulse",
+            "Hex",
+            "Sky Drop",
+            "Shift Gear",
+            "Circle Throw",
+            "Incinerate",
+            "Quash",
+            "Acrobatics",
+            "Reflect Type",
+            "Retaliate",
+            "Final Gambit",
+            "Bestow",
+            "Inferno",
+            "Water Pledge",
+            "Fire Pledge",
+            "Grass Pledge",
+            "Volt Switch",
+            "Struggle Bug",
+            "Bulldoze",
+            "Frost Breath",
+            "Dragon Tail",
+            "Work Up",
+            "Electroweb",
+            "Wild Charge",
+            "Drill Run",
+            "Dual Chop",
+            "Heart Stamp",
+            "Horn Leech",
+            "Sacred Sword",
+            "Razor Shell",
+            "Heat Crash",
+            "Leaf Tornado",
+            "Steamroller",
+            "Cotton Guard",
+            "Night Daze",
+            "Psystrike",
+            "Tail Slap",
+            "Hurricane",
+            "Head Charge",
+            "Gear Grind",
+            "Searing Shot",
+            "Techno Blast",
+            "Relic Song",
+            "Secret Sword",
+            "Glaciate",
+            "Bolt Strike",
+            "Blue Flare",
+            "Fiery Dance",
+            "Freeze Shock",
+            "Ice Burn",
+            "Snarl",
+            "Icicle Crash",
+            "V-create",
+            "Fusion Flare",
+            "Fusion Bolt",
+            "Flying Press",
+            "Mat Block",
+            "Belch",
+            "Rototiller",
+            "Sticky Web",
+            "Fell Stinger",
+            "Phantom Force",
+            "Trick-or-Treat",
+            "Noble Roar",
+            "Ion Deluge",
+            "Parabolic Charge",
+            "Forest\'s Curse",
+            "Petal Blizzard",
+            "Freeze-Dry",
+            "Disarming Voice",
+            "Parting Shot",
+            "Topsy-Turvy",
+            "Draining Kiss",
+            "Crafty Shield",
+            "Flower Shield",
+            "Grassy Terrain",
+            "Misty Terrain",
+            "Electrify",
+            "Play Rough",
+            "Fairy Wind",
+            "Moonblast",
+            "Boomburst",
+            "Fairy Lock",
+            "King\'s Shield",
+            "Play Nice",
+            "Confide",
+            "Diamond Storm",
+            "Steam Eruption",
+            "Hyperspace Hole",
+            "Water Shuriken",
+            "Mystical Fire",
+            "Spiky Shield",
+            "Aromatic Mist",
+            "Eerie Impulse",
+            "Venom Drench",
+            "Powder",
+            "Geomancy",
+            "Magnetic Flux",
+            "Happy Hour",
+            "Electric Terrain",
+            "Dazzling Gleam",
+            "Celebrate",
+            "Hold Hands",
+            "Baby-Doll Eyes",
+            "Nuzzle",
+            "Hold Back",
+            "Infestation",
+            "Power-Up Punch",
+            "Oblivion Wing",
+            "Thousand Arrows",
+            "Thousand Waves",
+            "Land\'s Wrath",
+            "Light of Ruin",
+            "Origin Pulse",
+            "Precipice Blades",
+            "Dragon Ascent",
+            "Hyperspace Fury",
+            "Breakneck Blitz",
+            "All-Out Pummeling",
+            "Supersonic Skystrike",
+            "Acid Downpour",
+            "Tectonic Rage",
+            "Continental Crush",
+            "Savage Spin-Out",
+            "Never-Ending Nightmare",
+            "Corkscrew Crash",
+            "Inferno Overdrive",
+            "Hydro Vortex",
+            "Bloom Doom",
+            "Gigavolt Havoc",
+            "Shattered Psyche",
+            "Subzero Slammer",
+            "Devastating Drake",
+            "Black Hole Eclipse",
+            "Twinkle Tackle",
+            "Catastropika",
+            "Shore Up",
+            "First Impression",
+            "Baneful Bunker",
+            "Spirit Shackle",
+            "Darkest Lariat",
+            "Sparkling Aria",
+            "Ice Hammer",
+            "Floral Healing",
+            "High Horsepower",
+            "Strength Sap",
+            "Solar Blade",
+            "Leafage",
+            "Spotlight",
+            "Toxic Thread",
+            "Laser Focus",
+            "Gear Up",
+            "Throat Chop",
+            "Pollen Puff",
+            "Anchor Shot",
+            "Psychic Terrain",
+            "Lunge",
+            "Fire Lash",
+            "Power Trip",
+            "Burn Up",
+            "Speed Swap",
+            "Smart Strike",
+            "Purify",
+            "Revelation Dance",
+            "Core Enforcer",
+            "Trop Kick",
+            "Instruct",
+            "Beak Blast",
+            "Clanging Scales",
+            "Dragon Hammer",
+            "Brutal Swing",
+            "Aurora Veil",
+            "Sinister Arrow Raid",
+            "Malicious Moonsault",
+            "Oceanic Operetta",
+            "Guardian of Alola",
+            "Soul-Stealing 7-Star Strike",
+            "Stoked Sparksurfer",
+            "Pulverizing Pancake",
+            "Extreme Evoboost",
+            "Genesis Supernova",
+            "Shell Trap",
+            "Fleur Cannon",
+            "Psychic Fangs",
+            "Stomping Tantrum",
+            "Shadow Bone",
+            "Accelerock",
+            "Liquidation",
+            "Prismatic Laser",
+            "Spectral Thief",
+            "Sunsteel Strike",
+            "Moongeist Beam",
+            "Tearful Look",
+            "Zing Zap",
+            "Nature\'s Madness",
+            "Multi-Attack",
+            "10,000,000 Volt Thunderbolt",
+            "Mind Blown",
+            "Plasma Fists",
+            "Photon Geyser",
+            "Light That Burns the Sky",
+            "Searing Sunraze Smash",
+            "Menacing Moonraze Maelstrom",
+            "Let\'s Snuggle Forever",
+            "Splintered Stormshards",
+            "Clangorous Soulblaze",
+            "Zippy Zap",
+            "Splishy Splash",
+            "Floaty Fall",
+            "Pika Papow",
+            "Bouncy Bubble",
+            "Buzzy Buzz",
+            "Sizzly Slide",
+            "Glitzy Glow",
+            "Baddy Bad",
+            "Sappy Seed",
+            "Freezy Frost",
+            "Sparkly Swirl",
+            "Veevee Volley",
+            "Double Iron Bash",
+            "Max Guard",
+            "Dynamax Cannon",
+            "Snipe Shot",
+            "Jaw Lock",
+            "Stuff Cheeks",
+            "No Retreat",
+            "Tar Shot",
+            "Magic Powder",
+            "Dragon Darts",
+            "Teatime",
+            "Octolock",
+            "Bolt Beak",
+            "Fishious Rend",
+            "Court Change",
+            "Max Flare",
+            "Max Flutterby",
+            "Max Lightning",
+            "Max Strike",
+            "Max Knuckle",
+            "Max Phantasm",
+            "Max Hailstorm",
+            "Max Ooze",
+            "Max Geyser",
+            "Max Airstream",
+            "Max Starfall",
+            "Max Wyrmwind",
+            "Max Mindstorm",
+            "Max Rockfall",
+            "Max Quake",
+            "Max Darkness",
+            "Max Overgrowth",
+            "Max Steelspike",
+            "Clangorous Soul",
+            "Body Press",
+            "Decorate",
+            "Drum Beating",
+            "Snap Trap",
+            "Pyro Ball",
+            "Behemoth Blade",
+            "Behemoth Bash",
+            "Aura Wheel",
+            "Breaking Swipe",
+            "Branch Poke",
+            "Overdrive",
+            "Apple Acid",
+            "Grav Apple",
+            "Spirit Break",
+            "Strange Steam",
+            "Life Dew",
+            "Obstruct",
+            "False Surrender",
+            "Meteor Assault",
+            "Eternabeam",
+            "Steel Beam",
+            "Expanding Force",
+            "Steel Roller",
+            "Scale Shot",
+            "Meteor Beam",
+            "Shell Side Arm",
+            "Misty Explosion",
+            "Grassy Glide",
+            "Rising Voltage",
+            "Terrain Pulse",
+            "Skitter Smack",
+            "Burning Jealousy",
+            "Lash Out",
+            "Poltergeist",
+            "Corrosive Gas",
+            "Coaching",
+            "Flip Turn",
+            "Triple Axel",
+            "Dual Wingbeat",
+            "Scorching Sands",
+            "Jungle Healing",
+            "Wicked Blow",
+            "Surging Strikes",
+            "Thunder Cage",
+            "Dragon Energy",
+            "Freezing Glare",
+            "Fiery Wrath",
+            "Thunderous Kick",
+            "Glacial Lance",
+            "Astral Barrage",
+            "Eerie Spell",
+            "Dire Claw",
+            "Psyshield Bash",
+            "Power Shift",
+            "Stone Axe",
+            "Springtide Storm",
+            "Mystical Power",
+            "Raging Fury",
+            "Wave Crash",
+            "Chloroblast",
+            "Mountain Gale",
+            "Victory Dance",
+            "Headlong Rush",
+            "Barb Barrage",
+            "Esper Wing",
+            "Bitter Malice",
+            "Shelter",
+            "Triple Arrows",
+            "Infernal Parade",
+            "Ceaseless Edge",
+            "Bleakwind Storm",
+            "Wildbolt Storm",
+            "Sandsear Storm",
+            "Lunar Blessing",
+            "Take Heart",
+            "Tera Blast",
+            "Silk Trap",
+            "Axe Kick",
+            "Last Respects",
+            "Lumina Crash",
+            "Order Up",
+            "Jet Punch",
+            "Spicy Extract",
+            "Spin Out",
+            "Population Bomb",
+            "Ice Spinner",
+            "Glaive Rush",
+            "Revival Blessing",
+            "Salt Cure",
+            "Triple Dive",
+            "Mortal Spin",
+            "Doodle",
+            "Fillet Away",
+            "Kowtow Cleave",
+            "Flower Trick",
+            "Torch Song",
+            "Aqua Step",
+            "Raging Bull",
+            "Make It Rain",
+            "Psyblade",
+            "Hydro Steam",
+            "Ruination",
+            "Collision Course",
+            "Electro Drift",
+            "Shed Tail",
+            "Chilly Reception",
+            "Tidy Up",
+            "Snowscape",
+            "Pounce",
+            "Trailblaze",
+            "Chilling Water",
+            "Hyper Drill",
+            "Twin Beam",
+            "Rage Fist",
+            "Armor Cannon",
+            "Bitter Blade",
+            "Double Shock",
+            "Gigaton Hammer",
+            "Comeuppance",
+            "Aqua Cutter",
+            "Blazing Torque",
+            "Wicked Torque",
+            "Noxious Torque",
+            "Combat Torque",
+            "Magical Torque",
+            "Blood Moon",
+            "Matcha Gotcha",
+            "Syrup Bomb",
+            "Ivy Cudgel",
+            "Electro Shot",
+            "Tera Starstorm",
+            "Fickle Beam",
+            "Burning Bulwark",
+            "Thunderclap",
+            "Mighty Cleave",
+            "Tachyon Cutter",
+            "Hard Press",
+            "Dragon Cheer",
+            "Alluring Voice",
+            "Temper Flare",
+            "Supercell Slam",
+            "Psychic Noise",
+            "Upper Hand",
+            "Malignant Chain"});
+            this.move4.Location = new System.Drawing.Point(6, 384);
+            this.move4.Name = "move4";
+            this.move4.Size = new System.Drawing.Size(142, 28);
+            this.move4.TabIndex = 154;
+            this.move4.SelectedIndexChanged += new System.EventHandler(this.moveChange);
+            // 
+            // move3
+            // 
+            this.move3.FormattingEnabled = true;
+            this.move3.Items.AddRange(new object[] {
+            "Pound",
+            "Karate Chop",
+            "Double Slap",
+            "Comet Punch",
+            "Mega Punch",
+            "Pay Day",
+            "Fire Punch",
+            "Ice Punch",
+            "Thunder Punch",
+            "Scratch",
+            "Vise Grip",
+            "Guillotine",
+            "Razor Wind",
+            "Swords Dance",
+            "Cut",
+            "Gust",
+            "Wing Attack",
+            "Whirlwind",
+            "Fly",
+            "Bind",
+            "Slam",
+            "Vine Whip",
+            "Stomp",
+            "Double Kick",
+            "Mega Kick",
+            "Jump Kick",
+            "Rolling Kick",
+            "Sand Attack",
+            "Headbutt",
+            "Horn Attack",
+            "Fury Attack",
+            "Horn Drill",
+            "Tackle",
+            "Body Slam",
+            "Wrap",
+            "Take Down",
+            "Thrash",
+            "Double-Edge",
+            "Tail Whip",
+            "Poison Sting",
+            "Twineedle",
+            "Pin Missile",
+            "Leer",
+            "Bite",
+            "Growl",
+            "Roar",
+            "Sing",
+            "Supersonic",
+            "Sonic Boom",
+            "Disable",
+            "Acid",
+            "Ember",
+            "Flamethrower",
+            "Mist",
+            "Water Gun",
+            "Hydro Pump",
+            "Surf",
+            "Ice Beam",
+            "Blizzard",
+            "Psybeam",
+            "Bubble Beam",
+            "Aurora Beam",
+            "Hyper Beam",
+            "Peck",
+            "Drill Peck",
+            "Submission",
+            "Low Kick",
+            "Counter",
+            "Seismic Toss",
+            "Strength",
+            "Absorb",
+            "Mega Drain",
+            "Leech Seed",
+            "Growth",
+            "Razor Leaf",
+            "Solar Beam",
+            "Poison Powder",
+            "Stun Spore",
+            "Sleep Powder",
+            "Petal Dance",
+            "String Shot",
+            "Dragon Rage",
+            "Fire Spin",
+            "Thunder Shock",
+            "Thunderbolt",
+            "Thunder Wave",
+            "Thunder",
+            "Rock Throw",
+            "Earthquake",
+            "Fissure",
+            "Dig",
+            "Toxic",
+            "Confusion",
+            "Psychic",
+            "Hypnosis",
+            "Meditate",
+            "Agility",
+            "Quick Attack",
+            "Rage",
+            "Teleport",
+            "Night Shade",
+            "Mimic",
+            "Screech",
+            "Double Team",
+            "Recover",
+            "Harden",
+            "Minimize",
+            "Smokescreen",
+            "Confuse Ray",
+            "Withdraw",
+            "Defense Curl",
+            "Barrier",
+            "Light Screen",
+            "Haze",
+            "Reflect",
+            "Focus Energy",
+            "Bide",
+            "Metronome",
+            "Mirror Move",
+            "Self-Destruct",
+            "Egg Bomb",
+            "Lick",
+            "Smog",
+            "Sludge",
+            "Bone Club",
+            "Fire Blast",
+            "Waterfall",
+            "Clamp",
+            "Swift",
+            "Skull Bash",
+            "Spike Cannon",
+            "Constrict",
+            "Amnesia",
+            "Kinesis",
+            "Soft-Boiled",
+            "High Jump Kick",
+            "Glare",
+            "Dream Eater",
+            "Poison Gas",
+            "Barrage",
+            "Leech Life",
+            "Lovely Kiss",
+            "Sky Attack",
+            "Transform",
+            "Bubble",
+            "Dizzy Punch",
+            "Spore",
+            "Flash",
+            "Psywave",
+            "Splash",
+            "Acid Armor",
+            "Crabhammer",
+            "Explosion",
+            "Fury Swipes",
+            "Bonemerang",
+            "Rest",
+            "Rock Slide",
+            "Hyper Fang",
+            "Sharpen",
+            "Conversion",
+            "Tri Attack",
+            "Super Fang",
+            "Slash",
+            "Substitute",
+            "Struggle",
+            "Sketch",
+            "Triple Kick",
+            "Thief",
+            "Spider Web",
+            "Mind Reader",
+            "Nightmare",
+            "Flame Wheel",
+            "Snore",
+            "Curse",
+            "Flail",
+            "Conversion 2",
+            "Aeroblast",
+            "Cotton Spore",
+            "Reversal",
+            "Spite",
+            "Powder Snow",
+            "Protect",
+            "Mach Punch",
+            "Scary Face",
+            "Feint Attack",
+            "Sweet Kiss",
+            "Belly Drum",
+            "Sludge Bomb",
+            "Mud-Slap",
+            "Octazooka",
+            "Spikes",
+            "Zap Cannon",
+            "Foresight",
+            "Destiny Bond",
+            "Perish Song",
+            "Icy Wind",
+            "Detect",
+            "Bone Rush",
+            "Lock-On",
+            "Outrage",
+            "Sandstorm",
+            "Giga Drain",
+            "Endure",
+            "Charm",
+            "Rollout",
+            "False Swipe",
+            "Swagger",
+            "Milk Drink",
+            "Spark",
+            "Fury Cutter",
+            "Steel Wing",
+            "Mean Look",
+            "Attract",
+            "Sleep Talk",
+            "Heal Bell",
+            "Return",
+            "Present",
+            "Frustration",
+            "Safeguard",
+            "Pain Split",
+            "Sacred Fire",
+            "Magnitude",
+            "Dynamic Punch",
+            "Megahorn",
+            "Dragon Breath",
+            "Baton Pass",
+            "Encore",
+            "Pursuit",
+            "Rapid Spin",
+            "Sweet Scent",
+            "Iron Tail",
+            "Metal Claw",
+            "Vital Throw",
+            "Morning Sun",
+            "Synthesis",
+            "Moonlight",
+            "Hidden Power",
+            "Cross Chop",
+            "Twister",
+            "Rain Dance",
+            "Sunny Day",
+            "Crunch",
+            "Mirror Coat",
+            "Psych Up",
+            "Extreme Speed",
+            "Ancient Power",
+            "Shadow Ball",
+            "Future Sight",
+            "Rock Smash",
+            "Whirlpool",
+            "Beat Up",
+            "Fake Out",
+            "Uproar",
+            "Stockpile",
+            "Spit Up",
+            "Swallow",
+            "Heat Wave",
+            "Hail",
+            "Torment",
+            "Flatter",
+            "Will-O-Wisp",
+            "Memento",
+            "Facade",
+            "Focus Punch",
+            "Smelling Salts",
+            "Follow Me",
+            "Nature Power",
+            "Charge",
+            "Taunt",
+            "Helping Hand",
+            "Trick",
+            "Role Play",
+            "Wish",
+            "Assist",
+            "Ingrain",
+            "Superpower",
+            "Magic Coat",
+            "Recycle",
+            "Revenge",
+            "Brick Break",
+            "Yawn",
+            "Knock Off",
+            "Endeavor",
+            "Eruption",
+            "Skill Swap",
+            "Imprison",
+            "Refresh",
+            "Grudge",
+            "Snatch",
+            "Secret Power",
+            "Dive",
+            "Arm Thrust",
+            "Camouflage",
+            "Tail Glow",
+            "Luster Purge",
+            "Mist Ball",
+            "Feather Dance",
+            "Teeter Dance",
+            "Blaze Kick",
+            "Mud Sport",
+            "Ice Ball",
+            "Needle Arm",
+            "Slack Off",
+            "Hyper Voice",
+            "Poison Fang",
+            "Crush Claw",
+            "Blast Burn",
+            "Hydro Cannon",
+            "Meteor Mash",
+            "Astonish",
+            "Weather Ball",
+            "Aromatherapy",
+            "Fake Tears",
+            "Air Cutter",
+            "Overheat",
+            "Odor Sleuth",
+            "Rock Tomb",
+            "Silver Wind",
+            "Metal Sound",
+            "Grass Whistle",
+            "Tickle",
+            "Cosmic Power",
+            "Water Spout",
+            "Signal Beam",
+            "Shadow Punch",
+            "Extrasensory",
+            "Sky Uppercut",
+            "Sand Tomb",
+            "Sheer Cold",
+            "Muddy Water",
+            "Bullet Seed",
+            "Aerial Ace",
+            "Icicle Spear",
+            "Iron Defense",
+            "Block",
+            "Howl",
+            "Dragon Claw",
+            "Frenzy Plant",
+            "Bulk Up",
+            "Bounce",
+            "Mud Shot",
+            "Poison Tail",
+            "Covet",
+            "Volt Tackle",
+            "Magical Leaf",
+            "Water Sport",
+            "Calm Mind",
+            "Leaf Blade",
+            "Dragon Dance",
+            "Rock Blast",
+            "Shock Wave",
+            "Water Pulse",
+            "Doom Desire",
+            "Psycho Boost",
+            "Roost",
+            "Gravity",
+            "Miracle Eye",
+            "Wake-Up Slap",
+            "Hammer Arm",
+            "Gyro Ball",
+            "Healing Wish",
+            "Brine",
+            "Natural Gift",
+            "Feint",
+            "Pluck",
+            "Tailwind",
+            "Acupressure",
+            "Metal Burst",
+            "U-turn",
+            "Close Combat",
+            "Payback",
+            "Assurance",
+            "Embargo",
+            "Fling",
+            "Psycho Shift",
+            "Trump Card",
+            "Heal Block",
+            "Wring Out",
+            "Power Trick",
+            "Gastro Acid",
+            "Lucky Chant",
+            "Me First",
+            "Copycat",
+            "Power Swap",
+            "Guard Swap",
+            "Punishment",
+            "Last Resort",
+            "Worry Seed",
+            "Sucker Punch",
+            "Toxic Spikes",
+            "Heart Swap",
+            "Aqua Ring",
+            "Magnet Rise",
+            "Flare Blitz",
+            "Force Palm",
+            "Aura Sphere",
+            "Rock Polish",
+            "Poison Jab",
+            "Dark Pulse",
+            "Night Slash",
+            "Aqua Tail",
+            "Seed Bomb",
+            "Air Slash",
+            "X-Scissor",
+            "Bug Buzz",
+            "Dragon Pulse",
+            "Dragon Rush",
+            "Power Gem",
+            "Drain Punch",
+            "Vacuum Wave",
+            "Focus Blast",
+            "Energy Ball",
+            "Brave Bird",
+            "Earth Power",
+            "Switcheroo",
+            "Giga Impact",
+            "Nasty Plot",
+            "Bullet Punch",
+            "Avalanche",
+            "Ice Shard",
+            "Shadow Claw",
+            "Thunder Fang",
+            "Ice Fang",
+            "Fire Fang",
+            "Shadow Sneak",
+            "Mud Bomb",
+            "Psycho Cut",
+            "Zen Headbutt",
+            "Mirror Shot",
+            "Flash Cannon",
+            "Rock Climb",
+            "Defog",
+            "Trick Room",
+            "Draco Meteor",
+            "Discharge",
+            "Lava Plume",
+            "Leaf Storm",
+            "Power Whip",
+            "Rock Wrecker",
+            "Cross Poison",
+            "Gunk Shot",
+            "Iron Head",
+            "Magnet Bomb",
+            "Stone Edge",
+            "Captivate",
+            "Stealth Rock",
+            "Grass Knot",
+            "Chatter",
+            "Judgment",
+            "Bug Bite",
+            "Charge Beam",
+            "Wood Hammer",
+            "Aqua Jet",
+            "Attack Order",
+            "Defend Order",
+            "Heal Order",
+            "Head Smash",
+            "Double Hit",
+            "Roar of Time",
+            "Spacial Rend",
+            "Lunar Dance",
+            "Crush Grip",
+            "Magma Storm",
+            "Dark Void",
+            "Seed Flare",
+            "Ominous Wind",
+            "Shadow Force",
+            "Hone Claws",
+            "Wide Guard",
+            "Guard Split",
+            "Power Split",
+            "Wonder Room",
+            "Psyshock",
+            "Venoshock",
+            "Autotomize",
+            "Rage Powder",
+            "Telekinesis",
+            "Magic Room",
+            "Smack Down",
+            "Storm Throw",
+            "Flame Burst",
+            "Sludge Wave",
+            "Quiver Dance",
+            "Heavy Slam",
+            "Synchronoise",
+            "Electro Ball",
+            "Soak",
+            "Flame Charge",
+            "Coil",
+            "Low Sweep",
+            "Acid Spray",
+            "Foul Play",
+            "Simple Beam",
+            "Entrainment",
+            "After You",
+            "Round",
+            "Echoed Voice",
+            "Chip Away",
+            "Clear Smog",
+            "Stored Power",
+            "Quick Guard",
+            "Ally Switch",
+            "Scald",
+            "Shell Smash",
+            "Heal Pulse",
+            "Hex",
+            "Sky Drop",
+            "Shift Gear",
+            "Circle Throw",
+            "Incinerate",
+            "Quash",
+            "Acrobatics",
+            "Reflect Type",
+            "Retaliate",
+            "Final Gambit",
+            "Bestow",
+            "Inferno",
+            "Water Pledge",
+            "Fire Pledge",
+            "Grass Pledge",
+            "Volt Switch",
+            "Struggle Bug",
+            "Bulldoze",
+            "Frost Breath",
+            "Dragon Tail",
+            "Work Up",
+            "Electroweb",
+            "Wild Charge",
+            "Drill Run",
+            "Dual Chop",
+            "Heart Stamp",
+            "Horn Leech",
+            "Sacred Sword",
+            "Razor Shell",
+            "Heat Crash",
+            "Leaf Tornado",
+            "Steamroller",
+            "Cotton Guard",
+            "Night Daze",
+            "Psystrike",
+            "Tail Slap",
+            "Hurricane",
+            "Head Charge",
+            "Gear Grind",
+            "Searing Shot",
+            "Techno Blast",
+            "Relic Song",
+            "Secret Sword",
+            "Glaciate",
+            "Bolt Strike",
+            "Blue Flare",
+            "Fiery Dance",
+            "Freeze Shock",
+            "Ice Burn",
+            "Snarl",
+            "Icicle Crash",
+            "V-create",
+            "Fusion Flare",
+            "Fusion Bolt",
+            "Flying Press",
+            "Mat Block",
+            "Belch",
+            "Rototiller",
+            "Sticky Web",
+            "Fell Stinger",
+            "Phantom Force",
+            "Trick-or-Treat",
+            "Noble Roar",
+            "Ion Deluge",
+            "Parabolic Charge",
+            "Forest\'s Curse",
+            "Petal Blizzard",
+            "Freeze-Dry",
+            "Disarming Voice",
+            "Parting Shot",
+            "Topsy-Turvy",
+            "Draining Kiss",
+            "Crafty Shield",
+            "Flower Shield",
+            "Grassy Terrain",
+            "Misty Terrain",
+            "Electrify",
+            "Play Rough",
+            "Fairy Wind",
+            "Moonblast",
+            "Boomburst",
+            "Fairy Lock",
+            "King\'s Shield",
+            "Play Nice",
+            "Confide",
+            "Diamond Storm",
+            "Steam Eruption",
+            "Hyperspace Hole",
+            "Water Shuriken",
+            "Mystical Fire",
+            "Spiky Shield",
+            "Aromatic Mist",
+            "Eerie Impulse",
+            "Venom Drench",
+            "Powder",
+            "Geomancy",
+            "Magnetic Flux",
+            "Happy Hour",
+            "Electric Terrain",
+            "Dazzling Gleam",
+            "Celebrate",
+            "Hold Hands",
+            "Baby-Doll Eyes",
+            "Nuzzle",
+            "Hold Back",
+            "Infestation",
+            "Power-Up Punch",
+            "Oblivion Wing",
+            "Thousand Arrows",
+            "Thousand Waves",
+            "Land\'s Wrath",
+            "Light of Ruin",
+            "Origin Pulse",
+            "Precipice Blades",
+            "Dragon Ascent",
+            "Hyperspace Fury",
+            "Breakneck Blitz",
+            "All-Out Pummeling",
+            "Supersonic Skystrike",
+            "Acid Downpour",
+            "Tectonic Rage",
+            "Continental Crush",
+            "Savage Spin-Out",
+            "Never-Ending Nightmare",
+            "Corkscrew Crash",
+            "Inferno Overdrive",
+            "Hydro Vortex",
+            "Bloom Doom",
+            "Gigavolt Havoc",
+            "Shattered Psyche",
+            "Subzero Slammer",
+            "Devastating Drake",
+            "Black Hole Eclipse",
+            "Twinkle Tackle",
+            "Catastropika",
+            "Shore Up",
+            "First Impression",
+            "Baneful Bunker",
+            "Spirit Shackle",
+            "Darkest Lariat",
+            "Sparkling Aria",
+            "Ice Hammer",
+            "Floral Healing",
+            "High Horsepower",
+            "Strength Sap",
+            "Solar Blade",
+            "Leafage",
+            "Spotlight",
+            "Toxic Thread",
+            "Laser Focus",
+            "Gear Up",
+            "Throat Chop",
+            "Pollen Puff",
+            "Anchor Shot",
+            "Psychic Terrain",
+            "Lunge",
+            "Fire Lash",
+            "Power Trip",
+            "Burn Up",
+            "Speed Swap",
+            "Smart Strike",
+            "Purify",
+            "Revelation Dance",
+            "Core Enforcer",
+            "Trop Kick",
+            "Instruct",
+            "Beak Blast",
+            "Clanging Scales",
+            "Dragon Hammer",
+            "Brutal Swing",
+            "Aurora Veil",
+            "Sinister Arrow Raid",
+            "Malicious Moonsault",
+            "Oceanic Operetta",
+            "Guardian of Alola",
+            "Soul-Stealing 7-Star Strike",
+            "Stoked Sparksurfer",
+            "Pulverizing Pancake",
+            "Extreme Evoboost",
+            "Genesis Supernova",
+            "Shell Trap",
+            "Fleur Cannon",
+            "Psychic Fangs",
+            "Stomping Tantrum",
+            "Shadow Bone",
+            "Accelerock",
+            "Liquidation",
+            "Prismatic Laser",
+            "Spectral Thief",
+            "Sunsteel Strike",
+            "Moongeist Beam",
+            "Tearful Look",
+            "Zing Zap",
+            "Nature\'s Madness",
+            "Multi-Attack",
+            "10,000,000 Volt Thunderbolt",
+            "Mind Blown",
+            "Plasma Fists",
+            "Photon Geyser",
+            "Light That Burns the Sky",
+            "Searing Sunraze Smash",
+            "Menacing Moonraze Maelstrom",
+            "Let\'s Snuggle Forever",
+            "Splintered Stormshards",
+            "Clangorous Soulblaze",
+            "Zippy Zap",
+            "Splishy Splash",
+            "Floaty Fall",
+            "Pika Papow",
+            "Bouncy Bubble",
+            "Buzzy Buzz",
+            "Sizzly Slide",
+            "Glitzy Glow",
+            "Baddy Bad",
+            "Sappy Seed",
+            "Freezy Frost",
+            "Sparkly Swirl",
+            "Veevee Volley",
+            "Double Iron Bash",
+            "Max Guard",
+            "Dynamax Cannon",
+            "Snipe Shot",
+            "Jaw Lock",
+            "Stuff Cheeks",
+            "No Retreat",
+            "Tar Shot",
+            "Magic Powder",
+            "Dragon Darts",
+            "Teatime",
+            "Octolock",
+            "Bolt Beak",
+            "Fishious Rend",
+            "Court Change",
+            "Max Flare",
+            "Max Flutterby",
+            "Max Lightning",
+            "Max Strike",
+            "Max Knuckle",
+            "Max Phantasm",
+            "Max Hailstorm",
+            "Max Ooze",
+            "Max Geyser",
+            "Max Airstream",
+            "Max Starfall",
+            "Max Wyrmwind",
+            "Max Mindstorm",
+            "Max Rockfall",
+            "Max Quake",
+            "Max Darkness",
+            "Max Overgrowth",
+            "Max Steelspike",
+            "Clangorous Soul",
+            "Body Press",
+            "Decorate",
+            "Drum Beating",
+            "Snap Trap",
+            "Pyro Ball",
+            "Behemoth Blade",
+            "Behemoth Bash",
+            "Aura Wheel",
+            "Breaking Swipe",
+            "Branch Poke",
+            "Overdrive",
+            "Apple Acid",
+            "Grav Apple",
+            "Spirit Break",
+            "Strange Steam",
+            "Life Dew",
+            "Obstruct",
+            "False Surrender",
+            "Meteor Assault",
+            "Eternabeam",
+            "Steel Beam",
+            "Expanding Force",
+            "Steel Roller",
+            "Scale Shot",
+            "Meteor Beam",
+            "Shell Side Arm",
+            "Misty Explosion",
+            "Grassy Glide",
+            "Rising Voltage",
+            "Terrain Pulse",
+            "Skitter Smack",
+            "Burning Jealousy",
+            "Lash Out",
+            "Poltergeist",
+            "Corrosive Gas",
+            "Coaching",
+            "Flip Turn",
+            "Triple Axel",
+            "Dual Wingbeat",
+            "Scorching Sands",
+            "Jungle Healing",
+            "Wicked Blow",
+            "Surging Strikes",
+            "Thunder Cage",
+            "Dragon Energy",
+            "Freezing Glare",
+            "Fiery Wrath",
+            "Thunderous Kick",
+            "Glacial Lance",
+            "Astral Barrage",
+            "Eerie Spell",
+            "Dire Claw",
+            "Psyshield Bash",
+            "Power Shift",
+            "Stone Axe",
+            "Springtide Storm",
+            "Mystical Power",
+            "Raging Fury",
+            "Wave Crash",
+            "Chloroblast",
+            "Mountain Gale",
+            "Victory Dance",
+            "Headlong Rush",
+            "Barb Barrage",
+            "Esper Wing",
+            "Bitter Malice",
+            "Shelter",
+            "Triple Arrows",
+            "Infernal Parade",
+            "Ceaseless Edge",
+            "Bleakwind Storm",
+            "Wildbolt Storm",
+            "Sandsear Storm",
+            "Lunar Blessing",
+            "Take Heart",
+            "Tera Blast",
+            "Silk Trap",
+            "Axe Kick",
+            "Last Respects",
+            "Lumina Crash",
+            "Order Up",
+            "Jet Punch",
+            "Spicy Extract",
+            "Spin Out",
+            "Population Bomb",
+            "Ice Spinner",
+            "Glaive Rush",
+            "Revival Blessing",
+            "Salt Cure",
+            "Triple Dive",
+            "Mortal Spin",
+            "Doodle",
+            "Fillet Away",
+            "Kowtow Cleave",
+            "Flower Trick",
+            "Torch Song",
+            "Aqua Step",
+            "Raging Bull",
+            "Make It Rain",
+            "Psyblade",
+            "Hydro Steam",
+            "Ruination",
+            "Collision Course",
+            "Electro Drift",
+            "Shed Tail",
+            "Chilly Reception",
+            "Tidy Up",
+            "Snowscape",
+            "Pounce",
+            "Trailblaze",
+            "Chilling Water",
+            "Hyper Drill",
+            "Twin Beam",
+            "Rage Fist",
+            "Armor Cannon",
+            "Bitter Blade",
+            "Double Shock",
+            "Gigaton Hammer",
+            "Comeuppance",
+            "Aqua Cutter",
+            "Blazing Torque",
+            "Wicked Torque",
+            "Noxious Torque",
+            "Combat Torque",
+            "Magical Torque",
+            "Blood Moon",
+            "Matcha Gotcha",
+            "Syrup Bomb",
+            "Ivy Cudgel",
+            "Electro Shot",
+            "Tera Starstorm",
+            "Fickle Beam",
+            "Burning Bulwark",
+            "Thunderclap",
+            "Mighty Cleave",
+            "Tachyon Cutter",
+            "Hard Press",
+            "Dragon Cheer",
+            "Alluring Voice",
+            "Temper Flare",
+            "Supercell Slam",
+            "Psychic Noise",
+            "Upper Hand",
+            "Malignant Chain"});
+            this.move3.Location = new System.Drawing.Point(6, 354);
+            this.move3.Name = "move3";
+            this.move3.Size = new System.Drawing.Size(142, 28);
+            this.move3.TabIndex = 153;
+            this.move3.SelectedIndexChanged += new System.EventHandler(this.moveChange);
             // 
             // damageCalculator
             // 
             this.ClientSize = new System.Drawing.Size(843, 427);
-            this.Controls.Add(this.comboBox16);
-            this.Controls.Add(this.comboBox15);
-            this.Controls.Add(this.comboBox14);
-            this.Controls.Add(this.comboBox13);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.move4);
+            this.Controls.Add(this.move3);
+            this.Controls.Add(this.move2);
+            this.Controls.Add(this.move1);
+            this.Controls.Add(this.moveCategory4);
+            this.Controls.Add(this.moveCategory3);
+            this.Controls.Add(this.moveCategory2);
+            this.Controls.Add(this.moveCategory1);
+            this.Controls.Add(this.moveType4);
+            this.Controls.Add(this.moveType3);
+            this.Controls.Add(this.moveType2);
+            this.Controls.Add(this.moveType1);
+            this.Controls.Add(this.VSpokemonLV);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox7);
             this.Controls.Add(this.comboBox8);
             this.Controls.Add(this.comboBox9);
-            this.Controls.Add(this.comboBox10);
-            this.Controls.Add(this.comboBox11);
-            this.Controls.Add(this.comboBox12);
-            this.Controls.Add(this.VSbaseStat6);
-            this.Controls.Add(this.VSbaseStat5);
-            this.Controls.Add(this.VSbaseStat4);
-            this.Controls.Add(this.VSbaseStat3);
-            this.Controls.Add(this.VSbaseStat2);
-            this.Controls.Add(this.VSbaseStat1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.VStype2);
+            this.Controls.Add(this.VStype1);
+            this.Controls.Add(this.VSpokemonName);
+            this.Controls.Add(this.baseStat12);
+            this.Controls.Add(this.baseStat11);
+            this.Controls.Add(this.baseStat10);
+            this.Controls.Add(this.baseStat9);
+            this.Controls.Add(this.baseStat8);
+            this.Controls.Add(this.baseStat7);
+            this.Controls.Add(this.iv12);
+            this.Controls.Add(this.iv11);
+            this.Controls.Add(this.iv10);
+            this.Controls.Add(this.iv9);
+            this.Controls.Add(this.iv8);
+            this.Controls.Add(this.iv7);
+            this.Controls.Add(this.finalStatTotal12);
+            this.Controls.Add(this.finalStatTotal11);
+            this.Controls.Add(this.finalStatTotal10);
+            this.Controls.Add(this.finalStatTotal9);
+            this.Controls.Add(this.finalStatTotal8);
+            this.Controls.Add(this.finalStatTotal7);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown5);
-            this.Controls.Add(this.numericUpDown6);
+            this.Controls.Add(this.ev12);
+            this.Controls.Add(this.ev11);
+            this.Controls.Add(this.ev10);
+            this.Controls.Add(this.ev9);
+            this.Controls.Add(this.ev8);
+            this.Controls.Add(this.ev7);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
@@ -2636,19 +7360,11 @@
             this.Controls.Add(this.type2);
             this.Controls.Add(this.type1);
             this.Controls.Add(this.pokemonName);
-            this.Controls.Add(this.moveCategory4);
-            this.Controls.Add(this.moveCategory3);
-            this.Controls.Add(this.moveCategory2);
-            this.Controls.Add(this.moveCategory1);
             this.Controls.Add(this.BP4);
             this.Controls.Add(this.BP3);
             this.Controls.Add(this.BP2);
             this.Controls.Add(this.BP1);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.move4);
-            this.Controls.Add(this.move3);
-            this.Controls.Add(this.move2);
-            this.Controls.Add(this.move1);
             this.Controls.Add(this.baseStat6);
             this.Controls.Add(this.baseStat5);
             this.Controls.Add(this.baseStat4);
@@ -2683,6 +7399,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelHP);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label22);
             this.Name = "damageCalculator";
             this.Text = "Pokemon Damage Calulator";
             ((System.ComponentModel.ISupportInitialize)(this.ev6)).EndInit();
@@ -2691,12 +7409,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.ev3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ev7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2739,19 +7457,11 @@
         private System.Windows.Forms.TextBox baseStat3;
         private System.Windows.Forms.TextBox baseStat2;
         private System.Windows.Forms.TextBox baseStat1;
-        private System.Windows.Forms.ListBox move1;
-        private System.Windows.Forms.ListBox move2;
-        private System.Windows.Forms.ListBox move3;
-        private System.Windows.Forms.ListBox move4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox BP1;
         private System.Windows.Forms.TextBox BP2;
         private System.Windows.Forms.TextBox BP3;
         private System.Windows.Forms.TextBox BP4;
-        private System.Windows.Forms.ListBox moveCategory1;
-        private System.Windows.Forms.ListBox moveCategory2;
-        private System.Windows.Forms.ListBox moveCategory3;
-        private System.Windows.Forms.ListBox moveCategory4;
         private System.Windows.Forms.ComboBox pokemonName;
         private System.Windows.Forms.ComboBox type1;
         private System.Windows.Forms.ComboBox type2;
@@ -2761,40 +7471,40 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.TextBox pokemonLv;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox VSpokemonLV;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.ComboBox comboBox7;
         private System.Windows.Forms.ComboBox comboBox8;
         private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.TextBox VSbaseStat6;
-        private System.Windows.Forms.TextBox VSbaseStat5;
-        private System.Windows.Forms.TextBox VSbaseStat4;
-        private System.Windows.Forms.TextBox VSbaseStat3;
-        private System.Windows.Forms.TextBox VSbaseStat2;
-        private System.Windows.Forms.TextBox VSbaseStat1;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.ComboBox VStype2;
+        private System.Windows.Forms.ComboBox VStype1;
+        private System.Windows.Forms.ComboBox VSpokemonName;
+        private System.Windows.Forms.TextBox baseStat12;
+        private System.Windows.Forms.TextBox baseStat11;
+        private System.Windows.Forms.TextBox baseStat10;
+        private System.Windows.Forms.TextBox baseStat9;
+        private System.Windows.Forms.TextBox baseStat8;
+        private System.Windows.Forms.TextBox baseStat7;
+        private System.Windows.Forms.TextBox iv12;
+        private System.Windows.Forms.TextBox iv11;
+        private System.Windows.Forms.TextBox iv10;
+        private System.Windows.Forms.TextBox iv9;
+        private System.Windows.Forms.TextBox iv8;
+        private System.Windows.Forms.TextBox iv7;
+        private System.Windows.Forms.TextBox finalStatTotal12;
+        private System.Windows.Forms.TextBox finalStatTotal11;
+        private System.Windows.Forms.TextBox finalStatTotal10;
+        private System.Windows.Forms.TextBox finalStatTotal9;
+        private System.Windows.Forms.TextBox finalStatTotal8;
+        private System.Windows.Forms.TextBox finalStatTotal7;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown ev12;
+        private System.Windows.Forms.NumericUpDown ev11;
+        private System.Windows.Forms.NumericUpDown ev10;
+        private System.Windows.Forms.NumericUpDown ev9;
+        private System.Windows.Forms.NumericUpDown ev8;
+        private System.Windows.Forms.NumericUpDown ev7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
@@ -2804,10 +7514,20 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox moveType1;
+        private System.Windows.Forms.ComboBox moveType2;
+        private System.Windows.Forms.ComboBox moveType3;
+        private System.Windows.Forms.ComboBox moveType4;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox moveCategory1;
+        private System.Windows.Forms.ComboBox moveCategory2;
+        private System.Windows.Forms.ComboBox moveCategory3;
+        private System.Windows.Forms.ComboBox moveCategory4;
+        private System.Windows.Forms.ComboBox move1;
+        private System.Windows.Forms.ComboBox move2;
+        private System.Windows.Forms.ComboBox move4;
+        private System.Windows.Forms.ComboBox move3;
     }
 }
 

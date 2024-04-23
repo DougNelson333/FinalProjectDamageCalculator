@@ -25,25 +25,6 @@ namespace DamageCalculator
             LoadDataFromCSV("pokemon.csv");
             LoadDataFromCSV("pokemonMoves.csv");
         }
-        #region Prevent Letters
-        private void AttachNumericInputHandlers()
-        {
-            foreach (Control control in Controls)
-            {
-                if (control is TextBox textBox)
-                {
-                    textBox.KeyPress += preventLetters;
-                }
-            }
-        }
-        private void preventLetters(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true; // Disallow non-numeric characters
-            }
-        }
-        #endregion Prevent Letters
         private void LoadDataFromCSV(string filePath)
         {
             using (var reader = new StreamReader(filePath))
@@ -53,13 +34,11 @@ namespace DamageCalculator
                     var line = reader.ReadLine();
                     var values = line.Split(',');
 
-                    // Assuming the CSV has columns: number,name,type1,type2,total,hp,attack,defense,sp_attack,sp_defense,speed,generation,legendary
-                    if (values.Length >= 13) // Assuming you have at least 13 columns
+                    if (values.Length >= 13)
                     {
                         string name = values[1];
                         List<string> pokemonStats = new List<string>();
 
-                        // Extracting base stats (columns 6 to 11)
                         for (int i = 5; i <= 10; i++)
                         {
                             pokemonStats.Add(values[i]);
@@ -80,13 +59,35 @@ namespace DamageCalculator
                 }
             }
         }
+        #region Prevent Letters
+        private void AttachNumericInputHandlers()
+        {
+            foreach (Control control in Controls)
+            {
+                if (control is TextBox textBox)
+                {
+                    textBox.KeyPress += preventLetters;
+                }
+            }
+        }
+        private void preventLetters(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Disallow non-numeric characters
+            }
+        }
+        #endregion Prevent Letters
+        #region Stat Changes
         private void CalculateFinalStats()
         {
+            int stat;
             double lv = Convert.ToDouble(pokemonLv.Text);
+            double VSlv = Convert.ToDouble(VSpokemonLV.Text);
             var statCalculator = new BaseStatCalculation();
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 12; i++)
             {
-                if (i == 1)
+                if (i == 1 || i == 7)
                 {
                     TextBox ivTextBox = Controls.Find($"iv{i}", true)[0] as TextBox;
                     NumericUpDown evNumericUpDown = Controls.Find($"ev{i}", true)[0] as NumericUpDown;
@@ -96,7 +97,14 @@ namespace DamageCalculator
                     double iv = double.Parse(ivTextBox.Text);
                     double ev = (double)evNumericUpDown.Value;
                     double @base = double.Parse(baseTextBox.Text);
-                    int stat = statCalculator.CalcHPStat(@base, iv, ev, lv);
+                    if (i == 1)
+                    {
+                        stat = statCalculator.CalcHPStat(@base, iv, ev, lv);
+                    }
+                    else
+                    {
+                        stat = statCalculator.CalcHPStat(@base, iv, ev, VSlv);
+                    }
                     finalStatLabel.Text = stat.ToString();
                 }
                 else
@@ -109,14 +117,21 @@ namespace DamageCalculator
                     double iv = double.Parse(ivTextBox.Text);
                     double ev = (double)evNumericUpDown.Value;
                     double @base = double.Parse(baseTextBox.Text);
-                    int stat = statCalculator.CalcOtherStat(@base, iv, ev, lv);
+                    if (i <= 6)
+                    {
+                        stat = statCalculator.CalcOtherStat(@base, iv, ev, lv);
+                    }
+                    else
+                    {
+                        stat = statCalculator.CalcOtherStat(@base, iv, ev, VSlv);
+                    }
                     finalStatLabel.Text = stat.ToString();
                 }
             }
         }
         private void statTextBox(object sender, EventArgs e)
         {
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 12; i++)
             {
                 TextBox ivTextBox = Controls.Find($"iv{i}", true)[0] as TextBox;
                 TextBox baseTextBox = Controls.Find($"baseStat{i}", true)[0] as TextBox;
@@ -147,12 +162,18 @@ namespace DamageCalculator
             if (Convert.ToInt32(pokemonLv.Text) > 100)
                 pokemonLv.Text = "100";
 
+            if (VSpokemonLV.Text == "")
+                VSpokemonLV.Text = "1";
+            if (Convert.ToInt32(VSpokemonLV.Text) > 100)
+                VSpokemonLV.Text = "100";
             CalculateFinalStats();
         }
         private void evChange(object sender, EventArgs e)
         {
             CalculateFinalStats();
         }
+        #endregion Stat Changes
+        #region Pokemon Changer-Inator
         private void pokemonName_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedPokemon = pokemonName.SelectedItem.ToString();
@@ -171,6 +192,31 @@ namespace DamageCalculator
                 }
 
             }
+        }
+
+        private void VSpokemon_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedPokemon = VSpokemonName.SelectedItem.ToString();
+            if (pokemonDataMap.ContainsKey(selectedPokemon))
+            {
+                List<string> pokemonStats = pokemonDataMap[selectedPokemon];
+                if (pokemonStats.Count >= 6)
+                {
+                    for (int i = 1; i <= 6; i++)
+                    {
+                        TextBox baseTextBox = Controls.Find($"baseStat{i+6}", true)[0] as TextBox;
+                        baseTextBox.Text = pokemonStats[i - 1];
+                    }
+                    VStype1.Text = pokemonStats[6];
+                    VStype2.Text = pokemonStats[7];
+                }
+
+            }
+        }
+        #endregion Pokemon Changer-Inator
+        private void moveChange(object sender, EventArgs e)
+        {
+
         }
     }
 }
