@@ -242,8 +242,8 @@ namespace DamageCalculator
         public double calcMaxDamage(double LV, double BP,string type1, string type2, string type3, string type4,string moveType,double ATK, double DEF)
         {
             double stab = STABMult(type1, type2, moveType);
-            double effectiveness1 = typeEffectiveness(moveType,type3);
-            double effectiveness2 = typeEffectiveness(moveType,type4);
+            double effectiveness1 = typeEffectiveness(type3, moveType);
+            double effectiveness2 = typeEffectiveness(type4, moveType);
             double totalEffectiveness = effectiveness1 * effectiveness2;
             double random = 1;
             double start = ((2 * LV) / 5) + 2;
@@ -255,8 +255,8 @@ namespace DamageCalculator
         public double calcMinDamage(double LV, double BP, string type1, string type2, string type3, string type4, string moveType, double ATK, double DEF)
         {
             double stab = STABMult(type1, type2, moveType);
-            double effectiveness1 = typeEffectiveness(moveType, type3);
-            double effectiveness2 = typeEffectiveness(moveType, type4);
+            double effectiveness1 = typeEffectiveness(type3, moveType);
+            double effectiveness2 = typeEffectiveness(type4, moveType);
             double totalEffectiveness = effectiveness1 * effectiveness2;
             double random = .85;
             double start = ((2 * LV) / 5) + 2;
