@@ -289,7 +289,7 @@ namespace DamageCalculator
                                     double minDamage = damageCalculator.calcMinDamage(level, basePowerValue, type1.Text, type2.Text, VStype1.Text, VStype2.Text, moveType, attackStat, defenseStat);
 
                                     // Update damageOutput TextBox with the calculated damage range
-                                    damageOutput.Text = $"Damage Range: {minDamage:N2} - {maxDamage:N2}";
+                                    damageOutput.Text = $"Damage Range: {minDamage:N0} - {maxDamage:N0}";
                                 }
                             }
                         }
