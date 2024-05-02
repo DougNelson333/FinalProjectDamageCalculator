@@ -216,8 +216,104 @@ namespace DamageCalculator
         #endregion Pokemon Changer-Inator
         private void moveChange(object sender, EventArgs e)
         {
+            ComboBox moveComboBox = sender as ComboBox;
+            if (moveComboBox != null)
+            {
+                int moveIndex = int.Parse(moveComboBox.Name.Replace("move", ""));
 
+                TextBox bpTextBox = Controls.Find($"BP{moveIndex}", true)[0] as TextBox;
+                ComboBox typeTextBox = Controls.Find($"moveType{moveIndex}", true)[0] as ComboBox;
+                ComboBox categoryTextBox = Controls.Find($"moveCategory{moveIndex}", true)[0] as ComboBox;
+                TextBox damageOutput = Controls.Find($"damageOutput{moveIndex}", true).FirstOrDefault() as TextBox;
+
+                if (damageOutput != null)
+                {
+                    string selectedMove = moveComboBox.SelectedItem.ToString();
+
+                    if (pokemonMoveDataMap.ContainsKey(selectedMove))
+                    {
+                        List<string> moveData = pokemonMoveDataMap[selectedMove];
+                        if (moveData.Count >= 3)
+                        {
+                            string basePowerStr = moveData[2];
+                            int basePower;
+                            if (int.TryParse(basePowerStr, out basePower))
+                            {
+                                bpTextBox.Text = basePower.ToString();
+                            }
+                            else
+                            {
+                                bpTextBox.Text = "0";
+                            }
+                            typeTextBox.Text = moveData[0];
+                            categoryTextBox.Text = moveData[1];
+
+                            // Get relevant stats and move type based on the selected move
+                            double level = Convert.ToDouble(pokemonLv.Text);
+                            string moveType = moveComboBox.Text;
+                            double basePowerValue = Convert.ToDouble(bpTextBox.Text);
+                            string moveCategory = categoryTextBox.Text;
+
+                            // Assuming you have a reference to the DamageCalculation class
+                            DamageCalculation damageCalculator = new DamageCalculation();
+
+                            TextBox attackStatTextBox = null;
+                            TextBox defenseStatTextBox = null;
+
+                            // Determine the correct attack and defense stats TextBoxes based on move category
+                            if (moveCategory == "Physical")
+                            {
+                                attackStatTextBox = Controls.Find($"finalStatTotal2", true).FirstOrDefault() as TextBox;
+                                defenseStatTextBox = Controls.Find($"finalStatTotal9", true).FirstOrDefault() as TextBox;
+                            }
+                            else if (moveCategory == "Special")
+                            {
+                                attackStatTextBox = Controls.Find($"finalStatTotal4", true).FirstOrDefault() as TextBox;
+                                defenseStatTextBox = Controls.Find($"finalStatTotal11", true).FirstOrDefault() as TextBox;
+                            }
+
+                            if (attackStatTextBox != null && defenseStatTextBox != null)
+                            {
+                                double attackStat = Convert.ToDouble(attackStatTextBox.Text);
+                                double defenseStat = Convert.ToDouble(defenseStatTextBox.Text);
+
+                                if (moveCategory == "Status")
+                                {
+                                    // Display message for Status moves (does 0 damage)
+                                    damageOutput.Text = "This move does not cause damage.";
+                                }
+                                else
+                                {
+                                    // Calculate damage for Physical or Special moves
+                                    double maxDamage = damageCalculator.calcMaxDamage(level, basePowerValue, type1.Text, type2.Text, VStype1.Text, VStype2.Text, moveType, attackStat, defenseStat);
+                                    double minDamage = damageCalculator.calcMinDamage(level, basePowerValue, type1.Text, type2.Text, VStype1.Text, VStype2.Text, moveType, attackStat, defenseStat);
+
+                                    // Update damageOutput TextBox with the calculated damage range
+                                    damageOutput.Text = $"Damage Range: {minDamage:N2} - {maxDamage:N2}";
+                                }
+                            }
+                        }
+                        else
+                        {
+                            // Clear TextBoxes if move data is incomplete
+                            bpTextBox.Text = "";
+                            typeTextBox.Text = "";
+                            categoryTextBox.Text = "";
+                            damageOutput.Text = "";
+                        }
+                    }
+                    else
+                    {
+                        // Clear TextBoxes if move is not found in the data
+                        bpTextBox.Text = "";
+                        typeTextBox.Text = "";
+                        categoryTextBox.Text = "";
+                        damageOutput.Text = "";
+                    }
+                }
+            }
         }
+
     }
 }
 

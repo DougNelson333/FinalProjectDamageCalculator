@@ -133,6 +133,10 @@
             this.move2 = new System.Windows.Forms.ComboBox();
             this.move4 = new System.Windows.Forms.ComboBox();
             this.move3 = new System.Windows.Forms.ComboBox();
+            this.damageOutput1 = new System.Windows.Forms.TextBox();
+            this.damageOutput2 = new System.Windows.Forms.TextBox();
+            this.damageOutput4 = new System.Windows.Forms.TextBox();
+            this.damageOutput3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ev6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ev4)).BeginInit();
@@ -152,7 +156,7 @@
             this.labelHP.AutoSize = true;
             this.labelHP.Location = new System.Drawing.Point(30, 111);
             this.labelHP.Name = "labelHP";
-            this.labelHP.Size = new System.Drawing.Size(31, 20);
+            this.labelHP.Size = new System.Drawing.Size(22, 13);
             this.labelHP.TabIndex = 6;
             this.labelHP.Text = "HP";
             this.labelHP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -162,7 +166,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(14, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 20);
+            this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Attack";
             // 
@@ -171,7 +175,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(5, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 20);
+            this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "Defense";
             // 
@@ -180,7 +184,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(10, 190);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 20);
+            this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "Sp. Atk";
             // 
@@ -189,7 +193,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(9, 217);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 20);
+            this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Sp. Def";
             // 
@@ -198,7 +202,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(14, 242);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 20);
+            this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Speed";
             // 
@@ -207,7 +211,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(70, 92);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 20);
+            this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 12;
             this.label1.Text = "Base";
             // 
@@ -216,7 +220,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(198, 92);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(39, 20);
+            this.label7.Size = new System.Drawing.Size(26, 13);
             this.label7.TabIndex = 19;
             this.label7.Text = "EVs";
             // 
@@ -225,7 +229,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(141, 92);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 20);
+            this.label8.Size = new System.Drawing.Size(22, 13);
             this.label8.TabIndex = 26;
             this.label8.Text = "IVs";
             // 
@@ -243,7 +247,7 @@
             0,
             0});
             this.ev6.Name = "ev6";
-            this.ev6.Size = new System.Drawing.Size(56, 26);
+            this.ev6.Size = new System.Drawing.Size(56, 20);
             this.ev6.TabIndex = 44;
             this.ev6.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -261,7 +265,7 @@
             0,
             0});
             this.ev5.Name = "ev5";
-            this.ev5.Size = new System.Drawing.Size(56, 26);
+            this.ev5.Size = new System.Drawing.Size(56, 20);
             this.ev5.TabIndex = 43;
             this.ev5.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -279,7 +283,7 @@
             0,
             0});
             this.ev4.Name = "ev4";
-            this.ev4.Size = new System.Drawing.Size(56, 26);
+            this.ev4.Size = new System.Drawing.Size(56, 20);
             this.ev4.TabIndex = 42;
             this.ev4.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -297,7 +301,7 @@
             0,
             0});
             this.ev3.Name = "ev3";
-            this.ev3.Size = new System.Drawing.Size(56, 26);
+            this.ev3.Size = new System.Drawing.Size(56, 20);
             this.ev3.TabIndex = 41;
             this.ev3.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -315,7 +319,7 @@
             0,
             0});
             this.ev2.Name = "ev2";
-            this.ev2.Size = new System.Drawing.Size(56, 26);
+            this.ev2.Size = new System.Drawing.Size(56, 20);
             this.ev2.TabIndex = 40;
             this.ev2.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -333,16 +337,16 @@
             0,
             0});
             this.ev1.Name = "ev1";
-            this.ev1.Size = new System.Drawing.Size(56, 26);
+            this.ev1.Size = new System.Drawing.Size(56, 20);
             this.ev1.TabIndex = 39;
             this.ev1.ValueChanged += new System.EventHandler(this.evChange);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(7, 8);
+            this.label9.Location = new System.Drawing.Point(5, 11);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 20);
+            this.label9.Size = new System.Drawing.Size(55, 13);
             this.label9.TabIndex = 46;
             this.label9.Text = "Pokemon:";
             // 
@@ -351,7 +355,7 @@
             this.finalStatTotal1.Location = new System.Drawing.Point(244, 107);
             this.finalStatTotal1.Name = "finalStatTotal1";
             this.finalStatTotal1.ReadOnly = true;
-            this.finalStatTotal1.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal1.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal1.TabIndex = 47;
             this.finalStatTotal1.Text = "0";
             // 
@@ -360,7 +364,7 @@
             this.finalStatTotal2.Location = new System.Drawing.Point(244, 133);
             this.finalStatTotal2.Name = "finalStatTotal2";
             this.finalStatTotal2.ReadOnly = true;
-            this.finalStatTotal2.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal2.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal2.TabIndex = 48;
             this.finalStatTotal2.Text = "0";
             // 
@@ -369,7 +373,7 @@
             this.finalStatTotal3.Location = new System.Drawing.Point(244, 159);
             this.finalStatTotal3.Name = "finalStatTotal3";
             this.finalStatTotal3.ReadOnly = true;
-            this.finalStatTotal3.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal3.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal3.TabIndex = 49;
             this.finalStatTotal3.Text = "0";
             // 
@@ -378,7 +382,7 @@
             this.finalStatTotal4.Location = new System.Drawing.Point(244, 186);
             this.finalStatTotal4.Name = "finalStatTotal4";
             this.finalStatTotal4.ReadOnly = true;
-            this.finalStatTotal4.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal4.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal4.TabIndex = 50;
             this.finalStatTotal4.Text = "0";
             // 
@@ -387,7 +391,7 @@
             this.finalStatTotal5.Location = new System.Drawing.Point(244, 213);
             this.finalStatTotal5.Name = "finalStatTotal5";
             this.finalStatTotal5.ReadOnly = true;
-            this.finalStatTotal5.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal5.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal5.TabIndex = 51;
             this.finalStatTotal5.Text = "0";
             // 
@@ -396,7 +400,7 @@
             this.finalStatTotal6.Location = new System.Drawing.Point(244, 238);
             this.finalStatTotal6.Name = "finalStatTotal6";
             this.finalStatTotal6.ReadOnly = true;
-            this.finalStatTotal6.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal6.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal6.TabIndex = 52;
             this.finalStatTotal6.Text = "0";
             // 
@@ -405,7 +409,7 @@
             this.iv6.Location = new System.Drawing.Point(120, 239);
             this.iv6.MaxLength = 3;
             this.iv6.Name = "iv6";
-            this.iv6.Size = new System.Drawing.Size(56, 26);
+            this.iv6.Size = new System.Drawing.Size(56, 20);
             this.iv6.TabIndex = 63;
             this.iv6.Text = "31";
             this.iv6.TextChanged += new System.EventHandler(this.statTextBox);
@@ -416,7 +420,7 @@
             this.iv5.Location = new System.Drawing.Point(120, 214);
             this.iv5.MaxLength = 3;
             this.iv5.Name = "iv5";
-            this.iv5.Size = new System.Drawing.Size(56, 26);
+            this.iv5.Size = new System.Drawing.Size(56, 20);
             this.iv5.TabIndex = 62;
             this.iv5.Text = "31";
             this.iv5.TextChanged += new System.EventHandler(this.statTextBox);
@@ -427,7 +431,7 @@
             this.iv4.Location = new System.Drawing.Point(120, 187);
             this.iv4.MaxLength = 3;
             this.iv4.Name = "iv4";
-            this.iv4.Size = new System.Drawing.Size(56, 26);
+            this.iv4.Size = new System.Drawing.Size(56, 20);
             this.iv4.TabIndex = 61;
             this.iv4.Text = "31";
             this.iv4.TextChanged += new System.EventHandler(this.statTextBox);
@@ -438,7 +442,7 @@
             this.iv3.Location = new System.Drawing.Point(120, 160);
             this.iv3.MaxLength = 3;
             this.iv3.Name = "iv3";
-            this.iv3.Size = new System.Drawing.Size(56, 26);
+            this.iv3.Size = new System.Drawing.Size(56, 20);
             this.iv3.TabIndex = 60;
             this.iv3.Text = "31";
             this.iv3.TextChanged += new System.EventHandler(this.statTextBox);
@@ -449,7 +453,7 @@
             this.iv2.Location = new System.Drawing.Point(120, 134);
             this.iv2.MaxLength = 3;
             this.iv2.Name = "iv2";
-            this.iv2.Size = new System.Drawing.Size(56, 26);
+            this.iv2.Size = new System.Drawing.Size(56, 20);
             this.iv2.TabIndex = 59;
             this.iv2.Text = "31";
             this.iv2.TextChanged += new System.EventHandler(this.statTextBox);
@@ -460,7 +464,7 @@
             this.iv1.Location = new System.Drawing.Point(120, 108);
             this.iv1.MaxLength = 3;
             this.iv1.Name = "iv1";
-            this.iv1.Size = new System.Drawing.Size(56, 26);
+            this.iv1.Size = new System.Drawing.Size(56, 20);
             this.iv1.TabIndex = 58;
             this.iv1.Text = "31";
             this.iv1.TextChanged += new System.EventHandler(this.statTextBox);
@@ -471,7 +475,7 @@
             this.baseStat6.Location = new System.Drawing.Point(58, 239);
             this.baseStat6.MaxLength = 4;
             this.baseStat6.Name = "baseStat6";
-            this.baseStat6.Size = new System.Drawing.Size(56, 26);
+            this.baseStat6.Size = new System.Drawing.Size(56, 20);
             this.baseStat6.TabIndex = 69;
             this.baseStat6.Text = "100";
             this.baseStat6.TextChanged += new System.EventHandler(this.statTextBox);
@@ -482,7 +486,7 @@
             this.baseStat5.Location = new System.Drawing.Point(58, 214);
             this.baseStat5.MaxLength = 4;
             this.baseStat5.Name = "baseStat5";
-            this.baseStat5.Size = new System.Drawing.Size(56, 26);
+            this.baseStat5.Size = new System.Drawing.Size(56, 20);
             this.baseStat5.TabIndex = 68;
             this.baseStat5.Text = "100";
             this.baseStat5.TextChanged += new System.EventHandler(this.statTextBox);
@@ -493,7 +497,7 @@
             this.baseStat4.Location = new System.Drawing.Point(58, 187);
             this.baseStat4.MaxLength = 4;
             this.baseStat4.Name = "baseStat4";
-            this.baseStat4.Size = new System.Drawing.Size(56, 26);
+            this.baseStat4.Size = new System.Drawing.Size(56, 20);
             this.baseStat4.TabIndex = 67;
             this.baseStat4.Text = "100";
             this.baseStat4.TextChanged += new System.EventHandler(this.statTextBox);
@@ -504,7 +508,7 @@
             this.baseStat3.Location = new System.Drawing.Point(58, 160);
             this.baseStat3.MaxLength = 4;
             this.baseStat3.Name = "baseStat3";
-            this.baseStat3.Size = new System.Drawing.Size(56, 26);
+            this.baseStat3.Size = new System.Drawing.Size(56, 20);
             this.baseStat3.TabIndex = 66;
             this.baseStat3.Text = "100";
             this.baseStat3.TextChanged += new System.EventHandler(this.statTextBox);
@@ -515,7 +519,7 @@
             this.baseStat2.Location = new System.Drawing.Point(58, 134);
             this.baseStat2.MaxLength = 4;
             this.baseStat2.Name = "baseStat2";
-            this.baseStat2.Size = new System.Drawing.Size(56, 26);
+            this.baseStat2.Size = new System.Drawing.Size(56, 20);
             this.baseStat2.TabIndex = 65;
             this.baseStat2.Text = "100";
             this.baseStat2.TextChanged += new System.EventHandler(this.statTextBox);
@@ -526,7 +530,7 @@
             this.baseStat1.Location = new System.Drawing.Point(58, 108);
             this.baseStat1.MaxLength = 4;
             this.baseStat1.Name = "baseStat1";
-            this.baseStat1.Size = new System.Drawing.Size(56, 26);
+            this.baseStat1.Size = new System.Drawing.Size(56, 20);
             this.baseStat1.TabIndex = 64;
             this.baseStat1.Text = "100";
             this.baseStat1.TextChanged += new System.EventHandler(this.statTextBox);
@@ -537,7 +541,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(3, 278);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 20);
+            this.label10.Size = new System.Drawing.Size(42, 13);
             this.label10.TabIndex = 76;
             this.label10.Text = "Moves:";
             // 
@@ -545,28 +549,28 @@
             // 
             this.BP1.Location = new System.Drawing.Point(154, 294);
             this.BP1.Name = "BP1";
-            this.BP1.Size = new System.Drawing.Size(56, 26);
+            this.BP1.Size = new System.Drawing.Size(56, 20);
             this.BP1.TabIndex = 77;
             // 
             // BP2
             // 
             this.BP2.Location = new System.Drawing.Point(154, 324);
             this.BP2.Name = "BP2";
-            this.BP2.Size = new System.Drawing.Size(56, 26);
+            this.BP2.Size = new System.Drawing.Size(56, 20);
             this.BP2.TabIndex = 78;
             // 
             // BP3
             // 
             this.BP3.Location = new System.Drawing.Point(154, 354);
             this.BP3.Name = "BP3";
-            this.BP3.Size = new System.Drawing.Size(56, 26);
+            this.BP3.Size = new System.Drawing.Size(56, 20);
             this.BP3.TabIndex = 79;
             // 
             // BP4
             // 
             this.BP4.Location = new System.Drawing.Point(154, 384);
             this.BP4.Name = "BP4";
-            this.BP4.Size = new System.Drawing.Size(56, 26);
+            this.BP4.Size = new System.Drawing.Size(56, 20);
             this.BP4.TabIndex = 80;
             // 
             // pokemonName
@@ -1645,9 +1649,9 @@
             "Calyrex",
             "Ice Rider Calyrex",
             "Shadow Rider Calyrex"});
-            this.pokemonName.Location = new System.Drawing.Point(6, 20);
+            this.pokemonName.Location = new System.Drawing.Point(6, 24);
             this.pokemonName.Name = "pokemonName";
-            this.pokemonName.Size = new System.Drawing.Size(142, 28);
+            this.pokemonName.Size = new System.Drawing.Size(142, 21);
             this.pokemonName.TabIndex = 89;
             this.pokemonName.Text = "Mew";
             this.pokemonName.SelectedIndexChanged += new System.EventHandler(this.pokemonName_SelectedIndexChanged);
@@ -1676,7 +1680,7 @@
             "Fairy"});
             this.type1.Location = new System.Drawing.Point(6, 44);
             this.type1.Name = "type1";
-            this.type1.Size = new System.Drawing.Size(66, 28);
+            this.type1.Size = new System.Drawing.Size(66, 21);
             this.type1.TabIndex = 90;
             this.type1.Text = "Psychic";
             // 
@@ -1705,7 +1709,7 @@
             "Fairy"});
             this.type2.Location = new System.Drawing.Point(82, 44);
             this.type2.Name = "type2";
-            this.type2.Size = new System.Drawing.Size(66, 28);
+            this.type2.Size = new System.Drawing.Size(66, 21);
             this.type2.TabIndex = 91;
             // 
             // statBuff
@@ -1727,7 +1731,7 @@
             "-6"});
             this.statBuff.Location = new System.Drawing.Point(306, 132);
             this.statBuff.Name = "statBuff";
-            this.statBuff.Size = new System.Drawing.Size(56, 28);
+            this.statBuff.Size = new System.Drawing.Size(56, 21);
             this.statBuff.TabIndex = 92;
             this.statBuff.Text = "---";
             // 
@@ -1750,7 +1754,7 @@
             "-6"});
             this.comboBox1.Location = new System.Drawing.Point(306, 158);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(56, 28);
+            this.comboBox1.Size = new System.Drawing.Size(56, 21);
             this.comboBox1.TabIndex = 93;
             this.comboBox1.Text = "---";
             // 
@@ -1773,7 +1777,7 @@
             "-6"});
             this.comboBox2.Location = new System.Drawing.Point(306, 185);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(56, 28);
+            this.comboBox2.Size = new System.Drawing.Size(56, 21);
             this.comboBox2.TabIndex = 94;
             this.comboBox2.Text = "---";
             // 
@@ -1796,7 +1800,7 @@
             "-6"});
             this.comboBox3.Location = new System.Drawing.Point(306, 212);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(56, 28);
+            this.comboBox3.Size = new System.Drawing.Size(56, 21);
             this.comboBox3.TabIndex = 95;
             this.comboBox3.Text = "---";
             // 
@@ -1819,16 +1823,16 @@
             "-6"});
             this.comboBox4.Location = new System.Drawing.Point(306, 237);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(56, 28);
+            this.comboBox4.Size = new System.Drawing.Size(56, 21);
             this.comboBox4.TabIndex = 96;
             this.comboBox4.Text = "---";
             // 
             // pokemonLv
             // 
-            this.pokemonLv.Location = new System.Drawing.Point(154, 20);
+            this.pokemonLv.Location = new System.Drawing.Point(154, 25);
             this.pokemonLv.MaxLength = 4;
             this.pokemonLv.Name = "pokemonLv";
-            this.pokemonLv.Size = new System.Drawing.Size(52, 26);
+            this.pokemonLv.Size = new System.Drawing.Size(52, 20);
             this.pokemonLv.TabIndex = 97;
             this.pokemonLv.Text = "100";
             this.pokemonLv.TextChanged += new System.EventHandler(this.statTextBox);
@@ -1836,10 +1840,10 @@
             // 
             // VSpokemonLV
             // 
-            this.VSpokemonLV.Location = new System.Drawing.Point(608, 23);
+            this.VSpokemonLV.Location = new System.Drawing.Point(601, 24);
             this.VSpokemonLV.MaxLength = 4;
             this.VSpokemonLV.Name = "VSpokemonLV";
-            this.VSpokemonLV.Size = new System.Drawing.Size(52, 26);
+            this.VSpokemonLV.Size = new System.Drawing.Size(52, 20);
             this.VSpokemonLV.TabIndex = 140;
             this.VSpokemonLV.Text = "100";
             this.VSpokemonLV.TextChanged += new System.EventHandler(this.statTextBox);
@@ -1863,7 +1867,7 @@
             "-6"});
             this.comboBox5.Location = new System.Drawing.Point(751, 240);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(56, 28);
+            this.comboBox5.Size = new System.Drawing.Size(56, 21);
             this.comboBox5.TabIndex = 139;
             this.comboBox5.Text = "---";
             // 
@@ -1886,7 +1890,7 @@
             "-6"});
             this.comboBox6.Location = new System.Drawing.Point(751, 215);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(56, 28);
+            this.comboBox6.Size = new System.Drawing.Size(56, 21);
             this.comboBox6.TabIndex = 138;
             this.comboBox6.Text = "---";
             // 
@@ -1909,7 +1913,7 @@
             "-6"});
             this.comboBox7.Location = new System.Drawing.Point(751, 188);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(56, 28);
+            this.comboBox7.Size = new System.Drawing.Size(56, 21);
             this.comboBox7.TabIndex = 137;
             this.comboBox7.Text = "---";
             // 
@@ -1932,7 +1936,7 @@
             "-6"});
             this.comboBox8.Location = new System.Drawing.Point(751, 161);
             this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(56, 28);
+            this.comboBox8.Size = new System.Drawing.Size(56, 21);
             this.comboBox8.TabIndex = 136;
             this.comboBox8.Text = "---";
             // 
@@ -1955,7 +1959,7 @@
             "-6"});
             this.comboBox9.Location = new System.Drawing.Point(751, 135);
             this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(56, 28);
+            this.comboBox9.Size = new System.Drawing.Size(56, 21);
             this.comboBox9.TabIndex = 135;
             this.comboBox9.Text = "---";
             // 
@@ -1982,9 +1986,9 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.VStype2.Location = new System.Drawing.Point(527, 44);
+            this.VStype2.Location = new System.Drawing.Point(529, 46);
             this.VStype2.Name = "VStype2";
-            this.VStype2.Size = new System.Drawing.Size(66, 28);
+            this.VStype2.Size = new System.Drawing.Size(66, 21);
             this.VStype2.TabIndex = 134;
             // 
             // VStype1
@@ -2009,9 +2013,9 @@
             "Dark",
             "Steel",
             "Fairy"});
-            this.VStype1.Location = new System.Drawing.Point(451, 44);
+            this.VStype1.Location = new System.Drawing.Point(453, 46);
             this.VStype1.Name = "VStype1";
-            this.VStype1.Size = new System.Drawing.Size(66, 28);
+            this.VStype1.Size = new System.Drawing.Size(66, 21);
             this.VStype1.TabIndex = 133;
             this.VStype1.Text = "Psychic";
             // 
@@ -3091,9 +3095,9 @@
             "Calyrex",
             "Ice Rider Calyrex",
             "Shadow Rider Calyrex"});
-            this.VSpokemonName.Location = new System.Drawing.Point(451, 23);
+            this.VSpokemonName.Location = new System.Drawing.Point(453, 25);
             this.VSpokemonName.Name = "VSpokemonName";
-            this.VSpokemonName.Size = new System.Drawing.Size(142, 28);
+            this.VSpokemonName.Size = new System.Drawing.Size(142, 21);
             this.VSpokemonName.TabIndex = 132;
             this.VSpokemonName.Text = "Mew";
             this.VSpokemonName.SelectedIndexChanged += new System.EventHandler(this.VSpokemon_SelectedIndexChanged);
@@ -3103,7 +3107,7 @@
             this.baseStat12.Location = new System.Drawing.Point(503, 242);
             this.baseStat12.MaxLength = 4;
             this.baseStat12.Name = "baseStat12";
-            this.baseStat12.Size = new System.Drawing.Size(56, 26);
+            this.baseStat12.Size = new System.Drawing.Size(56, 20);
             this.baseStat12.TabIndex = 131;
             this.baseStat12.Text = "100";
             this.baseStat12.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3113,7 +3117,7 @@
             this.baseStat11.Location = new System.Drawing.Point(503, 217);
             this.baseStat11.MaxLength = 4;
             this.baseStat11.Name = "baseStat11";
-            this.baseStat11.Size = new System.Drawing.Size(56, 26);
+            this.baseStat11.Size = new System.Drawing.Size(56, 20);
             this.baseStat11.TabIndex = 130;
             this.baseStat11.Text = "100";
             this.baseStat11.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3123,7 +3127,7 @@
             this.baseStat10.Location = new System.Drawing.Point(503, 190);
             this.baseStat10.MaxLength = 4;
             this.baseStat10.Name = "baseStat10";
-            this.baseStat10.Size = new System.Drawing.Size(56, 26);
+            this.baseStat10.Size = new System.Drawing.Size(56, 20);
             this.baseStat10.TabIndex = 129;
             this.baseStat10.Text = "100";
             this.baseStat10.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3133,7 +3137,7 @@
             this.baseStat9.Location = new System.Drawing.Point(503, 163);
             this.baseStat9.MaxLength = 4;
             this.baseStat9.Name = "baseStat9";
-            this.baseStat9.Size = new System.Drawing.Size(56, 26);
+            this.baseStat9.Size = new System.Drawing.Size(56, 20);
             this.baseStat9.TabIndex = 128;
             this.baseStat9.Text = "100";
             this.baseStat9.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3143,7 +3147,7 @@
             this.baseStat8.Location = new System.Drawing.Point(503, 137);
             this.baseStat8.MaxLength = 4;
             this.baseStat8.Name = "baseStat8";
-            this.baseStat8.Size = new System.Drawing.Size(56, 26);
+            this.baseStat8.Size = new System.Drawing.Size(56, 20);
             this.baseStat8.TabIndex = 127;
             this.baseStat8.Text = "100";
             this.baseStat8.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3153,7 +3157,7 @@
             this.baseStat7.Location = new System.Drawing.Point(503, 111);
             this.baseStat7.MaxLength = 4;
             this.baseStat7.Name = "baseStat7";
-            this.baseStat7.Size = new System.Drawing.Size(56, 26);
+            this.baseStat7.Size = new System.Drawing.Size(56, 20);
             this.baseStat7.TabIndex = 126;
             this.baseStat7.Text = "100";
             this.baseStat7.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3163,7 +3167,7 @@
             this.iv12.Location = new System.Drawing.Point(565, 242);
             this.iv12.MaxLength = 3;
             this.iv12.Name = "iv12";
-            this.iv12.Size = new System.Drawing.Size(56, 26);
+            this.iv12.Size = new System.Drawing.Size(56, 20);
             this.iv12.TabIndex = 125;
             this.iv12.Text = "31";
             this.iv12.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3173,7 +3177,7 @@
             this.iv11.Location = new System.Drawing.Point(565, 217);
             this.iv11.MaxLength = 3;
             this.iv11.Name = "iv11";
-            this.iv11.Size = new System.Drawing.Size(56, 26);
+            this.iv11.Size = new System.Drawing.Size(56, 20);
             this.iv11.TabIndex = 124;
             this.iv11.Text = "31";
             this.iv11.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3183,7 +3187,7 @@
             this.iv10.Location = new System.Drawing.Point(565, 190);
             this.iv10.MaxLength = 3;
             this.iv10.Name = "iv10";
-            this.iv10.Size = new System.Drawing.Size(56, 26);
+            this.iv10.Size = new System.Drawing.Size(56, 20);
             this.iv10.TabIndex = 123;
             this.iv10.Text = "31";
             this.iv10.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3193,7 +3197,7 @@
             this.iv9.Location = new System.Drawing.Point(565, 163);
             this.iv9.MaxLength = 3;
             this.iv9.Name = "iv9";
-            this.iv9.Size = new System.Drawing.Size(56, 26);
+            this.iv9.Size = new System.Drawing.Size(56, 20);
             this.iv9.TabIndex = 122;
             this.iv9.Text = "31";
             this.iv9.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3203,7 +3207,7 @@
             this.iv8.Location = new System.Drawing.Point(565, 137);
             this.iv8.MaxLength = 3;
             this.iv8.Name = "iv8";
-            this.iv8.Size = new System.Drawing.Size(56, 26);
+            this.iv8.Size = new System.Drawing.Size(56, 20);
             this.iv8.TabIndex = 121;
             this.iv8.Text = "31";
             this.iv8.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3213,7 +3217,7 @@
             this.iv7.Location = new System.Drawing.Point(565, 111);
             this.iv7.MaxLength = 3;
             this.iv7.Name = "iv7";
-            this.iv7.Size = new System.Drawing.Size(56, 26);
+            this.iv7.Size = new System.Drawing.Size(56, 20);
             this.iv7.TabIndex = 120;
             this.iv7.Text = "31";
             this.iv7.TextChanged += new System.EventHandler(this.statTextBox);
@@ -3223,7 +3227,7 @@
             this.finalStatTotal12.Location = new System.Drawing.Point(689, 241);
             this.finalStatTotal12.Name = "finalStatTotal12";
             this.finalStatTotal12.ReadOnly = true;
-            this.finalStatTotal12.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal12.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal12.TabIndex = 119;
             this.finalStatTotal12.Text = "0";
             // 
@@ -3232,7 +3236,7 @@
             this.finalStatTotal11.Location = new System.Drawing.Point(689, 216);
             this.finalStatTotal11.Name = "finalStatTotal11";
             this.finalStatTotal11.ReadOnly = true;
-            this.finalStatTotal11.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal11.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal11.TabIndex = 118;
             this.finalStatTotal11.Text = "0";
             // 
@@ -3241,7 +3245,7 @@
             this.finalStatTotal10.Location = new System.Drawing.Point(689, 189);
             this.finalStatTotal10.Name = "finalStatTotal10";
             this.finalStatTotal10.ReadOnly = true;
-            this.finalStatTotal10.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal10.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal10.TabIndex = 117;
             this.finalStatTotal10.Text = "0";
             // 
@@ -3250,7 +3254,7 @@
             this.finalStatTotal9.Location = new System.Drawing.Point(689, 162);
             this.finalStatTotal9.Name = "finalStatTotal9";
             this.finalStatTotal9.ReadOnly = true;
-            this.finalStatTotal9.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal9.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal9.TabIndex = 116;
             this.finalStatTotal9.Text = "0";
             // 
@@ -3259,7 +3263,7 @@
             this.finalStatTotal8.Location = new System.Drawing.Point(689, 136);
             this.finalStatTotal8.Name = "finalStatTotal8";
             this.finalStatTotal8.ReadOnly = true;
-            this.finalStatTotal8.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal8.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal8.TabIndex = 115;
             this.finalStatTotal8.Text = "0";
             // 
@@ -3268,16 +3272,16 @@
             this.finalStatTotal7.Location = new System.Drawing.Point(689, 110);
             this.finalStatTotal7.Name = "finalStatTotal7";
             this.finalStatTotal7.ReadOnly = true;
-            this.finalStatTotal7.Size = new System.Drawing.Size(56, 26);
+            this.finalStatTotal7.Size = new System.Drawing.Size(56, 20);
             this.finalStatTotal7.TabIndex = 114;
             this.finalStatTotal7.Text = "0";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(452, 11);
+            this.label11.Location = new System.Drawing.Point(454, 13);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(80, 20);
+            this.label11.Size = new System.Drawing.Size(55, 13);
             this.label11.TabIndex = 113;
             this.label11.Text = "Pokemon:";
             // 
@@ -3295,7 +3299,7 @@
             0,
             0});
             this.ev12.Name = "ev12";
-            this.ev12.Size = new System.Drawing.Size(56, 26);
+            this.ev12.Size = new System.Drawing.Size(56, 20);
             this.ev12.TabIndex = 112;
             this.ev12.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -3313,7 +3317,7 @@
             0,
             0});
             this.ev11.Name = "ev11";
-            this.ev11.Size = new System.Drawing.Size(56, 26);
+            this.ev11.Size = new System.Drawing.Size(56, 20);
             this.ev11.TabIndex = 111;
             this.ev11.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -3331,7 +3335,7 @@
             0,
             0});
             this.ev10.Name = "ev10";
-            this.ev10.Size = new System.Drawing.Size(56, 26);
+            this.ev10.Size = new System.Drawing.Size(56, 20);
             this.ev10.TabIndex = 110;
             this.ev10.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -3349,7 +3353,7 @@
             0,
             0});
             this.ev9.Name = "ev9";
-            this.ev9.Size = new System.Drawing.Size(56, 26);
+            this.ev9.Size = new System.Drawing.Size(56, 20);
             this.ev9.TabIndex = 109;
             this.ev9.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -3367,7 +3371,7 @@
             0,
             0});
             this.ev8.Name = "ev8";
-            this.ev8.Size = new System.Drawing.Size(56, 26);
+            this.ev8.Size = new System.Drawing.Size(56, 20);
             this.ev8.TabIndex = 108;
             this.ev8.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -3385,7 +3389,7 @@
             0,
             0});
             this.ev7.Name = "ev7";
-            this.ev7.Size = new System.Drawing.Size(56, 26);
+            this.ev7.Size = new System.Drawing.Size(56, 20);
             this.ev7.TabIndex = 107;
             this.ev7.ValueChanged += new System.EventHandler(this.evChange);
             // 
@@ -3394,7 +3398,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(586, 95);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(33, 20);
+            this.label12.Size = new System.Drawing.Size(22, 13);
             this.label12.TabIndex = 106;
             this.label12.Text = "IVs";
             // 
@@ -3403,7 +3407,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(643, 95);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 20);
+            this.label13.Size = new System.Drawing.Size(26, 13);
             this.label13.TabIndex = 105;
             this.label13.Text = "EVs";
             // 
@@ -3412,7 +3416,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(515, 95);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(46, 20);
+            this.label14.Size = new System.Drawing.Size(31, 13);
             this.label14.TabIndex = 104;
             this.label14.Text = "Base";
             // 
@@ -3421,7 +3425,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(459, 245);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(56, 20);
+            this.label15.Size = new System.Drawing.Size(38, 13);
             this.label15.TabIndex = 103;
             this.label15.Text = "Speed";
             // 
@@ -3430,7 +3434,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(454, 220);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(63, 20);
+            this.label16.Size = new System.Drawing.Size(43, 13);
             this.label16.TabIndex = 102;
             this.label16.Text = "Sp. Def";
             // 
@@ -3439,7 +3443,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(455, 193);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 20);
+            this.label17.Size = new System.Drawing.Size(42, 13);
             this.label17.TabIndex = 101;
             this.label17.Text = "Sp. Atk";
             // 
@@ -3448,7 +3452,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(450, 166);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(70, 20);
+            this.label18.Size = new System.Drawing.Size(47, 13);
             this.label18.TabIndex = 100;
             this.label18.Text = "Defense";
             // 
@@ -3457,7 +3461,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(459, 139);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(55, 20);
+            this.label19.Size = new System.Drawing.Size(38, 13);
             this.label19.TabIndex = 99;
             this.label19.Text = "Attack";
             // 
@@ -3466,7 +3470,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(475, 114);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(31, 20);
+            this.label20.Size = new System.Drawing.Size(22, 13);
             this.label20.TabIndex = 98;
             this.label20.Text = "HP";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3495,7 +3499,7 @@
             "Fairy"});
             this.moveType1.Location = new System.Drawing.Point(216, 292);
             this.moveType1.Name = "moveType1";
-            this.moveType1.Size = new System.Drawing.Size(66, 28);
+            this.moveType1.Size = new System.Drawing.Size(66, 21);
             this.moveType1.TabIndex = 141;
             this.moveType1.Text = "---";
             // 
@@ -3523,7 +3527,7 @@
             "Fairy"});
             this.moveType2.Location = new System.Drawing.Point(216, 322);
             this.moveType2.Name = "moveType2";
-            this.moveType2.Size = new System.Drawing.Size(66, 28);
+            this.moveType2.Size = new System.Drawing.Size(66, 21);
             this.moveType2.TabIndex = 142;
             this.moveType2.Text = "---";
             // 
@@ -3551,7 +3555,7 @@
             "Fairy"});
             this.moveType3.Location = new System.Drawing.Point(216, 352);
             this.moveType3.Name = "moveType3";
-            this.moveType3.Size = new System.Drawing.Size(66, 28);
+            this.moveType3.Size = new System.Drawing.Size(66, 21);
             this.moveType3.TabIndex = 143;
             this.moveType3.Text = "---";
             // 
@@ -3579,25 +3583,25 @@
             "Fairy"});
             this.moveType4.Location = new System.Drawing.Point(216, 382);
             this.moveType4.Name = "moveType4";
-            this.moveType4.Size = new System.Drawing.Size(66, 28);
+            this.moveType4.Size = new System.Drawing.Size(66, 21);
             this.moveType4.TabIndex = 144;
             this.moveType4.Text = "---";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(154, 8);
+            this.label21.Location = new System.Drawing.Point(154, 11);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(50, 20);
+            this.label21.Size = new System.Drawing.Size(36, 13);
             this.label21.TabIndex = 145;
             this.label21.Text = "Level:";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(604, 11);
+            this.label22.Location = new System.Drawing.Point(598, 11);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(50, 20);
+            this.label22.Size = new System.Drawing.Size(36, 13);
             this.label22.TabIndex = 146;
             this.label22.Text = "Level:";
             // 
@@ -3610,7 +3614,7 @@
             "Status"});
             this.moveCategory1.Location = new System.Drawing.Point(288, 290);
             this.moveCategory1.Name = "moveCategory1";
-            this.moveCategory1.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory1.Size = new System.Drawing.Size(109, 21);
             this.moveCategory1.TabIndex = 147;
             // 
             // moveCategory2
@@ -3622,7 +3626,7 @@
             "Status"});
             this.moveCategory2.Location = new System.Drawing.Point(288, 320);
             this.moveCategory2.Name = "moveCategory2";
-            this.moveCategory2.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory2.Size = new System.Drawing.Size(109, 21);
             this.moveCategory2.TabIndex = 148;
             // 
             // moveCategory3
@@ -3634,7 +3638,7 @@
             "Status"});
             this.moveCategory3.Location = new System.Drawing.Point(288, 350);
             this.moveCategory3.Name = "moveCategory3";
-            this.moveCategory3.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory3.Size = new System.Drawing.Size(109, 21);
             this.moveCategory3.TabIndex = 149;
             // 
             // moveCategory4
@@ -3646,7 +3650,7 @@
             "Status"});
             this.moveCategory4.Location = new System.Drawing.Point(288, 380);
             this.moveCategory4.Name = "moveCategory4";
-            this.moveCategory4.Size = new System.Drawing.Size(109, 28);
+            this.moveCategory4.Size = new System.Drawing.Size(109, 21);
             this.moveCategory4.TabIndex = 150;
             // 
             // move1
@@ -4556,8 +4560,9 @@
             "Malignant Chain"});
             this.move1.Location = new System.Drawing.Point(6, 294);
             this.move1.Name = "move1";
-            this.move1.Size = new System.Drawing.Size(142, 28);
+            this.move1.Size = new System.Drawing.Size(142, 21);
             this.move1.TabIndex = 151;
+            this.move1.Text = "Pound";
             this.move1.SelectedIndexChanged += new System.EventHandler(this.moveChange);
             // 
             // move2
@@ -5467,8 +5472,9 @@
             "Malignant Chain"});
             this.move2.Location = new System.Drawing.Point(6, 324);
             this.move2.Name = "move2";
-            this.move2.Size = new System.Drawing.Size(142, 28);
+            this.move2.Size = new System.Drawing.Size(142, 21);
             this.move2.TabIndex = 152;
+            this.move2.Text = "Water Gun";
             this.move2.SelectedIndexChanged += new System.EventHandler(this.moveChange);
             // 
             // move4
@@ -6378,8 +6384,9 @@
             "Malignant Chain"});
             this.move4.Location = new System.Drawing.Point(6, 384);
             this.move4.Name = "move4";
-            this.move4.Size = new System.Drawing.Size(142, 28);
+            this.move4.Size = new System.Drawing.Size(142, 21);
             this.move4.TabIndex = 154;
+            this.move4.Text = "Explosion";
             this.move4.SelectedIndexChanged += new System.EventHandler(this.moveChange);
             // 
             // move3
@@ -7289,13 +7296,46 @@
             "Malignant Chain"});
             this.move3.Location = new System.Drawing.Point(6, 354);
             this.move3.Name = "move3";
-            this.move3.Size = new System.Drawing.Size(142, 28);
+            this.move3.Size = new System.Drawing.Size(142, 21);
             this.move3.TabIndex = 153;
+            this.move3.Text = "Sand Attack";
             this.move3.SelectedIndexChanged += new System.EventHandler(this.moveChange);
+            // 
+            // damageOutput1
+            // 
+            this.damageOutput1.Location = new System.Drawing.Point(403, 290);
+            this.damageOutput1.Name = "damageOutput1";
+            this.damageOutput1.Size = new System.Drawing.Size(404, 20);
+            this.damageOutput1.TabIndex = 155;
+            // 
+            // damageOutput2
+            // 
+            this.damageOutput2.Location = new System.Drawing.Point(403, 320);
+            this.damageOutput2.Name = "damageOutput2";
+            this.damageOutput2.Size = new System.Drawing.Size(404, 20);
+            this.damageOutput2.TabIndex = 156;
+            // 
+            // damageOutput4
+            // 
+            this.damageOutput4.Location = new System.Drawing.Point(403, 381);
+            this.damageOutput4.Name = "damageOutput4";
+            this.damageOutput4.Size = new System.Drawing.Size(404, 20);
+            this.damageOutput4.TabIndex = 158;
+            // 
+            // damageOutput3
+            // 
+            this.damageOutput3.Location = new System.Drawing.Point(403, 351);
+            this.damageOutput3.Name = "damageOutput3";
+            this.damageOutput3.Size = new System.Drawing.Size(404, 20);
+            this.damageOutput3.TabIndex = 157;
             // 
             // damageCalculator
             // 
             this.ClientSize = new System.Drawing.Size(843, 427);
+            this.Controls.Add(this.damageOutput4);
+            this.Controls.Add(this.damageOutput3);
+            this.Controls.Add(this.damageOutput2);
+            this.Controls.Add(this.damageOutput1);
             this.Controls.Add(this.move4);
             this.Controls.Add(this.move3);
             this.Controls.Add(this.move2);
@@ -7528,6 +7568,10 @@
         private System.Windows.Forms.ComboBox move2;
         private System.Windows.Forms.ComboBox move4;
         private System.Windows.Forms.ComboBox move3;
+        private System.Windows.Forms.TextBox damageOutput1;
+        private System.Windows.Forms.TextBox damageOutput2;
+        private System.Windows.Forms.TextBox damageOutput4;
+        private System.Windows.Forms.TextBox damageOutput3;
     }
 }
 
