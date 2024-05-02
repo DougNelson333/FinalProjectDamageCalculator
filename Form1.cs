@@ -248,19 +248,16 @@ namespace DamageCalculator
                             typeTextBox.Text = moveData[0];
                             categoryTextBox.Text = moveData[1];
 
-                            // Get relevant stats and move type based on the selected move
                             double level = Convert.ToDouble(pokemonLv.Text);
                             string moveType = moveComboBox.Text;
                             double basePowerValue = Convert.ToDouble(bpTextBox.Text);
                             string moveCategory = categoryTextBox.Text;
 
-                            // Assuming you have a reference to the DamageCalculation class
                             DamageCalculation damageCalculator = new DamageCalculation();
 
                             TextBox attackStatTextBox = null;
                             TextBox defenseStatTextBox = null;
 
-                            // Determine the correct attack and defense stats TextBoxes based on move category
                             if (moveCategory == "Physical")
                             {
                                 attackStatTextBox = Controls.Find($"finalStatTotal2", true).FirstOrDefault() as TextBox;
@@ -288,14 +285,12 @@ namespace DamageCalculator
                                     double maxDamage = damageCalculator.calcMaxDamage(level, basePowerValue, type1.Text, type2.Text, VStype1.Text, VStype2.Text, moveType, attackStat, defenseStat);
                                     double minDamage = damageCalculator.calcMinDamage(level, basePowerValue, type1.Text, type2.Text, VStype1.Text, VStype2.Text, moveType, attackStat, defenseStat);
 
-                                    // Update damageOutput TextBox with the calculated damage range
                                     damageOutput.Text = $"Damage Range: {minDamage:N0} - {maxDamage:N0}";
                                 }
                             }
                         }
                         else
                         {
-                            // Clear TextBoxes if move data is incomplete
                             bpTextBox.Text = "";
                             typeTextBox.Text = "";
                             categoryTextBox.Text = "";
@@ -304,7 +299,6 @@ namespace DamageCalculator
                     }
                     else
                     {
-                        // Clear TextBoxes if move is not found in the data
                         bpTextBox.Text = "";
                         typeTextBox.Text = "";
                         categoryTextBox.Text = "";
